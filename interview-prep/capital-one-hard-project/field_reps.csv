@@ -1,0 +1,21 @@
+rep_id,rep_name,territory,quarterly_quota_usd,q1_2026_actual_usd,quota_attainment_pct,active_account_count,avg_account_tenure_months,pct_large_accounts,campaigns_run_q1
+REP01,James Carter,Northeast,228000,241680,106.0,12,31,0.16,10
+REP02,Priya Nair,Northeast,235000,220900,94.0,13,29,0.35,5
+REP03,Michael Torres,Northeast,308000,372680,121.0,12,8,0.09,10
+REP04,Sarah Kim,Northeast,329000,338870,103.0,12,25,0.13,16
+REP05,David Okafor,Northeast,256000,222720,87.0,19,26,0.16,3
+REP06,Emily Chen,Southeast,240000,218400,91.0,18,18,0.16,9
+REP07,Marcus Webb,Southeast,286000,208780,73.0,13,10,0.2,14
+REP08,Aisha Patel,Southeast,288000,290880,101.0,16,33,0.07,17
+REP09,Ryan O'Brien,Southeast,337000,367330,109.0,13,20,0.08,12
+REP10,Natalie Cruz,Southeast,292000,245280,84.0,15,30,0.08,10
+REP11,Kevin Zhao,Midwest,274000,279480,102.0,13,35,0.14,6
+REP12,Lakshmi Iyer,Midwest,297000,368280,124.0,16,22,0.3,14
+REP13,Daniel Murphy,Midwest,241000,231360,96.0,17,19,0.13,11
+REP14,Fatima Hassan,Midwest,218000,152600,70.0,14,25,0.34,8
+REP15,Chris Anderson,Midwest,318000,330720,104.0,18,16,0.45,10
+REP16,Yuki Tanaka,West,283000,311300,110.0,12,15,0.38,13
+REP17,Brandon Lee,West,302000,353340,117.0,16,10,0.13,13
+REP18,Olivia Smith,West,254000,248920,98.0,19,20,0.4,17
+REP19,Raj Gupta,West,236000,247800,105.0,16,12,0.15,11
+REP20,Megan Johnson,West,309000,284280,92.0,18,19,0.14,7

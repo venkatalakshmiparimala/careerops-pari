@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cover Letter — Boston University Senior Analytics Engineer</title>
+<style>
+  @font-face { font-family: 'Space Grotesk'; src: url('../templates/fonts/space-grotesk-latin.woff2') format('woff2'); font-weight: 300 700; font-style: normal; font-display: swap; }
+  @font-face { font-family: 'DM Sans'; src: url('../templates/fonts/dm-sans-latin.woff2') format('woff2'); font-weight: 100 1000; font-style: normal; font-display: swap; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-family: 'DM Sans', sans-serif; font-size: 10.5px; line-height: 1.75; color: #1a1a2e; background: #ffffff; }
+  .page { width: 100%; max-width: 680px; margin: 0 auto; padding: 48px 40px 48px 40px; }
+
+  .name { font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 700; color: #1a1a2e; letter-spacing: -0.02em; margin-bottom: 2px; }
+  .contact { font-size: 9px; color: #666; margin-bottom: 4px; }
+  .contact a { color: #666; text-decoration: none; }
+  .contact .sep { color: #ccc; margin: 0 6px; }
+  .header-gradient { height: 2px; background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%)); border-radius: 1px; margin: 8px 0 28px 0; }
+
+  .date-line { font-size: 10px; color: #777; margin-bottom: 20px; }
+
+  .recipient { font-size: 10.5px; color: #1a1a2e; margin-bottom: 20px; line-height: 1.6; }
+  .recipient strong { font-weight: 600; }
+
+  .body { font-size: 10.5px; line-height: 1.78; color: #2a2a2a; }
+  .body p { margin-bottom: 16px; }
+  .body p strong { font-weight: 600; color: #1a1a2e; }
+  .body a { color: hsl(187, 74%, 28%); text-decoration: none; }
+
+  .sign-off { margin-top: 28px; font-size: 10.5px; color: #2a2a2a; }
+  .sign-off .name-sign { font-family: 'Space Grotesk', sans-serif; font-size: 13px; font-weight: 700; color: #1a1a2e; margin-top: 6px; }
+
+  @media print { body { -webkit-print-color-adjust: exact; print-color-adjust: exact; } .page { padding: 40px; } }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="name">Venkata Lakshmi Parimala Pasupuleti</div>
+  <div class="contact">
+    +1-703-261-5410
+    <span class="sep">|</span>
+    venkatalakshmiparimalap@gmail.com
+    <span class="sep">|</span>
+    <a href="https://linkedin.com/in/venkata-lakshmi-parimala">linkedin.com/in/venkata-lakshmi-parimala</a>
+    <span class="sep">|</span>
+    Virginia, USA
+  </div>
+  <div class="header-gradient"></div>
+
+  <div class="date-line">October 15, 2026</div>
+
+  <div class="recipient">
+    <strong>Hiring Team</strong><br>
+    Information Services &amp; Technology<br>
+    Boston University<br>
+    Boston, MA
+  </div>
+
+  <div class="body">
+
+    <p>I'm applying for the Senior Analytics Engineer role on BU's AI, Automation &amp; Data Engineering team. Your JD asks for someone who can build the context engineering infrastructure that lets LLMs reliably query institutional data. That is exactly what I built at LeaseI — a structured semantic data model with citation tracing so AI agents reason over domain knowledge without hallucinating sources. At AgentProbe, I built the evaluation framework to measure it. Your phrase "measure their accuracy" is what AgentProbe does: 5-metric eval engine, LLM-as-judge scoring, 1,240 test cases, CI regression harness.</p>
+
+    <p>The technical thread connecting my work to this role is direct. At Intuit right now, I own <strong>text-to-SQL LLM features</strong> — users ask questions in plain English, Claude translates intent to structured SQL, results are grounded with full citation traceability. I design <strong>dbt semantic layer definitions</strong> that standardize metric definitions and entity relationships so LLM-powered queries return consistent, trustworthy data. I integrate <strong>MCP</strong> and run <strong>Dagster-based pipeline orchestration</strong> for LLM workflow automation. The institutional data problem BU IS&T is solving and the financial data problem Intuit is solving are structurally the same: how do you make LLMs reliably understand and query a complex, sensitive domain?</p>
+
+    <p>Before Intuit, I spent <strong>7 years at Entrata</strong> building and owning production data systems for 100K+ users: ETL pipelines, SQL optimization (200+ queries, 30% performance gain), and data governance for regulated data including PHI compliance, HIPAA RBAC, and HUD regulatory ETL (180K records, 7 cycles, zero violations). Sensitive institutional data governance is not new territory for me. I have a <strong>Master's in Data Analytics Engineering</strong> from George Mason University (GPA 3.87, May 2026) — not an adjacent credential; it is the exact degree discipline your JD names.</p>
+
+    <p>I'd welcome a conversation about how I can contribute to BU IS&T's data infrastructure and AI integration work. Happy to walk through LeaseI's semantic layer architecture or AgentProbe's accuracy measurement methodology in detail.</p>
+
+  </div>
+
+  <div class="sign-off">
+    Sincerely,
+    <div class="name-sign">Venkata Lakshmi Parimala Pasupuleti</div>
+  </div>
+
+</div>
+</body>
+</html>

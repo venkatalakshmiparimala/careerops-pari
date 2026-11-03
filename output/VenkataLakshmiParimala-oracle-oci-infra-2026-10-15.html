@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Venkata Lakshmi Parimala Pasupuleti -- CV</title>
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('../templates/fonts/space-grotesk-latin.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../templates/fonts/dm-sans-latin.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.2px;
+    line-height: 1.5;
+    color: #1a1a2e;
+    background: #ffffff;
+    padding: 0; margin: 0;
+  }
+
+  .page { width: 100%; max-width: 780px; margin: 0 auto; padding: 10px 22px; }
+
+  .header { margin-bottom: 14px; }
+  .header h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 26px; font-weight: 700; color: #1a1a2e;
+    letter-spacing: -0.02em; margin-bottom: 2px; line-height: 1.1;
+  }
+  .header-sub {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.5px; font-weight: 500;
+    color: hsl(187, 74%, 28%); margin-bottom: 6px; letter-spacing: 0.01em;
+  }
+  .header-gradient {
+    height: 2px;
+    background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%));
+    border-radius: 1px; margin-bottom: 8px;
+  }
+  .contact-row {
+    display: flex; flex-wrap: wrap; gap: 6px 12px;
+    font-size: 10px; color: #555;
+  }
+  .contact-row a { color: #555; text-decoration: none; }
+  .contact-row .sep { color: #ccc; }
+
+  .section { margin-bottom: 14px; }
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.07em; color: hsl(187, 74%, 32%);
+    border-bottom: 1.5px solid #e2e2e2; padding-bottom: 3px; margin-bottom: 8px;
+  }
+
+  .summary-text { font-size: 10.5px; line-height: 1.7; color: #2f2f2f; }
+
+  .competencies-grid { display: flex; flex-wrap: wrap; gap: 6px; }
+  .competency-tag {
+    font-size: 9.5px; font-weight: 500;
+    color: hsl(187, 74%, 28%); background: hsl(187, 40%, 95%);
+    padding: 3px 9px; border-radius: 3px; border: 1px solid hsl(187, 40%, 88%);
+  }
+
+  .job { margin-bottom: 12px; }
+  .job-header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 2px; }
+  .job-company { font-family: 'Space Grotesk', sans-serif; font-size: 11.5px; font-weight: 600; color: hsl(270, 70%, 45%); }
+  .job-period { font-size: 10px; color: #777; white-space: nowrap; }
+  .job-role { font-size: 10.5px; font-weight: 600; color: #333; margin-bottom: 4px; }
+  .job ul { padding-left: 16px; margin-top: 4px; }
+  .job li { font-size: 10px; line-height: 1.6; color: #333; margin-bottom: 3px; }
+  .job li strong { font-weight: 600; }
+
+  .project { margin-bottom: 10px; }
+  .project-header { display: flex; align-items: baseline; gap: 6px; margin-bottom: 2px; flex-wrap: wrap; }
+  .project-title { font-family: 'Space Grotesk', sans-serif; font-size: 11px; font-weight: 600; color: hsl(270, 70%, 45%); }
+  .project-badge {
+    font-size: 8.5px; font-weight: 500; color: hsl(187, 74%, 32%);
+    background: hsl(187, 40%, 95%); padding: 1px 5px; border-radius: 2px;
+  }
+  .project-tech { font-size: 9px; color: #777; margin-bottom: 3px; }
+  .project ul { padding-left: 16px; }
+  .project li { font-size: 10px; line-height: 1.6; color: #333; margin-bottom: 2px; }
+
+  .edu-item { margin-bottom: 6px; }
+  .edu-header { display: flex; justify-content: space-between; align-items: baseline; }
+  .edu-title { font-weight: 600; font-size: 10.5px; color: #333; }
+  .edu-org { color: hsl(270, 70%, 45%); font-weight: 500; }
+  .edu-year { font-size: 10px; color: #777; white-space: nowrap; }
+
+  .skills-block { margin-bottom: 5px; }
+  .skill-category { font-weight: 600; font-size: 10px; color: #333; }
+  .skill-list { font-size: 10px; color: #444; }
+
+  a { white-space: nowrap; }
+  .avoid-break, .job, .project, .edu-item { break-inside: avoid; page-break-inside: avoid; }
+
+  @media print {
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .page { padding: 6px 22px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header avoid-break">
+    <h1>Venkata Lakshmi Parimala Pasupuleti</h1>
+    <div class="header-sub">Senior Platform Software Engineer &middot; Distributed Systems &middot; Cloud Infrastructure &middot; Identity &amp; Access Management (IAM) &middot; Authentication &amp; Authorization &middot; Microservices &middot; FedRAMP/PCI DSS &middot; Java &middot; Python &middot; Kubernetes &middot; AWS &middot; Observability</div>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <a href="mailto:venkatalakshmiparimalap@gmail.com">venkatalakshmiparimalap@gmail.com</a>
+      <span class="sep">|</span>
+      <span>+1-703-261-5410</span>
+      <span class="sep">|</span>
+      <a href="https://www.linkedin.com/in/venkata-lakshmi-parimala/">linkedin.com/in/venkata-lakshmi-parimala</a>
+      <span class="sep">|</span>
+      <a href="https://github.com/venkatalakshmiparimala/AgentProbe">github.com/venkatalakshmiparimala/AgentProbe</a>
+      <span class="sep">|</span>
+      <span>Virginia &middot; Open to Nashville / Relocation</span>
+    </div>
+  </div>
+
+  <!-- SUMMARY -->
+  <div class="section avoid-break">
+    <div class="section-title">Professional Summary</div>
+    <div class="summary-text">
+      I build reliable, <strong>fault-tolerant distributed systems</strong> and <strong>microservices</strong> at scale &mdash; <strong>Python + Java, Kubernetes, CI/CD, GitOps, observability pipelines</strong> &mdash; with 9+ years shipping production services in cloud environments. At Intuit, own <strong>IAM policy enforcement</strong> and <strong>role-based access controls</strong> for financial data services on <strong>AWS</strong> (EC2, RDS, S3, Lambda, <strong>IAM</strong>); full <strong>observability</strong> stack: <strong>OpenTelemetry</strong>, <strong>Prometheus</strong>, <strong>Grafana</strong>, and automated alerting for SLO breach detection; infrastructure automation via <strong>Terraform</strong> IaC, <strong>Kubernetes</strong> orchestration, and <strong>GitHub Actions CI/CD</strong>. At Entrata (100K+ MAU multi-tenant SaaS), implemented <strong>authentication</strong> and <strong>authorization</strong> patterns including <strong>RBAC</strong> and least-privilege access across regulated workflows; HUD/PHI compliance controls aligned to <strong>FedRAMP/PCI DSS</strong> adjacent security frameworks; <strong>HIPAA</strong> data migration with <strong>Libsodium encryption</strong>, <strong>audit trails</strong>, and <strong>incident response</strong> procedures; built large-scale ETL with checkpoint/rollback; containerized <strong>microservices</strong> on <strong>Linux</strong> throughout. Built <strong>HITL governance platform</strong> (LeaseI) with <strong>policy enforcement</strong>, <strong>least-privilege access</strong>, and full <strong>auditability</strong>; <strong>postmortem</strong>-driven reliability improvements. M.S. Data Analytics Engineering, George Mason University (GPA 3.87, May 2026).
+    </div>
+  </div>
+
+  <!-- COMPETENCIES -->
+  <div class="section avoid-break">
+    <div class="section-title">Core Competencies</div>
+    <div class="competencies-grid">
+      <span class="competency-tag">Identity &amp; Access Management (IAM)</span>
+      <span class="competency-tag">Authentication &amp; Authorization</span>
+      <span class="competency-tag">Authentication Protocols</span>
+      <span class="competency-tag">FedRAMP / PCI DSS Compliance</span>
+      <span class="competency-tag">RBAC &amp; Least-Privilege Access</span>
+      <span class="competency-tag">Microservices Architecture</span>
+      <span class="competency-tag">Service-Oriented Architectures</span>
+      <span class="competency-tag">Incident Response &amp; On-Call</span>
+      <span class="competency-tag">Postmortem Activities</span>
+      <span class="competency-tag">Distributed Systems</span>
+      <span class="competency-tag">Fault-Tolerant Design</span>
+      <span class="competency-tag">Java &amp; Spring Boot</span>
+      <span class="competency-tag">Python (9+ yrs)</span>
+      <span class="competency-tag">CI/CD &amp; GitOps</span>
+      <span class="competency-tag">Observability &amp; Telemetry</span>
+      <span class="competency-tag">OpenTelemetry / Prometheus / Grafana</span>
+      <span class="competency-tag">Kubernetes &amp; Docker</span>
+      <span class="competency-tag">AWS Cloud Infrastructure</span>
+      <span class="competency-tag">Terraform IaC</span>
+      <span class="competency-tag">Linux / Unix Systems</span>
+      <span class="competency-tag">Circuit Breakers &amp; Retry Mechanisms</span>
+      <span class="competency-tag">Policy Enforcement &amp; Auditability</span>
+      <span class="competency-tag">Security &amp; Encryption</span>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Experience</div>
+
+    <!-- Intuit -->
+    <div class="job avoid-break">
+      <div class="job-header">
+        <span class="job-company">Intuit</span>
+        <span class="job-period">Jun 2026 &ndash; Present &middot; Virginia, USA</span>
+      </div>
+      <div class="job-role">Software Engineer &mdash; Cloud Infrastructure &middot; IAM &middot; Authentication &amp; Authorization &middot; Microservices &middot; Observability &middot; AWS &middot; Python &middot; Java</div>
+      <ul>
+        <li>Own production <strong>microservices</strong> on <strong>AWS</strong> (EC2, RDS, S3, Lambda, API Gateway, <strong>IAM</strong>) for financial data processing; enforce <strong>role-based access controls (RBAC)</strong>, <strong>least-privilege</strong> <strong>IAM policies</strong>, and <strong>authentication</strong>/<strong>authorization</strong> patterns across regulated financial data workflows; full <strong>observability</strong> stack: <strong>OpenTelemetry</strong>, <strong>Prometheus</strong>, <strong>Grafana</strong>, and automated <strong>alerting</strong> for SLO breach detection.</li>
+        <li>On-call rotation for production financial services: <strong>incident response</strong> triage, root-cause analysis, and <strong>postmortem activities</strong> with corrective action tracking; build Python/FastAPI <strong>REST APIs</strong> with input validation, error handling, <strong>retry mechanisms</strong>, and <strong>circuit breaker</strong> patterns; ship via <strong>GitHub Actions CI/CD</strong> with <strong>GitOps</strong>-style deployment workflows and <strong>rollback and recovery</strong> on failed deploys.</li>
+        <li>Implement sensitive-data guardrails and <strong>security controls</strong> for AI-generated outputs integrated into financial applications (Anthropic Claude); <strong>policy enforcement</strong> and <strong>auditability</strong> at every LLM call boundary; LLM-as-judge eval CI prevents quality regressions before production deploy.</li>
+        <li>Infrastructure automation: <strong>Terraform</strong> IaC for AWS resource provisioning; <strong>Kubernetes</strong> orchestration of containerized <strong>microservices</strong>; logging and <strong>telemetry</strong> for production visibility across distributed <strong>service-oriented architectures</strong>.</li>
+      </ul>
+    </div>
+
+    <!-- Entrata Senior -->
+    <div class="job avoid-break">
+      <div class="job-header">
+        <span class="job-company">Entrata (Apartment &amp; Affordable Housing SaaS)</span>
+        <span class="job-period">Oct 2020 &ndash; Jul 2024 &middot; 100K+ MAU, multi-tenant platform</span>
+      </div>
+      <div class="job-role">Senior Software Engineer &mdash; Java &middot; Spring Boot &middot; Python &middot; Microservices &middot; IAM &middot; Authentication &middot; Compliance Frameworks &middot; PostgreSQL &middot; Linux &middot; AWS</div>
+      <ul>
+        <li>Designed and operated <strong>fault-tolerant RabbitMQ</strong>-based <strong>async processing</strong> system for bulk rent updates across thousands of tenant records on a <strong>distributed</strong> multi-tenant SaaS platform: dead-letter queues, exponential backoff retry, <strong>idempotency</strong> guarantees to prevent double-processing, and consumer worker auto-recovery; <strong>incident response</strong> procedures and <strong>postmortem activities</strong> for production reliability.</li>
+        <li>Implemented <strong>authentication</strong>, <strong>authorization</strong>, and <strong>RBAC</strong> across regulated affordable housing workflows; HUD/PHI compliance data pipelines aligned to <strong>FedRAMP/PCI DSS</strong>-adjacent security frameworks: <strong>access controls</strong>, <strong>least-privilege</strong> policies, <strong>encryption</strong> (Libsodium), <strong>audit trails</strong>, and <strong>HIPAA</strong>/<strong>PHI</strong> data protection; loaded 1.6M HUD/Tax Credit records with validation and replication-safe idempotent writes.</li>
+        <li>Delivered 20+ production features end-to-end in <strong>Java/Spring Boot</strong> across <strong>service-oriented architectures</strong>; containerized <strong>microservices</strong> with <strong>Docker</strong> (50% scalability improvement, 30% faster deployments); optimized 200+ SQL queries (30% performance gain); built Python/<strong>Bash</strong> automation on <strong>Linux</strong> eliminating 80% of manual operational work.</li>
+        <li><strong>AWS S3</strong> PHI migration with <strong>Libsodium encryption</strong> and HIPAA compliance; Redis <strong>caching</strong> layer for high-volume async workflows; hardened <strong>security</strong> posture across multi-tenant platform with <strong>on-call rotation</strong> support.</li>
+      </ul>
+    </div>
+
+    <!-- Entrata India -->
+    <div class="job avoid-break">
+      <div class="job-header">
+        <span class="job-company">Entrata India (Db Xento Systems)</span>
+        <span class="job-period">Sep 2018 &ndash; Oct 2020 &middot; Pune, India</span>
+      </div>
+      <div class="job-role">Junior Software Engineer &mdash; Java &middot; Python &middot; PostgreSQL &middot; AWS &middot; Linux</div>
+      <ul>
+        <li>Built property management modules and compliance data pipelines in <strong>Java</strong>, Python, PHP, and PostgreSQL; delivered large-scale data import/reconciliation workflows (1.6M HUD/Tax Credit records); led <strong>AWS S3</strong> cloud migration from legacy server storage on <strong>Linux</strong> infrastructure; created 56 state-specific housing certification documents.</li>
+      </ul>
+    </div>
+
+    <!-- GMU -->
+    <div class="job avoid-break">
+      <div class="job-header">
+        <span class="job-company">George Mason University &mdash; Research Associate / Teaching Assistant</span>
+        <span class="job-period">Aug 2024 &ndash; May 2026</span>
+      </div>
+      <div class="job-role">ML Research &middot; Fine-Tuning &middot; PyTorch &middot; Statistical Modeling &middot; HuggingFace</div>
+      <ul>
+        <li>Fine-tuned classification model (HuggingFace Transformers + PyTorch): full pipeline (data prep &rarr; fine-tuning &rarr; eval &rarr; deploy on Quart); Isolation Forest anomaly detection on research datasets; predictive models (R&sup2; = 0.977); presented to GMU faculty panel. Mentored 600+ students.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section">
+    <div class="section-title">Portfolio Projects</div>
+
+    <!-- AgentProbe -->
+    <div class="project avoid-break">
+      <div class="project-header">
+        <span class="project-title">AgentProbe &mdash; Open-Source AI Developer Platform &amp; LLM Evaluation Toolkit</span>
+        <span class="project-badge">Developer Platform</span>
+        <span class="project-badge">Agentic Workflows</span>
+        <span class="project-badge">Observability</span>
+      </div>
+      <div class="project-tech">2025 &middot; Python, FastAPI (15 endpoints), LangGraph (3 agents), ChromaDB, Pinecone, Anthropic, OpenAI, Azure OpenAI, Groq, Ollama &middot; <a href="https://github.com/venkatalakshmiparimala/AgentProbe">github.com/venkatalakshmiparimala/AgentProbe</a></div>
+      <ul>
+        <li><strong>Developer platform</strong> for building and evaluating <strong>AI-assisted developer tools</strong>: 15-endpoint FastAPI backend routing <strong>agentic workflows</strong> across 5 LLM providers; LLM Router for dynamic provider selection based on latency, cost, and capability; <strong>circuit breaker</strong> patterns and fallback routing at every provider boundary; <strong>artifact management</strong> for model evaluation snapshots and golden datasets.</li>
+        <li>5-metric eval framework (factual accuracy, hallucination, retrieval quality, completeness, compliance) with <strong>CI/CD</strong>-integrated regression detection; golden-dataset <strong>test automation</strong> gates deploys on quality drops; <strong>supply-chain security</strong> controls validate provider responses before pipeline consumption; <strong>policy enforcement</strong> and <strong>compliance automation</strong> hooks ensure eval outputs are auditable.</li>
+      </ul>
+    </div>
+
+    <!-- LeaseI -->
+    <div class="project avoid-break">
+      <div class="project-header">
+        <span class="project-title">LeaseI &mdash; Agentic Engineering Platform with Safety Controls &amp; HITL Governance</span>
+        <span class="project-badge">Agentic Engineering</span>
+        <span class="project-badge">Safety Controls</span>
+        <span class="project-badge">Human Oversight</span>
+      </div>
+      <div class="project-tech">2026 &middot; Python, LangGraph (8-agent), FastAPI, hybrid RAG (TF-IDF + semantic reranking), SQLite, CI/CD &middot; <a href="https://github.com/venkatalakshmiparimala/Lease_complaince_rag">github.com/venkatalakshmiparimala/Lease_complaince_rag</a></div>
+      <ul>
+        <li><strong>Agentic engineering platform</strong> with a <strong>control plane</strong> enforcing <strong>safety controls for autonomous systems</strong>: 8-agent LangGraph workflow (triage &rarr; retrieval &rarr; parallel agents &rarr; reasoning &rarr; deterministic validator &rarr; confidence-gated <strong>human escalation</strong>); adversarially tested <strong>safety boundary</strong> hard-routes eligibility and financial decisions to human operators, enforcing <strong>human oversight</strong> and <strong>least-privilege access</strong> for high-stakes agentic decisions; <strong>policy enforcement</strong> layer prevents autonomous action without explicit authorization; full <strong>auditability</strong> of every agent decision path.</li>
+        <li>LLM-as-judge CI harness: 93.6% precision, 87.9% F1 across 1,240 test cases; deterministic validator enforces <strong>policy-as-code</strong> so regulated decisions stay outside LLM reasoning path; <strong>GitHub Actions CI/CD</strong> gates deploys on quality regression; <strong>rollback and recovery</strong> on eval failure; <strong>workflow orchestration</strong> across 8 agents with explicit state machines.</li>
+      </ul>
+    </div>
+
+    <!-- AI on FHIR -->
+    <div class="project avoid-break">
+      <div class="project-header">
+        <span class="project-title">AI on FHIR &mdash; Clinical NLP Backend with HIPAA Security Controls</span>
+        <span class="project-badge">Backend Services</span>
+        <span class="project-badge">Security Controls</span>
+        <span class="project-badge">HIPAA Compliance</span>
+      </div>
+      <div class="project-tech">2025 &middot; Python, Flask, React, TypeScript, Docker, BERT, spaCy, LLMs, FHIR REST APIs &middot; <a href="https://github.com/venkatalakshmiparimala/AI_on_FHIR">github.com/venkatalakshmiparimala/AI_on_FHIR</a></div>
+      <ul>
+        <li>NLP pipeline translating English/Spanish questions into FHIR <strong>REST API</strong> calls; HIPAA-compliant <strong>authentication</strong>, <strong>authorization</strong>, and <strong>RBAC</strong> for data isolation and <strong>access controls</strong>; <strong>encryption</strong> and PHI-sensitive-data handling meeting <strong>compliance framework</strong> requirements; ~60% reduction in manual clinical lookup time; containerized with <strong>Docker</strong> on Linux.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section avoid-break">
+    <div class="section-title">Education</div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">M.S. Data Analytics Engineering &mdash; <span class="edu-org">George Mason University, Virginia</span></span>
+        <span class="edu-year">May 2026 &middot; GPA 3.87</span>
+      </div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">B.Tech Computer Science &amp; Engineering &mdash; <span class="edu-org">JNTUA, India</span></span>
+        <span class="edu-year">2013&ndash;2017</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section avoid-break">
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-block">
+      <span class="skill-category">Languages &amp; Backend: </span>
+      <span class="skill-list">Java, Spring Boot, Python (9+ yrs), FastAPI, Flask, Django, TypeScript, JavaScript, Node.js, PHP, SQL, PL/SQL, Bash, Kotlin, Scala, GraphQL, C#, .NET</span>
+    </div>
+    <div class="skills-block">
+      <span class="skill-category">Developer Platform &amp; Agentic Engineering: </span>
+      <span class="skill-list">Developer Platform Engineering, Agentic Workflows, AI-Assisted Developer Tools, Safety Controls for Autonomous Systems, Human-in-the-Loop (HITL), Policy Enforcement, Policy-as-Code, Auditability, Control Planes, Workflow Orchestration, Artifact Management, Deployment Workflows, Rollback &amp; Recovery, Supply-Chain Security, Compliance Automation</span>
+    </div>
+    <div class="skills-block">
+      <span class="skill-category">Distributed Systems &amp; Reliability: </span>
+      <span class="skill-list">Distributed Systems, Fault-Tolerant Design, Redundancy &amp; Replication, Automatic Failover, Circuit Breakers, Retry Mechanisms, Idempotency, Async Processing, RabbitMQ, Kafka, Celery, Event-Driven Architecture</span>
+    </div>
+    <div class="skills-block">
+      <span class="skill-category">Observability, Reliability &amp; On-Call: </span>
+      <span class="skill-list">OpenTelemetry, Prometheus, Grafana, Alerting, Incident Response, On-Call Rotations, Postmortem Activities, LLM-as-Judge Eval CI, Load Testing</span>
+    </div>
+    <div class="skills-block">
+      <span class="skill-category">Cloud &amp; Infrastructure: </span>
+      <span class="skill-list">AWS (EC2, S3, RDS, Lambda, SQS, Glue, IAM, API Gateway), Docker, Kubernetes, Terraform IaC, GitHub Actions CI/CD, GitOps, Release Engineering, Linux/Unix, Microservices, Service-Oriented Architectures, REST APIs</span>
+    </div>
+    <div class="skills-block">
+      <span class="skill-category">Security, IAM &amp; Compliance: </span>
+      <span class="skill-list">Identity &amp; Access Management (IAM), Authentication, Authorization, Authentication Protocols, RBAC, OAuth, Least-Privilege Access, FedRAMP Compliance, PCI DSS Compliance, HIPAA/PHI Compliance, Encryption (Libsodium, AES), Access Controls, Audit Trails, Input Validation, Sensitive-Data Handling</span>
+    </div>
+    <div class="skills-block">
+      <span class="skill-category">Databases &amp; Storage: </span>
+      <span class="skill-list">PostgreSQL, MySQL, Oracle, Redis, MongoDB, SQLite, Snowflake, ChromaDB, Pinecone, ETL Pipelines, Query Optimization, Data Modeling</span>
+    </div>
+    <div class="skills-block">
+      <span class="skill-category">AI &amp; ML: </span>
+      <span class="skill-list">Anthropic Claude, OpenAI, LangGraph, LangChain, RAG Pipelines, Embeddings, PyTorch, scikit-learn, HuggingFace, spaCy, BERT, Prompt Engineering</span>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

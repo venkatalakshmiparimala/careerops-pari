@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Venkata Lakshmi Parimala Pasupuleti — CV</title>
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('./fonts/space-grotesk-latin.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('./fonts/space-grotesk-latin-ext.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('./fonts/dm-sans-latin.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('./fonts/dm-sans-latin-ext.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #1a1a2e;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+  }
+
+  .page {
+    width: 100%;
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 32px 40px;
+  }
+
+  /* === HEADER === */
+  .header {
+    margin-bottom: 20px;
+  }
+
+  .header h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a2e;
+    letter-spacing: -0.02em;
+    margin-bottom: 2px;
+    line-height: 1.1;
+  }
+
+  .header-subtitle {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.5px;
+    color: #555;
+    margin-bottom: 8px;
+    line-height: 1.4;
+  }
+
+  .header-gradient {
+    height: 2px;
+    background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%));
+    border-radius: 1px;
+    margin-bottom: 10px;
+  }
+
+  .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.5px;
+    line-height: 1.4;
+    color: #555;
+  }
+
+  .contact-row a {
+    color: #555;
+    text-decoration: none;
+  }
+
+  .contact-row .separator {
+    color: #ccc;
+  }
+
+  /* === SECTIONS === */
+  .section {
+    margin-bottom: 18px;
+  }
+
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: hsl(187, 74%, 32%);
+    border-bottom: 1.5px solid #e2e2e2;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+
+  /* === PROFESSIONAL SUMMARY === */
+  .summary-text {
+    font-size: 11px;
+    line-height: 1.7;
+    color: #2f2f2f;
+  }
+
+  /* Links must never break across lines */
+  a {
+    white-space: nowrap;
+  }
+
+  /* === CORE COMPETENCIES === */
+  .competencies-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .competency-tag {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: hsl(187, 74%, 28%);
+    background: hsl(187, 40%, 95%);
+    padding: 4px 10px;
+    border-radius: 3px;
+    border: 1px solid hsl(187, 40%, 88%);
+  }
+
+  /* === WORK EXPERIENCE === */
+  .job {
+    margin-bottom: 14px;
+  }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 4px;
+  }
+
+  .job-company {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .job-period {
+    font-size: 10.5px;
+    color: #777;
+    white-space: nowrap;
+  }
+
+  .job-role {
+    font-size: 11px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 6px;
+  }
+
+  .job-location {
+    font-size: 10px;
+    color: #888;
+  }
+
+  .job ul {
+    padding-left: 18px;
+    margin-top: 6px;
+  }
+
+  .job li {
+    font-size: 10.5px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 4px;
+  }
+
+  .job li strong {
+    font-weight: 600;
+  }
+
+  /* === PROJECTS === */
+  .project {
+    margin-bottom: 12px;
+  }
+
+  .project-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11.5px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .project-badge {
+    font-size: 9px;
+    font-weight: 500;
+    color: hsl(187, 74%, 32%);
+    background: hsl(187, 40%, 95%);
+    padding: 1px 6px;
+    border-radius: 2px;
+    margin-left: 6px;
+  }
+
+  .project-desc {
+    font-size: 10.5px;
+    color: #444;
+    margin-top: 3px;
+    line-height: 1.55;
+  }
+
+  .project-tech {
+    font-size: 9.5px;
+    color: #888;
+    margin-top: 3px;
+  }
+
+  /* === EDUCATION === */
+  .edu-item {
+    margin-bottom: 8px;
+  }
+
+  .edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  .edu-title {
+    font-weight: 600;
+    font-size: 11px;
+    color: #333;
+  }
+
+  .edu-org {
+    color: hsl(270, 70%, 45%);
+    font-weight: 500;
+  }
+
+  .edu-year {
+    font-size: 10px;
+    color: #777;
+    white-space: nowrap;
+  }
+
+  .edu-desc {
+    font-size: 10px;
+    color: #666;
+    margin-top: 2px;
+    line-height: 1.5;
+  }
+
+  /* === SKILLS === */
+  .skills-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .skill-row {
+    font-size: 10.5px;
+    color: #444;
+    line-height: 1.5;
+  }
+
+  .skill-category {
+    font-weight: 600;
+    color: #333;
+    font-size: 10.5px;
+  }
+
+  /* === PRINT === */
+  @media print {
+    body {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .page {
+      padding: 20px 32px;
+    }
+  }
+
+  /* === PAGE BREAK CONTROL === */
+  .avoid-break,
+  .job,
+  .project,
+  .edu-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header avoid-break">
+    <h1>Venkata Lakshmi Parimala Pasupuleti</h1>
+    <div class="header-subtitle">Developer Intelligence &middot; Platform Engineering &middot; AI-Assisted SDLC &middot; CI/CD &middot; Observability &middot; Go &middot; Python &middot; LLM Integration</div>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <span>+1-703-261-5410</span>
+      <span class="separator">|</span>
+      <span>venkatalakshmiparimalap@gmail.com</span>
+      <span class="separator">|</span>
+      <a href="https://www.linkedin.com/in/venkata-lakshmi-parimala/">linkedin.com/in/venkata-lakshmi-parimala</a>
+      <span class="separator">|</span>
+      <a href="https://github.com/venkatalakshmiparimala">github.com/venkatalakshmiparimala</a>
+      <span class="separator">|</span>
+      <span>Virginia, USA</span>
+    </div>
+  </div>
+
+  <!-- PROFESSIONAL SUMMARY -->
+  <div class="section avoid-break">
+    <div class="section-title">Professional Summary</div>
+    <div class="summary-text">
+      I build AI-powered developer intelligence systems — telemetry pipelines, automated code review, LLM-assisted incident triaging — with 9+ years of production engineering (7+ years at Entrata, a PropTech SaaS platform for 100K+ MAU). Currently at Intuit integrating Anthropic Claude into financial applications, with Go-based telemetry collection services and observability instrumentation for LLM workflow pipelines. Built AgentProbe, an open-source Developer Intelligence Toolkit: a CI regression harness with LLM-as-judge evaluation for automated software validation across 1,240+ test cases. Expert in Python (9+ yrs), AI-assisted SDLC workflows, CI/CD pipeline integration, and cloud infrastructure (AWS, GCP, Azure). M.S. Data Analytics Engineering, George Mason University (GPA 3.87, 2026).
+    </div>
+  </div>
+
+  <!-- CORE COMPETENCIES -->
+  <div class="section">
+    <div class="section-title">Core Competencies</div>
+    <div class="competencies-grid">
+      <span class="competency-tag">Developer Intelligence</span>
+      <span class="competency-tag">Engineering Telemetry</span>
+      <span class="competency-tag">Platform Engineering</span>
+      <span class="competency-tag">AI-Assisted SDLC</span>
+      <span class="competency-tag">LLM Integration</span>
+      <span class="competency-tag">Observability (Logs/Metrics/Traces)</span>
+      <span class="competency-tag">CI/CD Pipelines</span>
+      <span class="competency-tag">Go</span>
+      <span class="competency-tag">Python (9+ yrs)</span>
+      <span class="competency-tag">Automated Code Review</span>
+      <span class="competency-tag">Incident Triaging</span>
+      <span class="competency-tag">Developer Velocity</span>
+      <span class="competency-tag">Feedback Loops</span>
+      <span class="competency-tag">Workflow Orchestration</span>
+      <span class="competency-tag">AWS / GCP / Azure</span>
+      <span class="competency-tag">Data Pipelines</span>
+      <span class="competency-tag">LangGraph / LangChain</span>
+      <span class="competency-tag">OpenTelemetry</span>
+    </div>
+  </div>
+
+  <!-- WORK EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Experience</div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Intuit</span>
+        <span class="job-period">Jun 2026 – Present</span>
+      </div>
+      <div class="job-role">Software Engineer — AI Platform &amp; Developer Tooling <span class="job-location">· Virginia, USA</span></div>
+      <ul>
+        <li><strong>Developed Go-based telemetry collection services</strong> for LLM workflow observability, integrating with CI/CD pipelines to surface developer intelligence signals — engineering telemetry streams for automated feedback loops across the SDLC.</li>
+        <li><strong>Instrumented distributed LLM systems with structured logging, metrics, and trace collection</strong> (OpenTelemetry, Prometheus, Grafana) for production incident triaging; dashboards surface quality regressions before user impact.</li>
+        <li>Integrated Anthropic Claude into Python/FastAPI services for financial data summaries and natural-language queries; designed structured-output schemas for consistent, validated downstream consumption.</li>
+        <li>Built <strong>LLM-as-judge evaluation and golden-dataset regression tests</strong> gated on GitHub Actions CI/CD — automated software validation that catches hallucinations and quality drops at commit time.</li>
+        <li>Added guardrails around LLM calls: input validation, sensitive-data handling, and fallbacks; built <strong>data pipelines</strong> from ingestion through feature engineering to prediction APIs on AWS.</li>
+        <li>Containerized services with Docker; deployed through <strong>GitHub Actions CI/CD to AWS</strong> with production logging and monitoring for full observability.</li>
+        <li>Grounded Claude responses in customer financial data using retrieval pipelines so answers are traceable to source records; built ML pipelines with scikit-learn and XGBoost.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Entrata — Apartment &amp; Affordable Housing SaaS</span>
+        <span class="job-period">Oct 2020 – Jul 2024</span>
+      </div>
+      <div class="job-role">Senior Software Engineer <span class="job-location">· Multi-tenant platform, 100K+ monthly active users</span></div>
+      <ul>
+        <li><strong>Platform engineering at scale:</strong> delivered 20+ features end-to-end (Python, PHP, Java, JavaScript, React, PostgreSQL) across 120+ Agile sprints on a production SaaS platform with 100K+ MAU.</li>
+        <li><strong>CI/CD ownership and developer tooling:</strong> worked on a Docker microservices redesign (50% better scalability, 30% faster deployments); owned the AWS S3 document migration with Libsodium encryption for resident PHI — zero security incidents.</li>
+        <li>Wrote <strong>Python/Bash automation that cut manual operational work by 80%</strong>; built internal debugging tools that reduced developer triage time by 40% — direct developer velocity impact.</li>
+        <li>Optimized 200+ SQL queries using <strong>execution plans and indexing</strong>, improving performance by 30%; maintained the HUD income-limit import pipeline for 6 years (180K domain records, zero compliance violations).</li>
+        <li>Built a <strong>RabbitMQ-based async processing system</strong> with retry logic and idempotency for rent updates across thousands of tenant records — production-grade data pipeline engineering.</li>
+        <li><strong>Reviewed 300+ pull requests, mentored junior engineers</strong> on platform architecture — active knowledge transfer and code quality ownership.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Entrata India</span>
+        <span class="job-period">Sep 2018 – Oct 2020</span>
+      </div>
+      <div class="job-role">Junior Software Engineer <span class="job-location">· Pune, India</span></div>
+      <ul>
+        <li>Built property management modules (Python, PHP, Java, PostgreSQL) for affordable housing and rental management.</li>
+        <li>Delivered large-scale data import and reconciliation workflows (1.6M HUD/Tax Credit records); led AWS S3 cloud migration from legacy server storage.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section avoid-break">
+    <div class="section-title">Projects</div>
+
+    <div class="project">
+      <div>
+        <span class="project-title">AgentProbe — Developer Intelligence Toolkit</span>
+        <span class="project-badge">Open Source</span>
+      </div>
+      <div class="project-tech">Python · FastAPI · LangGraph · ChromaDB · GitHub Actions CI/CD · Anthropic · OpenAI · Azure OpenAI · Groq · Ollama · <a href="https://github.com/venkatalakshmiparimala/AgentProbe">github.com/venkatalakshmiparimala/AgentProbe</a></div>
+      <div class="project-desc">
+        Built an open-source <strong>automated code quality evaluation and CI regression harness</strong> — a 15-endpoint FastAPI backend routing prompts across five LLM providers with LLM-as-judge scoring for factual accuracy, hallucination rate, retrieval quality, completeness, and compliance. <strong>Automated software validation:</strong> CI-integrated golden dataset regression tests catch quality drops at commit time. Scores LLM outputs across 1,240+ test cases (93.6% precision, 87.9% F1). Three LangGraph agents: Orchestrator, RAG Tracer, Auto Fix — automated developer intelligence feedback loops for the SDLC.
+      </div>
+    </div>
+
+    <div class="project">
+      <div>
+        <span class="project-title">LeaseI — AI-Assisted Workflow Orchestration Platform</span>
+        <span class="project-badge">LangGraph · 8-Agent</span>
+      </div>
+      <div class="project-tech">Python · LangGraph (8-agent StateGraph) · FastAPI · Hybrid Retrieval (TF-IDF + semantic) · OCR · SQLite · CI/CD · <a href="https://github.com/venkatalakshmiparimala/Lease_complaince_rag">github.com/venkatalakshmiparimala/Lease_complaince_rag</a></div>
+      <div class="project-desc">
+        <strong>Smart workflow orchestration</strong> for compliance operations: an 8-agent LangGraph StateGraph (triage, retrieval, reasoning, validation) that automates manual developer-facing compliance checks with conditional routing and human escalation when confidence is low. Hybrid-search RAG pipeline (TF-IDF + semantic reranking) with answers cited to exact source clauses. <strong>CI-integrated LLM-as-judge harness</strong>: 93.6% precision across 1,240 test cases; safety boundary enforced in code — eligibility decisions always route to staff.
+      </div>
+    </div>
+
+    <div class="project">
+      <div>
+        <span class="project-title">AI on FHIR — Clinical NLP &amp; LLM API Integration</span>
+      </div>
+      <div class="project-tech">Python · Flask · React · TypeScript · Docker · BERT · spaCy · LLMs · FHIR REST APIs · <a href="https://github.com/venkatalakshmiparimala/AI_on_FHIR">github.com/venkatalakshmiparimala/AI_on_FHIR</a></div>
+      <div class="project-desc">
+        Built an app that turns English/Spanish questions into FHIR API calls using LLMs, BERT, and embeddings, cutting manual clinical lookup time by ~60%. Role-based access control for HIPAA-style data isolation; containerized with Docker.
+      </div>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section avoid-break">
+    <div class="section-title">Education</div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">M.S. Data Analytics Engineering — <span class="edu-org">George Mason University</span>, Virginia</span>
+        <span class="edu-year">May 2026</span>
+      </div>
+      <div class="edu-desc">GPA 3.87 · Coursework: ML pipelines, NLP, cloud systems, data engineering, custom classification models (PyTorch + HuggingFace)</div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">B.Tech Computer Science &amp; Engineering — <span class="edu-org">JNTU Anantapur</span></span>
+        <span class="edu-year">2017</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section avoid-break">
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-grid">
+      <div class="skill-row"><span class="skill-category">Languages &amp; Platform:</span> Go, Python (9+ yrs), Java, Spring Boot, TypeScript, JavaScript, PHP, Kotlin, Scala, Bash, C#</div>
+      <div class="skill-row"><span class="skill-category">AI &amp; LLM Integration:</span> Anthropic Claude, OpenAI, Azure OpenAI, Groq, Ollama, LangGraph, LangChain, RAG Pipelines, LLM-as-Judge, AI-Assisted Workflows, Prompt Engineering, MCP</div>
+      <div class="skill-row"><span class="skill-category">Developer Intelligence &amp; Observability:</span> Engineering Telemetry, OpenTelemetry, Prometheus, Grafana, Logs/Metrics/Traces, Incident Triaging, Developer Metrics Frameworks, SDLC Feedback Loops</div>
+      <div class="skill-row"><span class="skill-category">CI/CD &amp; Platform:</span> GitHub Actions, Docker, Kubernetes, Terraform, Microservices, Developer Velocity, Software Catalog, Automated Code Review, Software Validation</div>
+      <div class="skill-row"><span class="skill-category">Cloud &amp; Data Pipelines:</span> AWS (S3, EC2, RDS, Lambda, Glue, SQS, API Gateway), Azure (OpenAI, Databricks, AKS), GCP (Vertex AI), ETL Pipelines, Data Modeling, Kafka, RabbitMQ</div>
+      <div class="skill-row"><span class="skill-category">Databases &amp; ML:</span> PostgreSQL, MySQL, Oracle, Redis, MongoDB, Snowflake, ChromaDB, Pinecone, Elasticsearch, scikit-learn, XGBoost, PyTorch, HuggingFace, spaCy</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

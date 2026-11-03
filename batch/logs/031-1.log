@@ -1,0 +1,40 @@
+Pipeline complete. Here's the final output:
+
+```json
+{
+  "status": "completed",
+  "id": "1",
+  "report_num": "031",
+  "company": "Stripe",
+  "role": "Data Analyst - Economic Insights & Communications",
+  "score": 2.5,
+  "legitimacy": "High Confidence",
+  "pdf": null,
+  "report": "reports/031-stripe-2026-06-03.md",
+  "error": null
+}
+```
+
+---
+
+**Summary**
+
+| Field | Value |
+|-------|-------|
+| Role | Data Analyst — Economic Insights & Communications |
+| Team | Go-to-Market Analytics |
+| Score | **2.5/5 → SKIP** |
+| Legitimacy | High Confidence |
+| Comp | $161,600–$242,400 base + equity (5/5 — well above your $100–140K target) |
+| PDF | Skipped (`skip_pdf_on_batch: true` in profile.yml) |
+| Report | `reports/031-stripe-2026-06-03.md` |
+| Tracker | `batch/tracker-additions/1.tsv` — row #38 |
+
+**Why SKIP despite excellent comp:** This role is half economics researcher, half PR writer — it explicitly produces external blog posts, social content, and reports for Stripe's Communications team. Three hard blockers: (1) no economics domain background, (2) no external publication/writing track record, (3) Hadoop/Spark not in your stack. Your AI builder profile (AgentProbe, LangChain, LangGraph) is directly valued in Stripe's AI engineering and ML platform roles, which would be a much stronger fit.
+
+**Note:** `modes/_profile.md` appears to be configured for a different user (Kiran Dabbiril). The evaluation was based on your `cv.md` and `config/profile.yml` as the correct sources of truth. You may want to update `modes/_profile.md` with your own archetypes and scoring preferences.
+
+Sources:
+- [Stripe Software Engineer Salary | Levels.fyi](https://www.levels.fyi/companies/stripe/salaries/software-engineer)
+- [Stripe Salaries 2026 | 6figr.com](https://6figr.com/us/salary/stripe)
+- [Stripe layoffs & hiring 2026 | JobsByCulture](https://jobsbyculture.com/blog/stripe-layoffs-2026)

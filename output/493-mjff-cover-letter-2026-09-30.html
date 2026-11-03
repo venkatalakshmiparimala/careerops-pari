@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cover Letter — Venkata Lakshmi Parimala Pasupuleti</title>
+<style>
+  @font-face { font-family: 'Space Grotesk'; src: url('../templates/fonts/space-grotesk-latin.woff2') format('woff2'); font-weight: 300 700; font-style: normal; font-display: swap; }
+  @font-face { font-family: 'DM Sans'; src: url('../templates/fonts/dm-sans-latin.woff2') format('woff2'); font-weight: 100 1000; font-style: normal; font-display: swap; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-family: 'DM Sans', sans-serif; font-size: 10.5px; line-height: 1.7; color: #1a1a2e; background: #ffffff; }
+  .page { width: 100%; max-width: 760px; margin: 0 auto; padding: 36px 36px 30px 36px; }
+
+  /* Header — same as CV */
+  .header { margin-bottom: 18px; }
+  .header h1 { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: #1a1a2e; letter-spacing: -0.02em; margin-bottom: 3px; line-height: 1.1; }
+  .header-tagline { font-size: 9px; color: #555; margin-bottom: 5px; line-height: 1.4; font-weight: 400; }
+  .header-gradient { height: 2px; background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%)); border-radius: 1px; margin-bottom: 7px; }
+  .contact-row { display: flex; flex-wrap: wrap; gap: 5px 12px; font-size: 9.5px; color: #555; }
+  .contact-row a { color: #555; text-decoration: none; }
+  .contact-row .separator { color: #ccc; }
+
+  /* Letter body */
+  .date-line { font-size: 10px; color: #777; margin-bottom: 20px; }
+  .salutation { font-size: 10.5px; font-weight: 600; margin-bottom: 14px; color: #1a1a2e; }
+  .body-para { font-size: 10.5px; line-height: 1.72; color: #2f2f2f; margin-bottom: 13px; }
+  .body-para strong { font-weight: 600; color: #1a1a2e; }
+  .closing { font-size: 10.5px; color: #2f2f2f; margin-top: 22px; line-height: 1.8; }
+  .closing-name { font-family: 'Space Grotesk', sans-serif; font-size: 13px; font-weight: 600; color: #1a1a2e; margin-top: 6px; }
+
+  @media print { body { -webkit-print-color-adjust: exact; print-color-adjust: exact; } .page { padding: 28px 36px; } }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="header">
+    <h1>Venkata Lakshmi Parimala Pasupuleti</h1>
+    <div class="header-tagline">Senior AI Solutions Engineer &middot; Generative AI &middot; RAG &middot; Agent Workflows &middot; Document Processing &middot; Azure AI &middot; Python &middot; C#</div>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <span>+1-703-261-5410</span>
+      <span class="separator">|</span>
+      <span>venkatalakshmiparimala@gmail.com</span>
+      <span class="separator">|</span>
+      <a href="https://www.linkedin.com/in/venkata-lakshmi-parimala/">linkedin.com/in/venkata-lakshmi-parimala</a>
+      <span class="separator">|</span>
+      <span>Virginia, USA</span>
+    </div>
+  </div>
+
+  <div class="date-line">September 30, 2026</div>
+
+  <div class="salutation">Dear Hiring Team, Michael J. Fox Foundation</div>
+
+  <p class="body-para">
+    I'm applying for the Senior AI Solutions Engineer role at MJFF. Accelerating Parkinson's research through better technology is meaningful work — and the specific problems this role solves are exactly the ones I've been building against: extracting reliable information from unstructured documents, grounding AI answers to verifiable sources, and knowing when to hand off to a human reviewer rather than let the AI decide alone.
+  </p>
+
+  <p class="body-para">
+    <strong>LeaseI</strong>, my most recent production AI project, is a direct proof point. It applies <strong>document processing, section-aware extraction, hybrid RAG (TF-IDF + semantic reranking), and citation grounding</strong> to compliance workflows — designed so the LLM extracts and reasons, but every regulated decision routes through a <strong>human review gate</strong>. That architecture — grounding + validation + controlled human oversight — is the same pattern this role describes for clinical documents, research abstracts, and data submissions. The system achieved 93.6% precision on 1,240 test cases with a CI regression harness ensuring no silent regressions.
+  </p>
+
+  <p class="body-para">
+    <strong>AgentProbe</strong>, my open-source evaluation toolkit, addresses the other half of this role: assessing whether AI solutions actually work before they touch real decisions. It provides a 5-metric evaluation engine (correctness, groundedness, hallucination rate, latency, cost), LLM-as-judge scoring, and offline + online evaluation loops — the kind of <strong>reusable evaluation infrastructure</strong> that makes responsible AI delivery repeatable, not ad hoc.
+  </p>
+
+  <p class="body-para">
+    On the technical stack: Python is my primary language; I have <strong>1.5 years of C# / .NET</strong> from Entrata alongside strong API design, integration, and workflow automation experience. At Entrata (8 years) I owned HIPAA-compliant data pipelines with <strong>100% PHI compliance</strong> — the same sensitivity to protected data this role requires for patient and research data. I'm familiar with <strong>Azure AI Services and Azure OpenAI</strong> and have worked extensively with cloud infrastructure, secure credential management, and enterprise-grade API integrations.
+  </p>
+
+  <p class="body-para">
+    I'd welcome the chance to talk through how LeaseI and AgentProbe map to what MJFF is building. Happy to walk through the architecture or evaluation methodology in detail.
+  </p>
+
+  <div class="closing">
+    Sincerely,<br>
+    <span class="closing-name">Venkata Lakshmi Parimala Pasupuleti</span>
+  </div>
+
+</div>
+</body>
+</html>

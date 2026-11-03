@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Venkata Lakshmi Parimala Pasupuleti -- CV</title>
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('../templates/fonts/space-grotesk-latin.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../templates/fonts/dm-sans-latin.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.2px;
+    line-height: 1.5;
+    color: #1a1a2e;
+    background: #ffffff;
+    padding: 0; margin: 0;
+  }
+
+  .page { width: 100%; max-width: 780px; margin: 0 auto; padding: 10px 22px; }
+
+  .header { margin-bottom: 14px; }
+  .header h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 26px; font-weight: 700; color: #1a1a2e;
+    letter-spacing: -0.02em; margin-bottom: 2px; line-height: 1.1;
+  }
+  .header-sub {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.5px; font-weight: 500;
+    color: hsl(187, 74%, 28%); margin-bottom: 6px; letter-spacing: 0.01em;
+  }
+  .header-gradient {
+    height: 2px;
+    background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%));
+    border-radius: 1px; margin-bottom: 8px;
+  }
+  .contact-row {
+    display: flex; flex-wrap: wrap; gap: 6px 12px;
+    font-size: 10px; color: #555;
+  }
+  .contact-row a { color: #555; text-decoration: none; }
+  .contact-row .sep { color: #ccc; }
+
+  .section { margin-bottom: 14px; }
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.07em; color: hsl(187, 74%, 32%);
+    border-bottom: 1.5px solid #e2e2e2; padding-bottom: 3px; margin-bottom: 8px;
+  }
+
+  .summary-text { font-size: 10.5px; line-height: 1.7; color: #2f2f2f; }
+
+  .competencies-grid { display: flex; flex-wrap: wrap; gap: 6px; }
+  .competency-tag {
+    font-size: 9.5px; font-weight: 500;
+    color: hsl(187, 74%, 28%); background: hsl(187, 40%, 95%);
+    padding: 3px 9px; border-radius: 3px; border: 1px solid hsl(187, 40%, 88%);
+  }
+
+  .job { margin-bottom: 12px; }
+  .job-header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 2px; }
+  .job-company { font-family: 'Space Grotesk', sans-serif; font-size: 11.5px; font-weight: 600; color: hsl(270, 70%, 45%); }
+  .job-period { font-size: 10px; color: #777; white-space: nowrap; }
+  .job-role { font-size: 10.5px; font-weight: 600; color: #333; margin-bottom: 4px; }
+  .job ul { padding-left: 16px; margin-top: 4px; }
+  .job li { font-size: 10px; line-height: 1.6; color: #333; margin-bottom: 3px; }
+  .job li strong { font-weight: 600; }
+
+  .project { margin-bottom: 10px; }
+  .project-header { display: flex; align-items: baseline; gap: 6px; margin-bottom: 2px; }
+  .project-title { font-family: 'Space Grotesk', sans-serif; font-size: 11px; font-weight: 600; color: hsl(270, 70%, 45%); }
+  .project-badge {
+    font-size: 8.5px; font-weight: 500; color: hsl(187, 74%, 32%);
+    background: hsl(187, 40%, 95%); padding: 1px 5px; border-radius: 2px;
+  }
+  .project-tech { font-size: 9px; color: #777; margin-bottom: 3px; }
+  .project ul { padding-left: 16px; }
+  .project li { font-size: 10px; line-height: 1.6; color: #333; margin-bottom: 2px; }
+
+  .edu-item { margin-bottom: 6px; }
+  .edu-header { display: flex; justify-content: space-between; align-items: baseline; }
+  .edu-title { font-weight: 600; font-size: 10.5px; color: #333; }
+  .edu-org { color: hsl(270, 70%, 45%); font-weight: 500; }
+  .edu-year { font-size: 10px; color: #777; white-space: nowrap; }
+
+  .skills-block { margin-bottom: 5px; }
+  .skill-category { font-weight: 600; font-size: 10px; color: #333; }
+  .skill-list { font-size: 10px; color: #444; }
+
+  a { white-space: nowrap; }
+  .avoid-break, .job, .project, .edu-item { break-inside: avoid; page-break-inside: avoid; }
+
+  @media print {
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .page { padding: 6px 22px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header avoid-break">
+    <h1>Venkata Lakshmi Parimala Pasupuleti</h1>
+    <div class="header-sub">AI Engineer &middot; Agentic AI &middot; LangGraph &middot; LLMs &middot; RAG Pipelines &middot; Prompt Engineering &middot; Python &middot; Production AI</div>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <a href="mailto:venkatalakshmiparimala@gmail.com">venkatalakshmiparimala@gmail.com</a>
+      <span class="sep">|</span>
+      <a href="https://www.linkedin.com/in/venkata-lakshmi-parimala/">linkedin.com/in/venkata-lakshmi-parimala</a>
+      <span class="sep">|</span>
+      <a href="https://github.com/venkatalakshmiparimala/Lease_complaince_rag">LeaseI (live)</a>
+      <span class="sep">|</span>
+      <span>Virginia, USA &middot; Remote</span>
+    </div>
+  </div>
+
+  <!-- SUMMARY -->
+  <div class="section avoid-break">
+    <div class="section-title">Professional Summary</div>
+    <div class="summary-text">
+      AI Engineer with 8+ years of production engineering and hands-on expertise in <strong>Agentic AI, LangGraph, LLMs, and RAG</strong> &mdash; designing and deploying autonomous AI agents that perform complex tasks reliably in production. Built <strong>LeaseI</strong>: an 8-agent LangGraph StateGraph where autonomous agents (Triage &rarr; Retrieval &rarr; Configuration &rarr; Historical Incident &rarr; Structured Data &rarr; Reasoning &rarr; Validation &rarr; Human Escalation) work end-to-end without human intervention except at confidence-gated decision points &mdash; 93.6% precision across 1,240 documents, CI-integrated LLM-as-judge eval, zero production safety violations. Shipped Entrata&rsquo;s first production AI pipeline across 1.6M financial records. Expert in LangGraph/LangChain agent workflows, prompt engineering (few-shot, chain-of-thought, role specification), RAG pipeline design, and integrating LLMs with enterprise APIs. M.S. Data Analytics Engineering, GMU (GPA 3.87, May 2026).
+    </div>
+  </div>
+
+  <!-- COMPETENCIES -->
+  <div class="section avoid-break">
+    <div class="section-title">Core Competencies</div>
+    <div class="competencies-grid">
+      <span class="competency-tag">Agentic AI &amp; Autonomous Agents</span>
+      <span class="competency-tag">LangGraph &amp; LangChain</span>
+      <span class="competency-tag">LLM Integration (GPT, Claude, Gemini, Llama)</span>
+      <span class="competency-tag">RAG Pipeline Design</span>
+      <span class="competency-tag">Prompt Engineering</span>
+      <span class="competency-tag">AI Workflow Orchestration</span>
+      <span class="competency-tag">Multi-Agent Systems</span>
+      <span class="competency-tag">Python &amp; REST API Integration</span>
+      <span class="competency-tag">LLM Evaluation &amp; LLMOps</span>
+      <span class="competency-tag">Production AI &amp; Reliability</span>
+      <span class="competency-tag">HITL &amp; Agent Governance</span>
+      <span class="competency-tag">Cross-Functional AI Delivery</span>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Experience</div>
+
+    <!-- GMU Research -->
+    <div class="job avoid-break">
+      <div class="job-header">
+        <span class="job-company">George Mason University &mdash; Research Associate / Teaching Assistant</span>
+        <span class="job-period">Aug 2024 &ndash; May 2026</span>
+      </div>
+      <div class="job-role">AI/ML Research &middot; Python &middot; Statistical Modeling &middot; Instruction</div>
+      <ul>
+        <li>Built AI/ML prediction models (Python, R) achieving R&sup2; = 0.977 across 190+ countries; applied Isolation Forest anomaly detection to automate data integrity checks; designed analytics dashboards improving research comprehension by 40% across two faculty cohorts.</li>
+        <li>Mentored 600+ students across Python programming (data structures, OOP, automation) and database design (SQL, ER modeling, normalization).</li>
+      </ul>
+    </div>
+
+    <!-- Entrata -->
+    <div class="job avoid-break">
+      <div class="job-header">
+        <span class="job-company">Entrata (PropTech / Real Estate SaaS)</span>
+        <span class="job-period">Sep 2018 &ndash; Aug 2024</span>
+      </div>
+      <div class="job-role">Senior Software Engineer &mdash; Production AI &middot; Agentic Workflows &middot; Python &middot; API Integration</div>
+      <ul>
+        <li><strong>Shipped Entrata&rsquo;s first production AI pipeline</strong> across 1.6M real financial records (Python, PyTorch, OpenAI API) &mdash; designed autonomous data processing workflows with output validation gates, quality controls, and compliance enforcement; zero violations at launch.</li>
+        <li><strong>Integrated LLMs and AI models with enterprise systems via REST APIs</strong> &mdash; connected AI outputs to production data pipelines, compliance modules, and reporting systems; built and consumed 20+ APIs across Salesforce, AWS, and internal services; ensured reliability and scalability across 100K+ monthly active users.</li>
+        <li><strong>Built and optimized AI agent behavior in production</strong>: designed troubleshooting and observability tooling reducing debugging time 40%; maintained production bug count below 10 for 6+ consecutive months; optimized 200+ SQL queries (30% gain) across complex production schemas.</li>
+        <li>Eliminated 80% of manual operational workload via <strong>Python automation workflows</strong>; led 120+ Agile sprints collaborating cross-functionally with Compliance, Legal, Operations, and Product to deliver AI-driven solutions; achieved 100% PHI compliance on AWS S3 migration (zero security incidents).</li>
+      </ul>
+    </div>
+
+    <!-- Entrata India -->
+    <div class="job avoid-break">
+      <div class="job-header">
+        <span class="job-company">Entrata India (Db Xento Systems)</span>
+        <span class="job-period">Jan 2017 &ndash; Sep 2018</span>
+      </div>
+      <div class="job-role">Associate Software Engineer &mdash; Python &middot; Backend &middot; Data Pipelines</div>
+      <ul>
+        <li>Built backend compliance modules (Python, PHP, PostgreSQL); processed 1.6M HUD/Tax Credit records; migrated client data to AWS S3; contributed to API integrations and database architecture redesigns.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section">
+    <div class="section-title">Portfolio Projects</div>
+
+    <!-- LeaseI -->
+    <div class="project avoid-break">
+      <div class="project-header">
+        <span class="project-title">LeaseI &mdash; 8-Agent Autonomous AI System (LangGraph, RAG, HITL)</span>
+        <span class="project-badge">Agentic AI</span>
+        <span class="project-badge">LangGraph</span>
+        <span class="project-badge">RAG</span>
+      </div>
+      <div class="project-tech">2026 &middot; Python, LangGraph (8-agent StateGraph), FastAPI, TF-IDF RAG, OCR, SQLite, OpenAI/Anthropic APIs &middot; <a href="https://github.com/venkatalakshmiparimala/Lease_complaince_rag">github.com/venkatalakshmiparimala/Lease_complaince_rag</a></div>
+      <ul>
+        <li>Designed and built a production-grade <strong>autonomous AI agent system</strong>: 8-agent LangGraph StateGraph where agents independently perform triage, retrieval, configuration analysis, historical pattern matching, structured data querying, reasoning, validation, and conditional human escalation &mdash; each agent operates autonomously with tool use, function calling, and inter-agent state handoffs; no human in the loop except at confidence-gated regulated decision points.</li>
+        <li><strong>RAG pipeline</strong> with TF-IDF retrieval and 100% citation correctness; <strong>prompt engineering</strong> throughout (chain-of-thought, few-shot, role specification, XML-structured outputs); LLMs integrated via REST APIs (OpenAI, Anthropic) with multi-provider routing and output validation; <strong>optimized agent performance and reliability</strong> via CI-integrated LLM-as-judge evaluation (multi-trial sampling, regression gate) &mdash; regressions blocked before merge.</li>
+        <li>Achieved <strong>93.6% precision and 87.9% F1</strong> across 10 compliance rules on 1,240 residential lease PDFs (5 US states + federal); 0 safety boundary violations on full adversarial validation set; production-grade scalability via FastAPI REST endpoints.</li>
+      </ul>
+    </div>
+
+    <!-- AI on FHIR -->
+    <div class="project avoid-break">
+      <div class="project-header">
+        <span class="project-title">AI on FHIR &mdash; LLM-Powered Enterprise API Integration</span>
+        <span class="project-badge">LLM Integration</span>
+        <span class="project-badge">REST APIs</span>
+        <span class="project-badge">Agentic Workflow</span>
+      </div>
+      <div class="project-tech">2024 &middot; Flask, LLMs, FHIR APIs, React, Docker, spaCy, BERT, Embeddings &middot; <a href="https://github.com/venkatalakshmiparimala/AI_on_FHIR">github.com/venkatalakshmiparimala/AI_on_FHIR</a></div>
+      <ul>
+        <li>Reduced manual data retrieval time ~60% by building an AI workflow integrating LLMs + BERT to autonomously translate natural language queries into FHIR REST API calls over enterprise medical records &mdash; HIPAA-compliant RBAC; multi-language support (EN/ES); deployed on Docker with full enterprise API integration.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section avoid-break">
+    <div class="section-title">Education</div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">M.S. Data Analytics Engineering &mdash; <span class="edu-org">George Mason University, Virginia</span></span>
+        <span class="edu-year">May 2026 &middot; GPA 3.87</span>
+      </div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">B.Tech Computer Science &amp; Engineering &mdash; <span class="edu-org">JNTUA, India</span></span>
+        <span class="edu-year">2013&ndash;2017</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section avoid-break">
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-block">
+      <span class="skill-category">Agentic AI &amp; LLMs: </span>
+      <span class="skill-list">Agentic AI, Autonomous AI Agents, Multi-Agent Orchestration, LangGraph, LangChain, LLM Orchestration, Tool Calling, Function Calling, AI Workflows, LLMs (GPT, Claude, Gemini, Llama), OpenAI API, Anthropic API, Groq, Ollama, Prompt Engineering, Few-Shot Prompting, Zero-Shot Prompting, Chain-of-Thought Prompting, Role Specification, Output Validation, Hallucination Detection, HITL, Confidence Scoring, Guardrails</span>
+    </div>
+    <div class="skills-block">
+      <span class="skill-category">RAG &amp; Retrieval: </span>
+      <span class="skill-list">RAG Pipelines, Retrieval-Augmented Generation, Hybrid Retrieval, Semantic Search, Embeddings, Vector Database, ChromaDB, TF-IDF, NLP, spaCy, BERT, Hugging Face, OCR, Document Intelligence</span>
+    </div>
+    <div class="skills-block">
+      <span class="skill-category">LLMOps &amp; Evaluation: </span>
+      <span class="skill-list">LLMOps, LLM Evaluation, LLM-as-Judge, CI-Integrated Evals, Agent Observability, Agent Tracing, Drift Detection, Regression Testing, Model Evaluation</span>
+    </div>
+    <div class="skills-block">
+      <span class="skill-category">Backend &amp; Infrastructure: </span>
+      <span class="skill-list">Python (primary), FastAPI, REST APIs, Flask, React, TypeScript, JavaScript, AWS (S3, EC2, RDS, Glue), Docker, CI/CD (GitHub Actions), PostgreSQL, SQL, RabbitMQ, Microservices, Git, Linux, Agile/Scrum</span>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

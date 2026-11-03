@@ -1,0 +1,890 @@
+# Portal Scanner Configuration — Venkata Lakshmi Parimala Pasupuleti
+# Primary targets: AI Engineer, Forward Deployed Engineer, Software Engineer — PropTech / multifamily / HUD / LIHTC
+# Secondary targets: Solutions Engineer, Applied AI Engineer, Agentic Analytics Engineer
+# Market: United States (remote, hybrid, Virginia/DC area preferred)
+# Visa: F-1 STEM OPT → H-1B; prefer established sponsors
+#
+# Scan strategy:
+#   0. Local parser → per-company parser script (zero-token)
+#   1. Greenhouse / Ashby / Lever API → zero-token JSON (tracked_companies)
+#   2. WebSearch → search_queries section (broad discovery)
+#   3. Playwright → paste URL into data/pipeline.md, run /career-ops pipeline
+
+# -- Location filter --
+location_filter:
+  always_allow:
+    - "United States"
+    - "Remote"
+    - "Anywhere"
+  allow:
+    - "Remote"
+    - "United States"
+    - "USA"
+    - " US"
+    - "Virginia"
+    - "Washington DC"
+    - "Maryland"
+    - "New York"
+    - "San Francisco"
+    - "Seattle"
+    - "Austin"
+    - "Boston"
+    - "Chicago"
+    - "Atlanta"
+    - "Raleigh"
+    - "Denver"
+    - "Los Angeles"
+    - "Nationwide"
+    - "Anywhere"
+  block:
+    - "United Kingdom"
+    - "London"
+    - "Germany"
+    - "Berlin"
+    - "Munich"
+    - "France"
+    - "Paris"
+    - "Singapore"
+    - "Japan"
+    - "Australia"
+    - "India"
+    - "Bengaluru"
+    - "Mumbai"
+    - "Brazil"
+    - "Toronto"
+    - "Vancouver"
+    - "Spain"
+    - "Madrid"
+    - "Barcelona"
+    - "Netherlands"
+    - "Amsterdam"
+    - "Sweden"
+    - "Stockholm"
+    - "Turkey"
+    - "Istanbul"
+    - "Poland"
+
+# -- Title filter --
+# Focus (updated 2026-09-28): AI Engineer + FDE + SWE — PropTech / multifamily / HUD / LIHTC primary
+# HARD BLOCK: SWE infra, ML infra, DevOps, frontend, cleared roles, Data Analyst
+title_filter:
+  positive:
+    # -- TIER 1: AI/FDE/SWE at PropTech/multifamily companies --
+    - "AI Engineer"
+    - "Applied AI Engineer"
+    - "Forward Deployed Engineer"
+    - "Solutions Engineer"
+    - "Software Engineer"
+    - "LLM Engineer"
+    - "GenAI Engineer"
+    - "Agentic AI Engineer"
+    - "Agentic Analytics Engineer"
+    - "ML Engineer"
+    - "Machine Learning Engineer"
+    # -- TIER 2: Adjacent roles worth screening --
+    - "Solutions Architect"
+    - "Implementation Engineer"
+    - "Customer Engineer"
+    - "AI Solutions"
+    - "Analytics Engineer"
+    - "Platform Engineer"
+    - "Product Engineer"
+  negative:
+    - "Intern"
+    - "iOS"
+    - "Android"
+    - "Ruby"
+    - "Embedded"
+    - "Firmware"
+    - "FPGA"
+    - "ASIC"
+    - "Blockchain"
+    - "Web3"
+    - "Crypto"
+    - "Salesforce Admin"
+    - "Oracle EBS"
+    - "Mainframe"
+    - "COBOL"
+    - "Java "
+    - ".NET"
+    - "C#"
+    - "SAP "
+    - "Security Clearance"
+    - "TS/SCI"
+    - "Cleared"
+    - "Frontend Engineer"
+    - "Frontend Developer"
+    - "React Engineer"
+    - "DevOps Engineer"
+    - "Site Reliability"
+    - "SRE"
+    - "Network Engineer"
+    - "QA Engineer"
+    - "Test Engineer"
+    - "Manager"
+    - "Director"
+    - "VP of"
+    - "ML Platform Engineer"
+    - "ML Infrastructure"
+    - "Business Analyst"
+  seniority_boost:
+    - "Senior"
+    - "Lead"
+    - "Head"
+    - "Associate"
+    - "Junior"
+  seniority_block:                 # Hard block at Staff+ for MLE/infra titles
+    - "Staff Machine Learning"
+    - "Principal Machine Learning"
+    - "Staff ML"
+    - "Principal ML"
+
+# -- Search queries --
+search_queries:
+
+  # ── PropTech / Multifamily / HUD / LIHTC focus ────────────────────
+
+  - name: Greenhouse — AI Engineer PropTech US
+    query: 'site:job-boards.greenhouse.io "AI Engineer" OR "Applied AI Engineer" OR "LLM Engineer" "United States" OR Remote "property" OR "real estate" OR "multifamily" OR "housing" after:2026-08-01'
+    enabled: true
+
+  - name: Greenhouse — Forward Deployed Engineer PropTech US
+    query: 'site:job-boards.greenhouse.io "Forward Deployed Engineer" OR "Solutions Engineer" OR "Implementation Engineer" "United States" OR Remote "property" OR "real estate" OR "housing" OR "multifamily" after:2026-08-01'
+    enabled: true
+
+  - name: Ashby — AI Engineer PropTech US
+    query: 'site:jobs.ashbyhq.com "AI Engineer" OR "Forward Deployed Engineer" OR "Solutions Engineer" OR "Software Engineer" "United States" OR Remote "property" OR "real estate" OR "multifamily" OR "PropTech" after:2026-08-01'
+    enabled: true
+
+  - name: Lever — AI Engineer PropTech US
+    query: 'site:jobs.lever.co "AI Engineer" OR "Applied AI Engineer" OR "Forward Deployed Engineer" OR "Solutions Engineer" "United States" OR Remote "property" OR "real estate" OR "multifamily" after:2026-08-01'
+    enabled: true
+
+  - name: Greenhouse — Multifamily Software Engineer US
+    query: 'site:job-boards.greenhouse.io "Software Engineer" "United States" OR Remote "multifamily" OR "affordable housing" OR "HUD" OR "LIHTC" OR "tax credit" OR "property management" after:2026-08-01'
+    enabled: true
+
+  - name: Broad — PropTech AI Engineer US
+    query: '"AI Engineer" OR "Applied AI Engineer" OR "Agentic AI" site:jobs.ashbyhq.com OR site:job-boards.greenhouse.io OR site:jobs.lever.co "property management" OR "multifamily" OR "PropTech" OR "real estate" "United States" OR Remote after:2026-08-01'
+    enabled: true
+
+  - name: Broad — HUD LIHTC Affordable Housing Tech US
+    query: '"Software Engineer" OR "AI Engineer" OR "Solutions Engineer" "HUD" OR "LIHTC" OR "affordable housing" OR "tax credit" OR "Section 8" "United States" OR Remote Python OR LangChain OR AI after:2026-08-01'
+    enabled: true
+
+  # ── Broad US job boards ─────────────────────────────────────────────
+
+  - name: LinkedIn — AI Engineer PropTech Multifamily US
+    query: 'site:linkedin.com/jobs "AI Engineer" OR "Applied AI Engineer" OR "Forward Deployed Engineer" OR "Software Engineer" "multifamily" OR "property management" OR "PropTech" OR "affordable housing" "United States" OR Remote after:2026-08-01'
+    enabled: true
+
+  - name: LinkedIn — Fraud & Risk Data Analyst US
+    query: 'site:linkedin.com/jobs "Fraud Analyst" OR "Fraud Data Analyst" OR "Risk Data Analyst" OR "Anti-Fraud" Python OR SQL "United States" OR Remote after:2026-05-01'
+    enabled: true
+
+  - name: LinkedIn — HUD LIHTC Affordable Housing Tech US
+    query: 'site:linkedin.com/jobs "Software Engineer" OR "AI Engineer" OR "Solutions Engineer" "HUD" OR "LIHTC" OR "affordable housing" OR "tax credit" OR "Section 8" Python OR LangChain OR AI "United States" OR Remote after:2026-08-01'
+    enabled: true
+
+  - name: Indeed — PropTech AI Engineer US
+    query: 'site:indeed.com "AI Engineer" OR "Software Engineer" OR "Forward Deployed Engineer" "multifamily" OR "property management" OR "PropTech" OR "affordable housing" Python "United States" OR Remote after:2026-08-01'
+    enabled: true
+
+  - name: Himalayas — AI Engineer PropTech Remote
+    query: 'site:himalayas.app "AI Engineer" OR "Applied AI Engineer" OR "Software Engineer" OR "Forward Deployed Engineer" "multifamily" OR "real estate" OR "property" "United States" OR Remote after:2026-08-01'
+    enabled: true
+
+  - name: Handshake — AI Engineer OPT-friendly PropTech
+    query: 'site:joinhandshake.com "AI Engineer" OR "Software Engineer" OR "Applied AI" "property management" OR "real estate" OR "multifamily" "United States" after:2026-08-01'
+    enabled: true
+
+  - name: WeWorkRemotely — AI Engineer PropTech Remote
+    query: 'site:weworkremotely.com "AI Engineer" OR "Software Engineer" OR "Applied AI" "property" OR "real estate" OR "housing" after:2026-08-01'
+    enabled: true
+
+  # ── PropTech / Multifamily / HUD direct company queries ───────────
+
+  - name: Yardi — AI & SWE roles
+    query: 'site:yardi.com/careers "Software Engineer" OR "AI Engineer" OR "Solutions Engineer" Python OR AI "United States" after:2026-08-01'
+    enabled: true
+
+  - name: RealPage — AI & SWE roles
+    query: 'site:realpage.com/about/careers "Software Engineer" OR "AI Engineer" OR "Solutions Engineer" OR "Data Engineer" Python "United States" after:2026-08-01'
+    enabled: true
+
+  - name: MRI Software — AI & SWE roles
+    query: 'site:mrisoftware.com/about/careers "Software Engineer" OR "AI Engineer" OR "Full Stack" "United States" OR Remote after:2026-08-01'
+    enabled: true
+
+  - name: Broad — PropTech Series A-C AI FDE sponsoring
+    query: '"Forward Deployed Engineer" OR "Applied AI Engineer" OR "AI Engineer" "multifamily" OR "property management" OR "PropTech" OR "real estate" OR "housing" "visa sponsorship" OR "H-1B" OR "OPT" "United States" OR Remote after:2026-08-01'
+    enabled: true
+
+  # ── Solutions Engineer / FDE — AI startups (added 2026-08-17) ──────
+
+  - name: Greenhouse — Solutions Engineer AI startups
+    query: 'site:job-boards.greenhouse.io "Solutions Engineer" OR "Solutions Architect" OR "Implementation Engineer" AI OR LLM OR "machine learning" OR agentic "United States" OR Remote after:2026-06-01'
+    enabled: true
+
+  - name: Ashby — Solutions Engineer / FDE AI startups
+    query: 'site:jobs.ashbyhq.com "Solutions Engineer" OR "Forward Deployed Engineer" OR "Solutions Architect" OR "Customer Engineer" AI OR LLM OR agentic "United States" OR Remote after:2026-06-01'
+    enabled: true
+
+  - name: Lever — Solutions Engineer AI startups
+    query: 'site:jobs.lever.co "Solutions Engineer" OR "Solutions Architect" OR "Implementation Engineer" OR "Forward Deployed Engineer" AI OR LLM OR Python "United States" OR Remote after:2026-06-01'
+    enabled: true
+
+  - name: Greenhouse — Applied AI Engineer startups
+    query: 'site:job-boards.greenhouse.io "Applied AI Engineer" OR "AI Engineer" OR "GenAI Engineer" OR "LLM Engineer" "United States" OR Remote after:2026-07-01'
+    enabled: true
+
+  - name: Ashby — Applied AI Engineer startups
+    query: 'site:jobs.ashbyhq.com "Applied AI Engineer" OR "AI Engineer" OR "GenAI Engineer" LangChain OR LangGraph OR RAG OR agentic "United States" OR Remote after:2026-07-01'
+    enabled: true
+
+  # ── Affordable Housing & Multifamily SaaS — targeted queries ──
+
+  - name: Greenhouse — Affordable Housing SWE / AI Engineer
+    query: 'site:job-boards.greenhouse.io "Software Engineer" OR "AI Engineer" OR "Full Stack" "affordable housing" OR "multifamily" OR "property management" "United States" OR Remote after:2026-05-01'
+    enabled: true
+
+  - name: Ashby — Multifamily / PropTech SWE
+    query: 'site:jobs.ashbyhq.com "Software Engineer" OR "AI Engineer" OR "Full Stack Engineer" "multifamily" OR "property management" OR "affordable housing" OR "PropTech" "United States" OR Remote after:2026-05-01'
+    enabled: true
+
+  - name: Lever — Multifamily / PropTech SWE
+    query: 'site:jobs.lever.co "Software Engineer" OR "AI Engineer" OR "Full Stack" "multifamily" OR "property management" OR "affordable housing" Python "United States" OR Remote after:2026-05-01'
+    enabled: true
+
+  - name: LinkedIn — Affordable Housing SaaS Engineer
+    query: 'site:linkedin.com/jobs "Software Engineer" OR "AI Engineer" OR "Full Stack" "affordable housing" OR "LIHTC" OR "HUD" OR "Section 8" OR "property management software" Python "United States" OR Remote after:2026-05-01'
+    enabled: true
+
+  - name: LinkedIn — Multifamily PropTech AI/SWE
+    query: 'site:linkedin.com/jobs "Software Engineer" OR "AI Engineer" OR "ML Engineer" "multifamily" OR "leasing" OR "property management" AI OR Python OR LLM "United States" OR Remote after:2026-05-01'
+    enabled: true
+
+  - name: Indeed — Multifamily / Affordable Housing SWE
+    query: 'site:indeed.com "Software Engineer" OR "AI Engineer" OR "Full Stack Developer" "multifamily" OR "affordable housing" OR "property management software" Python "United States" OR Remote after:2026-05-01'
+    enabled: true
+
+tracked_companies:
+
+  # ============================================================
+  # -- Top AI Labs & Startups --
+  # ============================================================
+
+  - name: Anthropic
+    careers_url: https://job-boards.greenhouse.io/anthropic
+    api: https://boards-api.greenhouse.io/v1/boards/anthropic/jobs
+    notes: "SF/remote. AI safety lab. Applied AI Engineer, FDE, Research Engineer. Top H-1B sponsor."
+    enabled: true
+
+  - name: OpenAI
+    careers_url: https://openai.com/careers
+    scan_method: websearch
+    scan_query: 'site:openai.com/careers "Software Engineer" OR "AI Engineer" OR "ML Engineer" OR "Research Engineer"'
+    notes: "SF/remote. Top H-1B sponsor. AI research and engineering roles."
+    enabled: true
+
+  - name: Glean
+    careers_url: https://job-boards.greenhouse.io/gleanwork
+    api: https://boards-api.greenhouse.io/v1/boards/gleanwork/jobs
+    notes: "Palo Alto/remote. Enterprise AI search. FDE and software engineering roles."
+    enabled: true
+
+  - name: Cohere
+    careers_url: https://jobs.ashbyhq.com/cohere
+    notes: "Remote-US. LLM platform. Applied AI and software engineer roles. OPT/H-1B friendly."
+    enabled: true
+
+  - name: Mistral AI
+    careers_url: https://jobs.ashbyhq.com/mistral
+    notes: "Remote-US. LLM startup. Engineer roles."
+    enabled: true
+
+  - name: Hugging Face
+    careers_url: https://apply.workable.com/hugging-face
+    scan_method: websearch
+    scan_query: '"Hugging Face" "Software Engineer" OR "AI Engineer" OR "ML Engineer" careers "United States" OR Remote'
+    notes: "Remote-first US. Open source AI. ML engineer and software engineer roles."
+    enabled: true
+
+  - name: Perplexity
+    careers_url: https://jobs.ashbyhq.com/perplexity-ai
+    notes: "SF/remote. AI search engine. Software and AI engineer roles."
+    enabled: true
+
+  - name: ElevenLabs
+    careers_url: https://jobs.ashbyhq.com/elevenlabs
+    notes: "Remote-US. Voice AI. Software and AI engineer roles."
+    enabled: true
+
+  - name: Deepgram
+    careers_url: https://job-boards.greenhouse.io/deepgram
+    api: https://boards-api.greenhouse.io/v1/boards/deepgram/jobs
+    notes: "Remote-US. Speech AI. Software and AI engineer roles."
+    enabled: true
+
+  - name: Hume AI
+    careers_url: https://job-boards.greenhouse.io/humeai
+    api: https://boards-api.greenhouse.io/v1/boards/humeai/jobs
+    notes: "NYC/remote. Emotional intelligence AI. Research and software engineer roles."
+    enabled: true
+
+  - name: Vapi
+    careers_url: https://jobs.ashbyhq.com/vapi
+    notes: "SF/NYC/remote. Voice AI platform. Software and AI engineer roles."
+    enabled: true
+
+  - name: Decagon
+    careers_url: https://jobs.ashbyhq.com/decagon
+    notes: "SF/remote. AI customer service. Research and software engineer roles."
+    enabled: true
+
+  - name: Arize AI
+    careers_url: https://job-boards.greenhouse.io/arizeai
+    api: https://boards-api.greenhouse.io/v1/boards/arizeai/jobs
+    notes: "SF/remote. ML observability. AI and software engineer roles."
+    enabled: true
+
+  - name: LangChain
+    careers_url: https://jobs.ashbyhq.com/langchain
+    notes: "Remote-US. LangChain/LangSmith. Software and AI engineer roles."
+    enabled: true
+
+  - name: Pinecone
+    careers_url: https://job-boards.greenhouse.io/pinecone
+    api: https://boards-api.greenhouse.io/v1/boards/pinecone/jobs
+    notes: "Remote-US. Vector database. Software and ML engineer roles."
+    enabled: true
+
+  - name: Weights & Biases
+    careers_url: https://job-boards.greenhouse.io/wandb
+    api: https://boards-api.greenhouse.io/v1/boards/wandb/jobs
+    notes: "SF/remote. ML platform. Software and ML engineer roles."
+    enabled: true
+
+  - name: Intercom
+    careers_url: https://job-boards.greenhouse.io/intercom
+    api: https://boards-api.greenhouse.io/v1/boards/intercom/jobs
+    notes: "SF/Chicago/remote. AI customer service. Software and AI engineer roles."
+    enabled: true
+
+  - name: Parloa
+    careers_url: https://job-boards.eu.greenhouse.io/parloa
+    notes: "Remote-US. Conversational AI. FDE and software engineer roles."
+    enabled: true
+
+  - name: Bland AI
+    careers_url: https://jobs.ashbyhq.com/bland
+    notes: "SF/remote. AI phone calls. Software and AI engineer roles."
+    enabled: true
+
+  - name: Runway
+    careers_url: https://job-boards.greenhouse.io/runway
+    api: https://boards-api.greenhouse.io/v1/boards/runway/jobs
+    notes: "NYC/remote. Generative AI video. Software engineer roles."
+    enabled: true
+
+  - name: Clay Labs
+    careers_url: https://job-boards.greenhouse.io/clay
+    api: https://boards-api.greenhouse.io/v1/boards/clay/jobs
+    notes: "NYC/remote. AI data enrichment. Software engineer roles."
+    enabled: true
+
+  - name: Lumiture
+    careers_url: https://www.lumiture.io/careers
+    scan_method: websearch
+    scan_query: '"Lumiture" "AI Engineer" OR "Software Engineer" OR "Data Engineer" OR "Full Stack" careers site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com OR site:lumiture.io'
+    notes: "Remote-US. AI and data solutions for government. Strong OPT match. 93/100 fit."
+    enabled: true
+
+  - name: Aledade
+    careers_url: https://jobs.lever.co/aledade
+    notes: "Remote-US. Health AI — value-based care platform for primary care physicians. Senior SWE AI/ML + Staff AI roles. Lever ATS. H-1B history TBD."
+    enabled: true
+
+  - name: Fieldguide
+    careers_url: https://jobs.ashbyhq.com/fieldguide
+    notes: "SF/remote. Audit AI — evaluation infrastructure for agentic audit workflows. AI Engineer Quality (Evals) = AgentProbe direct match. Ashby ATS. H-1B TBD."
+    enabled: true
+
+  - name: Pager Health
+    careers_url: https://job-boards.greenhouse.io/pagerhealth
+    api: https://boards-api.greenhouse.io/v1/boards/pagerhealth/jobs
+    notes: "Remote-US. Health AI — agentic workflows, RAG pipelines, eval infra. Applied AI Engineer = direct match. Greenhouse ATS. H-1B low vol confirmed."
+    enabled: true
+
+  # ============================================================
+  # -- Big Tech (H-1B sponsors) --
+  # ============================================================
+
+  - name: Microsoft
+    careers_url: https://jobs.microsoft.com
+    scan_method: websearch
+    scan_query: 'site:jobs.microsoft.com "AI Engineer" OR "Software Engineer" OR "New Grad" Python OR "Machine Learning" OR "Full Stack" "United States"'
+    notes: "Redmond WA/remote. Top H-1B sponsor. AI and SWE teams + University Hire track for MS grads."
+    enabled: true
+
+  - name: Google / Alphabet
+    careers_url: https://careers.google.com
+    scan_method: websearch
+    scan_query: 'site:careers.google.com "Software Engineer" OR "AI Engineer" OR "ML Engineer" OR "New Grad" Python "United States"'
+    notes: "Mountain View CA/remote. Top H-1B sponsor. New Grad SWE track for MS grads — search 'New Grad Software Engineer'."
+    enabled: true
+
+  - name: Amazon / AWS
+    careers_url: https://www.amazon.jobs
+    scan_method: websearch
+    scan_query: 'site:amazon.jobs "Software Engineer" OR "AI Engineer" OR "ML Engineer" OR "Applied Scientist" Python "United States"'
+    notes: "Seattle WA/remote. Top H-1B sponsor. AWS AI/ML teams."
+    enabled: true
+
+  - name: Meta
+    careers_url: https://www.metacareers.com
+    scan_method: websearch
+    scan_query: 'site:metacareers.com "Software Engineer" OR "AI Engineer" OR "ML Engineer" Python "United States"'
+    notes: "Menlo Park CA/remote. Top H-1B sponsor. AI research and engineering."
+    enabled: true
+
+  - name: Apple
+    careers_url: https://jobs.apple.com
+    scan_method: websearch
+    scan_query: 'site:jobs.apple.com "Software Engineer" OR "AI Engineer" OR "ML Engineer" Python "United States"'
+    notes: "Cupertino CA/remote. Top H-1B sponsor."
+    enabled: true
+
+  - name: Salesforce
+    careers_url: https://job-boards.greenhouse.io/salesforce
+    scan_method: websearch
+    scan_query: 'site:careers.salesforce.com "AI Engineer" OR "Software Engineer" OR "AI Builder" Python OR LLM "United States"'
+    notes: "SF/remote. Agentforce AI platform. AI Builder new grad cohort. H-1B sponsor."
+    enabled: true
+
+  - name: Databricks
+    careers_url: https://job-boards.greenhouse.io/databricks
+    api: https://boards-api.greenhouse.io/v1/boards/databricks/jobs
+    notes: "SF/remote. Data and AI platform. Software and ML engineer roles. H-1B sponsor."
+    enabled: true
+
+  - name: Snowflake
+    careers_url: https://careers.snowflake.com
+    scan_method: websearch
+    scan_query: 'site:careers.snowflake.com "Software Engineer" OR "AI Engineer" OR "ML Engineer" OR "Data Engineer" "United States"'
+    notes: "Remote-US. Cloud data platform. H-1B sponsor."
+    enabled: true
+
+  # ============================================================
+  # -- Virginia / DC Area (Parimala's location) --
+  # ============================================================
+
+  - name: Booz Allen Hamilton
+    careers_url: https://www.boozallen.com/careers
+    scan_method: websearch
+    scan_query: 'site:boozallen.com/careers "AI Engineer" OR "Software Engineer" OR "Data Engineer" OR "ML Engineer" Python'
+    notes: "McLean VA (near Fairfax). Top H-1B sponsor. AI and data engineering roles. No clearance needed for many."
+    enabled: true
+
+  - name: Leidos
+    careers_url: https://careers.leidos.com
+    scan_method: websearch
+    scan_query: 'site:careers.leidos.com "AI Engineer" OR "Software Engineer" OR "Data Engineer" OR "ML Engineer"'
+    notes: "Reston VA/remote. Govt IT contractor. H-1B sponsor."
+    enabled: true
+
+  - name: MITRE Corporation
+    careers_url: https://careers.mitre.org
+    scan_method: websearch
+    scan_query: 'site:careers.mitre.org "AI Engineer" OR "Software Engineer" OR "Data Engineer" OR "ML Engineer"'
+    notes: "McLean VA. Non-profit govt research. Strong OPT/H-1B track record."
+    enabled: true
+
+  - name: Capital One
+    careers_url: https://www.capitalonecareers.com
+    scan_method: websearch
+    scan_query: 'site:capitalonecareers.com "AI Engineer" OR "Software Engineer" OR "ML Engineer" OR "Data Engineer" Python'
+    notes: "McLean VA/Richmond VA/remote. Top OPT/H-1B sponsor. AI and data-first culture."
+    enabled: false  # done applying to Capital One (2026-07-02)
+
+  - name: SAIC
+    careers_url: https://jobs.saic.com
+    scan_method: websearch
+    scan_query: 'site:jobs.saic.com "AI Engineer" OR "Software Engineer" OR "Data Engineer" Python'
+    notes: "Reston VA/remote. Govt IT contractor. H-1B sponsor. Check clearance requirements."
+    enabled: true
+
+  - name: ManTech International
+    careers_url: https://careers.mantech.com
+    scan_method: websearch
+    scan_query: 'site:careers.mantech.com "AI Engineer" OR "Software Engineer" OR "Data Engineer" Python'
+    notes: "Fairfax VA (close to Parimala). Govt IT contractor. Some unclassified AI roles."
+    enabled: true
+
+  # ============================================================
+  # -- FinTech / PropTech (Parimala's Entrata background) --
+  # ============================================================
+
+  - name: Stripe
+    careers_url: https://job-boards.greenhouse.io/stripe
+    api: https://boards-api.greenhouse.io/v1/boards/stripe/jobs
+    notes: "Remote-US. Payments infrastructure. Software and AI engineer roles. H-1B sponsor."
+    enabled: true
+
+  - name: Plaid
+    careers_url: https://plaid.com/careers
+    scan_method: websearch
+    scan_query: '"Plaid" "Software Engineer" OR "AI Engineer" OR "Data Engineer" OR "ML Engineer" careers site:jobs.ashbyhq.com OR site:plaid.com'
+    notes: "SF/NYC/remote. Financial data platform. Software and AI engineer roles."
+    enabled: true
+
+  - name: Affirm
+    careers_url: https://job-boards.greenhouse.io/affirm
+    api: https://boards-api.greenhouse.io/v1/boards/affirm/jobs
+    notes: "Remote-US. BNPL fintech. Software and ML engineer roles."
+    enabled: true
+
+  - name: Rippling
+    careers_url: https://www.rippling.com/careers
+    scan_method: websearch
+    scan_query: '"Rippling" "Software Engineer" OR "AI Engineer" OR "Full Stack" careers site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com'
+    notes: "SF/remote. HR/payroll/finance platform. Software engineer roles."
+    enabled: true
+
+  - name: Entrata
+    careers_url: https://www.entrata.com/careers
+    scan_method: websearch
+    scan_query: '"Entrata" "Software Engineer" OR "AI Engineer" OR "Full Stack" OR "Python" careers "United States"'
+    notes: "Lehi UT/remote. PropTech/property management. Parimala's former employer — NOT applying back."
+    enabled: false
+
+  - name: Yardi Systems
+    careers_url: https://www.yardi.com/careers
+    scan_method: websearch
+    scan_query: 'site:yardi.com/careers "Software Engineer" OR "AI Engineer" OR "Full Stack" Python "United States"'
+    notes: "Santa Barbara CA/remote. PropTech. Similar to Entrata domain. Good background match."
+    enabled: true
+
+  - name: AppFolio
+    careers_url: https://www.appfolio.com/careers
+    scan_method: websearch
+    scan_query: '"AppFolio" "Software Engineer" OR "AI Engineer" OR "Full Stack" Python careers "United States"'
+    notes: "Santa Barbara CA/remote. PropTech/property management software. Domain match. SKIP — prior rejection, do not apply."
+    enabled: false
+
+  - name: RealPage
+    careers_url: https://www.realpage.com/careers
+    scan_method: websearch
+    scan_query: '"RealPage" "Software Engineer" OR "AI Engineer" OR "Machine Learning" Python careers "United States"'
+    notes: "Richardson TX/remote. PropTech/affordable housing compliance. HUD/LIHTC domain match. H-1B sponsor."
+    enabled: true
+
+  - name: MRI Software
+    careers_url: https://www.mrisoftware.com/careers
+    scan_method: websearch
+    scan_query: '"MRI Software" "Software Engineer" OR "AI Engineer" OR "Full Stack" Python careers "United States"'
+    notes: "Atlanta GA/remote. Property management ERP. Affordable housing compliance overlap. H-1B sponsor."
+    enabled: true
+
+  - name: Buildium
+    careers_url: https://www.buildium.com/careers
+    scan_method: websearch
+    scan_query: '"Buildium" "Software Engineer" OR "AI Engineer" OR "Full Stack" Python careers "United States"'
+    notes: "Boston MA/remote. Property management software (RealPage subsidiary). Domain match."
+    enabled: true
+
+  - name: CoStar Group
+    careers_url: https://jobs.costar.com
+    scan_method: websearch
+    scan_query: '"CoStar" "Software Engineer" OR "AI Engineer" OR "Machine Learning" Python careers "United States"'
+    notes: "Arlington VA (local!). Commercial real estate data platform. AI + real estate domain match. H-1B sponsor."
+    enabled: true
+
+  - name: Knock CRM
+    careers_url: https://www.knockcrm.com/careers
+    scan_method: websearch
+    scan_query: '"Knock CRM" "Software Engineer" OR "AI Engineer" Python careers'
+    notes: "Remote. Leasing CRM for multifamily. Entrata-adjacent domain."
+    enabled: true
+
+  # ============================================================
+  # -- Healthcare AI (AI on FHIR background) --
+  # ============================================================
+
+  - name: Epic Systems
+    careers_url: https://careers.epic.com
+    scan_method: websearch
+    scan_query: 'site:careers.epic.com "Software Engineer" OR "AI Engineer" OR "Data Engineer"'
+    notes: "Verona WI. Healthcare IT. FHIR domain match with AI on FHIR project. OPT-friendly."
+    enabled: true
+
+  - name: Veeva Systems
+    careers_url: https://job-boards.greenhouse.io/veeva
+    api: https://boards-api.greenhouse.io/v1/boards/veeva/jobs
+    notes: "Remote-US. Healthcare cloud. Software and AI engineer roles. H-1B sponsor."
+    enabled: true
+
+  - name: Innovaccer
+    careers_url: https://innovaccer.com/careers
+    scan_method: websearch
+    scan_query: '"Innovaccer" "Software Engineer" OR "AI Engineer" OR "Data Engineer" OR "Full Stack" careers "United States"'
+    notes: "SF/remote. Healthcare data platform. FHIR domain match. OPT/H-1B friendly."
+    enabled: true
+
+  - name: Health Catalyst
+    careers_url: https://www.healthcatalyst.com/careers
+    scan_method: websearch
+    scan_query: '"Health Catalyst" "Software Engineer" OR "AI Engineer" OR "Data Engineer" careers "United States"'
+    notes: "Salt Lake City UT/remote. Healthcare analytics. FHIR domain match."
+    enabled: true
+
+  # ============================================================
+  # -- Developer Tools / Infrastructure --
+  # ============================================================
+
+  - name: Retool
+    careers_url: https://job-boards.greenhouse.io/retool
+    api: https://boards-api.greenhouse.io/v1/boards/retool/jobs
+    notes: "SF/remote. Internal tooling platform. Software engineer roles."
+    enabled: true
+
+  - name: Airtable
+    careers_url: https://job-boards.greenhouse.io/airtable
+    api: https://boards-api.greenhouse.io/v1/boards/airtable/jobs
+    notes: "SF/remote. Database/AI platform. Software and AI engineer roles."
+    enabled: true
+
+  - name: Vercel
+    careers_url: https://job-boards.greenhouse.io/vercel
+    api: https://boards-api.greenhouse.io/v1/boards/vercel/jobs
+    notes: "Remote-US. Frontend deployment platform. Software engineer roles."
+    enabled: true
+
+  - name: Supabase
+    careers_url: https://jobs.ashbyhq.com/supabase
+    notes: "Remote-US. Open source Firebase. Software engineer roles."
+    enabled: true
+
+  - name: Hightouch
+    careers_url: https://job-boards.greenhouse.io/hightouch
+    api: https://boards-api.greenhouse.io/v1/boards/hightouch/jobs
+    notes: "Remote-US. Data activation platform. Software and data engineer roles."
+    enabled: true
+
+  - name: WorkOS
+    careers_url: https://job-boards.greenhouse.io/workos
+    api: https://boards-api.greenhouse.io/v1/boards/workos/jobs
+    notes: "Remote-US. Enterprise SSO/auth. Software engineer roles."
+    enabled: true
+
+  - name: Palantir
+    careers_url: https://jobs.lever.co/palantir
+    notes: "NYC/Denver/remote. Data analytics and AI. Software and AI engineer roles. H-1B sponsor."
+    enabled: true
+
+  - name: Replit
+    careers_url: https://jobs.ashbyhq.com/replit
+    notes: "Remote-US. AI coding platform. Software and AI engineer roles."
+    enabled: true
+
+  - name: Cursor
+    careers_url: https://www.cursor.com/careers
+    scan_method: websearch
+    scan_query: '"Cursor" AI "Software Engineer" OR "AI Engineer" OR "ML Engineer" careers site:jobs.ashbyhq.com OR site:cursor.com'
+    notes: "SF/remote. AI code editor. Software and AI engineer roles."
+    enabled: true
+
+  - name: Harvey AI
+    careers_url: https://jobs.ashbyhq.com/harvey
+    notes: "SF/remote. Legal AI. Software and AI engineer roles."
+    enabled: true
+
+  - name: Writer
+    careers_url: https://job-boards.greenhouse.io/writer
+    api: https://boards-api.greenhouse.io/v1/boards/writer/jobs
+    notes: "SF/remote. Enterprise AI writing. Software and AI engineer roles."
+    enabled: true
+
+  - name: Scale AI
+    careers_url: https://job-boards.greenhouse.io/scaleai
+    api: https://boards-api.greenhouse.io/v1/boards/scaleai/jobs
+    notes: "SF/remote. AI data platform. Software and ML engineer roles. H-1B sponsor."
+    enabled: true
+
+  - name: Stability AI
+    careers_url: https://jobs.ashbyhq.com/Stability-AI
+    notes: "Remote-US. Image generation AI. Software and ML engineer roles."
+    enabled: true
+
+  - name: Synthesia
+    careers_url: https://jobs.ashbyhq.com/synthesia
+    notes: "Remote-US. AI video platform. Software engineer roles."
+    enabled: true
+
+  # ============================================================
+  # -- Fraud / Risk / Data Analyst targets --
+  # ============================================================
+
+  - name: Intuit
+    careers_url: https://jobs.intuit.com
+    scan_method: websearch
+    scan_query: 'site:jobs.intuit.com "Data Analyst" OR "Business Analyst" OR "Fraud Analyst" OR "Risk Analyst" OR "Software Engineer" "United States"'
+    notes: "Mountain View/remote. Top H-1B sponsor. Fraud, risk, and data analyst roles. Strong prior fit (4.5/5)."
+    enabled: true
+
+  - name: Visa
+    careers_url: https://careers.visa.com
+    scan_method: websearch
+    scan_query: 'site:careers.visa.com "Data Analyst" OR "Business Analyst" OR "Fraud Analyst" OR "Risk Analyst" OR "AI Engineer" "United States"'
+    notes: "Foster City CA/remote. Top H-1B sponsor. Fraud and data analytics roles."
+    enabled: true
+
+  - name: Mastercard
+    careers_url: https://careers.mastercard.com
+    scan_method: websearch
+    scan_query: 'site:careers.mastercard.com "Data Analyst" OR "Business Analyst" OR "Fraud Analyst" OR "Risk Analyst" "United States"'
+    notes: "Purchase NY/remote. Top H-1B sponsor. Fraud and risk analytics roles."
+    enabled: true
+
+  - name: JPMorgan Chase
+    careers_url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions
+    scan_method: websearch
+    scan_query: 'site:jpmorganchase.com "Data Analyst" OR "Business Analyst" OR "Fraud Analyst" OR "Risk Analyst" OR "Quantitative Analyst" "United States"'
+    notes: "NYC/remote. Top H-1B sponsor. Fraud, risk, and data analyst roles. Large data analytics org."
+    enabled: true
+
+  - name: American Express
+    careers_url: https://aexp.eightfold.ai/careers
+    scan_method: websearch
+    scan_query: '"American Express" "Data Analyst" OR "Business Analyst" OR "Fraud Analyst" OR "Risk Analyst" careers "United States"'
+    notes: "NYC/Phoenix/remote. Top H-1B sponsor. Fraud and data analytics roles."
+    enabled: true
+
+  - name: PayPal
+    careers_url: https://careers.pypl.com
+    scan_method: websearch
+    scan_query: 'site:paypal.com "Data Analyst" OR "Business Analyst" OR "Fraud Analyst" OR "Risk Analyst" OR "AI Engineer" "United States"'
+    notes: "Remote-US. Top H-1B sponsor. Fraud detection and data analytics roles."
+    enabled: true
+
+  - name: Chime
+    careers_url: https://job-boards.greenhouse.io/chime
+    api: https://boards-api.greenhouse.io/v1/boards/chime/jobs
+    notes: "SF/remote. Neobank. Data analyst and fraud roles. H-1B sponsor."
+    enabled: true
+
+  - name: Sezzle
+    careers_url: https://jobs.lever.co/sezzle
+    notes: "Remote-US. BNPL fintech. Fraud analyst roles. H-1B sponsor confirmed."
+    enabled: true
+
+  # ============================================================
+  # -- Income Fraud / Identity Verification targets --
+  # Parimala's 8yr LIHTC/HCV income-fraud detection work
+  # is the exact problem these companies sell against.
+  # ============================================================
+
+  - name: Snappt
+    careers_url: https://snappt.com/careers
+    scan_method: websearch
+    scan_query: '"Snappt" "Data" OR "Fraud" OR "AI" OR "Engineer" OR "Analyst" site:job-boards.greenhouse.io OR site:jobs.lever.co OR site:snappt.com'
+    notes: "Income fraud detection for property managers (fake paystubs). Parimala caught fake paystubs manually at Entrata for 8 years — Entrata published industry research on the same problem. Domain credibility is unmatched. Verify H-1B."
+    enabled: true
+
+  - name: Truework
+    careers_url: https://www.truework.com/careers
+    scan_method: websearch
+    scan_query: '"Truework" "Data" OR "Fraud" OR "AI" OR "Engineer" OR "Analyst" site:job-boards.greenhouse.io OR site:jobs.lever.co OR site:truework.com'
+    notes: "Income and employment verification. Direct overlap with Entrata income-verification work. Verify H-1B."
+    enabled: true
+
+  - name: Persona
+    careers_url: https://job-boards.greenhouse.io/persona
+    api: https://boards-api.greenhouse.io/v1/boards/persona/jobs
+    notes: "Identity verification platform. Fraud + identity domain. H-1B sponsor. Strong fit for income fraud and compliance background."
+    enabled: true
+
+  # ============================================================
+  # -- Affordable Housing & Multifamily SaaS (PRIMARY FOCUS) --
+  # Parimala's 8yr Entrata HUD/LIHTC/income-limit domain is
+  # an immediate, unmatched differentiator in this vertical.
+  # ============================================================
+
+  - name: EliseAI
+    careers_url: https://jobs.ashbyhq.com/EliseAI
+    notes: "NYC/remote. AI leasing assistant for multifamily apartments — LLM/RAG stack, conversational AI for resident engagement. Series E ($250M, a16z). Direct domain + AI stack match. Currently only new-grad SWE open; monitor for mid-level roles. Verify H-1B."
+    enabled: true
+
+  - name: Funnel Leasing
+    careers_url: https://www.funnelleasing.com/careers
+    scan_method: websearch
+    scan_query: '"Funnel Leasing" "Software Engineer" OR "AI Engineer" OR "Full Stack" OR "Python" careers site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com OR site:jobs.lever.co OR site:funnelleasing.com'
+    notes: "Remote-US. Multifamily leasing AI platform — CRM + AI for apartment operators. Direct domain match. Verify H-1B."
+    enabled: true
+
+  - name: ResMan
+    careers_url: https://resman.com/careers
+    scan_method: websearch
+    scan_query: '"ResMan" "Software Engineer" OR "AI Engineer" OR "Full Stack" OR "Python" OR "Data Engineer" careers site:job-boards.greenhouse.io OR site:jobs.lever.co OR site:resman.com'
+    notes: "Plano TX/remote. Property management SaaS for multifamily + affordable housing — direct Entrata competitor, same HUD/LIHTC domain. Verify H-1B."
+    enabled: true
+
+  - name: Emphasys Software
+    careers_url: https://www.emphasyssoftware.com/careers
+    scan_method: websearch
+    scan_query: '"Emphasys" "Software Engineer" OR "Developer" OR "AI" OR "Python" OR "Full Stack" careers "United States"'
+    notes: "Remote-US. Affordable housing compliance software (HUD Section 8, LIHTC, HOME, PBRA) — exact match for 8yr HUD income-limit pipeline and LIHTC compliance work at Entrata. Small company. Verify H-1B."
+    enabled: true
+
+  - name: HAPPY Software
+    careers_url: https://www.happysoftware.com/company/careers
+    scan_method: websearch
+    scan_query: '"HAPPY Software" OR "HAPPYsoftware" "Software Engineer" OR "Developer" OR "AI" careers "United States"'
+    notes: "Remote-US. Public Housing Authority management — HUD, Section 8, HCV, PHA. High domain relevance (HUD compliance, income eligibility). Verify H-1B."
+    enabled: true
+
+  - name: SmartRent
+    careers_url: https://job-boards.greenhouse.io/smartrent
+    api: https://boards-api.greenhouse.io/v1/boards/smartrent/jobs
+    notes: "Scottsdale AZ/remote. Multifamily smart home and resident tech platform (NYSE: SMRT). Software engineer and AI roles. Public company — H-1B sponsor likely."
+    enabled: true
+
+  - name: LeaseHawk
+    careers_url: https://www.leasehawk.com/about/careers
+    scan_method: websearch
+    scan_query: '"LeaseHawk" "Software Engineer" OR "AI Engineer" OR "Developer" OR "Python" careers site:job-boards.greenhouse.io OR site:jobs.lever.co OR site:leasehawk.com'
+    notes: "Scottsdale AZ/remote. AI-powered leasing assistant for multifamily apartments. Domain match. Verify H-1B."
+    enabled: true
+
+  - name: Quext
+    careers_url: https://www.quext.com/careers
+    scan_method: websearch
+    scan_query: '"Quext" "Software Engineer" OR "AI Engineer" OR "Developer" OR "Python" careers site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com OR site:jobs.lever.co'
+    notes: "Austin TX/remote. Smart apartment platform (IoT + AI for multifamily). Verify H-1B."
+    enabled: true
+
+  - name: Rent Dynamics
+    careers_url: https://rentdynamics.com/careers
+    scan_method: websearch
+    scan_query: '"Rent Dynamics" "Software Engineer" OR "AI Engineer" OR "Developer" OR "Python" careers site:job-boards.greenhouse.io OR site:jobs.lever.co OR site:rentdynamics.com'
+    notes: "South Jordan UT/remote. Resident financial services for multifamily (same Utah proptech ecosystem as Entrata). Verify H-1B."
+    enabled: true
+
+  - name: Zego (Multifamily Payments)
+    careers_url: https://www.gozego.com/careers
+    scan_method: websearch
+    scan_query: '"Zego" "Software Engineer" OR "AI Engineer" OR "Developer" OR "Python" multifamily careers site:job-boards.greenhouse.io OR site:jobs.lever.co OR site:gozego.com'
+    notes: "Remote-US. Resident payment and utility management for multifamily (Global Payments subsidiary). Domain match. H-1B via parent company likely."
+    enabled: true
+
+  - name: RentVine
+    careers_url: https://www.rentvine.com/careers
+    scan_method: websearch
+    scan_query: '"RentVine" "Software Engineer" OR "Developer" OR "AI" OR "Python" careers "United States"'
+    notes: "Remote-US. Property management software for residential and multifamily. Entrata-adjacent domain. Verify H-1B."
+    enabled: true
+
+  - name: Occupier
+    careers_url: https://jobs.ashbyhq.com/occupier
+    notes: "NYC/remote. Commercial real estate lease management platform. PropTech + compliance domain overlap. Verify H-1B."
+    enabled: true

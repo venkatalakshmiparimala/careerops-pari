@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Venkata Lakshmi Parimala Pasupuleti — CV</title>
+<style>
+  @font-face { font-family: 'Space Grotesk'; src: url('./fonts/space-grotesk-latin.woff2') format('woff2'); font-weight: 300 700; font-style: normal; font-display: swap; unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  @font-face { font-family: 'Space Grotesk'; src: url('./fonts/space-grotesk-latin-ext.woff2') format('woff2'); font-weight: 300 700; font-style: normal; font-display: swap; unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+  @font-face { font-family: 'DM Sans'; src: url('./fonts/dm-sans-latin.woff2') format('woff2'); font-weight: 100 1000; font-style: normal; font-display: swap; unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  @font-face { font-family: 'DM Sans'; src: url('./fonts/dm-sans-latin-ext.woff2') format('woff2'); font-weight: 100 1000; font-style: normal; font-display: swap; unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-family: 'DM Sans', sans-serif; font-size: 11px; line-height: 1.5; color: #1a1a2e; background: #ffffff; }
+  .page { width: 100%; max-width: 820px; margin: 0 auto; padding: 28px 36px; }
+  .header { margin-bottom: 20px; }
+  .header h1 { font-family: 'Space Grotesk', sans-serif; font-size: 28px; font-weight: 700; color: #1a1a2e; letter-spacing: -0.02em; margin-bottom: 6px; line-height: 1.1; }
+  .header-gradient { height: 2px; background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%)); border-radius: 1px; margin-bottom: 10px; }
+  .contact-row { display: flex; flex-wrap: wrap; gap: 8px 14px; font-size: 10.5px; color: #555; }
+  .contact-row a { color: #555; text-decoration: none; }
+  .contact-row .separator { color: #ccc; }
+  .section { margin-bottom: 18px; }
+  .section-title { font-family: 'Space Grotesk', sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: hsl(187, 74%, 32%); border-bottom: 1.5px solid #e2e2e2; padding-bottom: 4px; margin-bottom: 10px; }
+  .summary-text { font-size: 11px; line-height: 1.7; color: #2f2f2f; }
+  a { white-space: nowrap; }
+  .competencies-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+  .competency-tag { font-size: 10px; font-weight: 500; color: hsl(187, 74%, 28%); background: hsl(187, 40%, 95%); padding: 4px 10px; border-radius: 3px; border: 1px solid hsl(187, 40%, 88%); }
+  .job { margin-bottom: 14px; }
+  .job-header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 4px; }
+  .job-company { font-family: 'Space Grotesk', sans-serif; font-size: 12.5px; font-weight: 600; color: hsl(270, 70%, 45%); }
+  .job-period { font-size: 10.5px; color: #777; white-space: nowrap; }
+  .job-role { font-size: 11px; font-weight: 600; color: #333; margin-bottom: 6px; }
+  .job-location { font-size: 10px; color: #888; }
+  .job ul { padding-left: 18px; margin-top: 6px; }
+  .job li { font-size: 10.5px; line-height: 1.6; color: #333; margin-bottom: 4px; }
+  .job li strong { font-weight: 600; }
+  .project { margin-bottom: 12px; }
+  .project-title { font-family: 'Space Grotesk', sans-serif; font-size: 11.5px; font-weight: 600; color: hsl(270, 70%, 45%); }
+  .project-badge { font-size: 9px; font-weight: 500; color: hsl(187, 74%, 32%); background: hsl(187, 40%, 95%); padding: 1px 6px; border-radius: 2px; margin-left: 6px; }
+  .project-desc { font-size: 10.5px; color: #444; margin-top: 3px; line-height: 1.55; }
+  .project-tech { font-size: 9.5px; color: #888; margin-top: 3px; }
+  .edu-item { margin-bottom: 8px; }
+  .edu-header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  .edu-title { font-weight: 600; font-size: 11px; color: #333; }
+  .edu-org { color: hsl(270, 70%, 45%); font-weight: 500; }
+  .edu-year { font-size: 10px; color: #777; white-space: nowrap; }
+  @media print { body { -webkit-print-color-adjust: exact; print-color-adjust: exact; } .page { padding: 0; } }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>Venkata Lakshmi Parimala Pasupuleti</h1>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <span>venkatalakshmiparimalap@gmail.com</span>
+      <span class="separator">|</span>
+      <span>+1-703-261-5410</span>
+      <span class="separator">|</span>
+      <span>Fairfax, VA</span>
+      <span class="separator">|</span>
+      <a href="https://www.linkedin.com/in/venkata-lakshmi-parimala/">LinkedIn</a>
+      <span class="separator">|</span>
+      <a href="https://github.com/venkatalakshmiparimala">GitHub</a>
+    </div>
+  </div>
+
+  <!-- SUMMARY -->
+  <div class="section">
+    <div class="section-title">Summary</div>
+    <div class="summary-text">
+      Software engineer with 6+ years building production AI automations, LLM agent loops, and backend systems for regulated environments. Embed with business teams, map workflows end-to-end, and build agentic tools that scale their expertise -- the same pattern I used at Entrata to automate housing compliance and HUD data workflows across a 100K+ MAU platform. Built LeaseI, an 8-agent LangGraph system with engineered loop architecture (act, verify against goal, stop or escalate to human) for housing compliance operations. Document extraction, structured outputs, LLM-as-judge evaluation, and security-first design are core to how I build. Currently deploying Claude into financial workflows at Intuit. Daily Claude Code user.
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section">
+    <div class="section-title">Core Competencies</div>
+    <div class="competencies-grid">
+      <span class="competency-tag">LLM Agent Loop Engineering</span>
+      <span class="competency-tag">Python / FastAPI</span>
+      <span class="competency-tag">TypeScript / Node.js</span>
+      <span class="competency-tag">LangGraph (Multi-Agent)</span>
+      <span class="competency-tag">Document Extraction &amp; OCR</span>
+      <span class="competency-tag">Structured Outputs</span>
+      <span class="competency-tag">LLM-as-Judge Evaluation</span>
+      <span class="competency-tag">Human-in-the-Loop (HITL)</span>
+      <span class="competency-tag">Workflow Automation</span>
+      <span class="competency-tag">REST API Integrations</span>
+      <span class="competency-tag">SQL / PostgreSQL</span>
+      <span class="competency-tag">AWS (Lambda, S3, RDS, SQS)</span>
+      <span class="competency-tag">Audit Logging &amp; Least-Privilege</span>
+      <span class="competency-tag">PHI / Regulated Data Security</span>
+      <span class="competency-tag">CI/CD (GitHub Actions)</span>
+      <span class="competency-tag">Docker</span>
+      <span class="competency-tag">Business Process Mapping</span>
+      <span class="competency-tag">Runbook Documentation</span>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Experience</div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Intuit</span>
+        <span class="job-period">Jun 2026 -- Present</span>
+      </div>
+      <div class="job-role">Software Engineer <span class="job-location">-- Virginia, USA</span></div>
+      <ul>
+        <li>Build <strong>LLM automations for financial workflows</strong> -- structured-output schemas, prompt design, and retrieval-grounded Claude responses for financial data summaries and natural-language queries.</li>
+        <li>Implement <strong>guardrails and audit controls</strong> around LLM calls: input validation, sensitive-data handling, and fallbacks when model output fails checks.</li>
+        <li>Build <strong>LLM-as-judge eval harnesses</strong> with golden datasets in CI, catching hallucinations and regressions before release; maintain runbooks for production LLM services.</li>
+        <li>Deploy Python/FastAPI services on AWS via Docker and GitHub Actions CI/CD; instrument with Prometheus and OpenTelemetry.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Entrata -- Affordable Housing &amp; Property Management SaaS</span>
+        <span class="job-period">Oct 2020 -- Jul 2024</span>
+      </div>
+      <div class="job-role">Senior Software Engineer <span class="job-location">-- Multi-tenant platform, 100K+ monthly active users</span></div>
+      <ul>
+        <li><strong>Embedded with business and compliance teams</strong> to understand housing workflows end-to-end -- lease management, income eligibility, HUD imports, rent calculations -- and built the automation and tooling that scaled those workflows across the platform.</li>
+        <li>Owned the annual <strong>HUD income-limit automation</strong> for 6 years: mapped the federal data transformation end-to-end, wrote build-ready specs, built the pipeline (~180,000 domain records), and maintained runbooks for the annual release cycle. Zero compliance violations.</li>
+        <li>Built <strong>document automation pipelines</strong>: 56 state-specific housing certification documents generated via automated merge-field workflows; OCR-adjacent document ingestion for resident records.</li>
+        <li>Built <strong>RabbitMQ async automation</strong> for gross-rent updates across thousands of tenant records with idempotency guarantees, retry logic, and human escalation for exceptions.</li>
+        <li>Implemented <strong>least-privilege access controls and PHI encryption</strong> (Libsodium) covering 100% of resident data in compliance with federal housing standards; led AWS S3 migration with security validation.</li>
+        <li>Wrote Python/Bash automation cutting manual operational work by 80%; optimized 200+ SQL queries (30% gain); reviewed 300+ PRs and mentored junior engineers.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Entrata India</span>
+        <span class="job-period">Sep 2018 -- Oct 2020</span>
+      </div>
+      <div class="job-role">Junior Software Engineer <span class="job-location">-- Pune, India</span></div>
+      <ul>
+        <li>Built property management backend modules (Python, Java, PostgreSQL) and large-scale data reconciliation pipelines processing 1.6M HUD/Tax Credit records with validation and rollback.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section">
+    <div class="section-title">Projects</div>
+
+    <div class="project">
+      <div class="project-title">LeaseI -- LLM Agent Loop for Housing Compliance
+        <span class="project-badge">Python · LangGraph · FastAPI · Loop Engineering · HITL</span>
+      </div>
+      <div class="project-desc">
+        8-agent LangGraph system with engineered loop architecture for housing compliance: each agent has a clear goal, tools, verification against expected results, defined stop conditions, and a human checkpoint wherever a compliance or financial decision is required. Document ingestion (OCR), section-aware chunking, hybrid retrieval, and answers cited to source clause. Audit trail on all agent actions. LLM-as-judge CI: 93.6% precision, 87.9% F1 across 1,240 test cases.
+      </div>
+      <div class="project-tech">github.com/venkatalakshmiparimala/Lease_complaince_rag</div>
+    </div>
+
+    <div class="project">
+      <div class="project-title">AgentProbe -- LLM Evaluation &amp; Governance Toolkit
+        <span class="project-badge">Python · FastAPI · LLM-as-Judge · CI/CD · Audit Logging</span>
+      </div>
+      <div class="project-desc">
+        Production evaluation framework: 15-endpoint FastAPI backend, LLM-as-judge scoring across five metrics (accuracy, hallucination, retrieval, completeness, compliance), and CI regression against golden datasets. Built to measure every model or prompt change before it ships -- the same pattern Ascent's AI governance gate requires.
+      </div>
+      <div class="project-tech">github.com/venkatalakshmiparimala/AgentProbe</div>
+    </div>
+
+    <div class="project">
+      <div class="project-title">AI on FHIR -- Clinical NLP Automation
+        <span class="project-badge">Python · Flask · REST APIs · RBAC · Least-Privilege · Docker</span>
+      </div>
+      <div class="project-desc">
+        Automated clinical question-to-FHIR-API workflow using LLMs and BERT. Fine-grained role-based access control for HIPAA-style data isolation; secrets management and least-privilege design throughout. Reduced manual clinical lookup time by ~60%.
+      </div>
+      <div class="project-tech">github.com/venkatalakshmiparimala/AI_on_FHIR</div>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section">
+    <div class="section-title">Education</div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">M.S. Data Analytics Engineering &mdash; <span class="edu-org">George Mason University, Virginia</span></span>
+        <span class="edu-year">May 2026 | GPA 3.87</span>
+      </div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">B.Tech Computer Science &amp; Engineering &mdash; <span class="edu-org">JNTU Anantapur</span></span>
+        <span class="edu-year">2017</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

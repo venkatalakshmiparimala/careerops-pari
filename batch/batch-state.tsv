@@ -1,0 +1,3 @@
+id	url	status	started_at	completed_at	report_num	score	error	retries
+1	https://stripe.com/jobs/search?gh_jid=7376419	completed	2026-06-03T21:40:38Z	2026-06-03T21:45:41Z	031	2.5	-	0
+2	https://job-boards.greenhouse.io/anthropic/jobs/5232055008	processing	2026-06-03T21:45:41Z	-	032	-	-	0

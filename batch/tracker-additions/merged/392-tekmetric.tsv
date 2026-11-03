@@ -1,0 +1,1 @@
+392	2026-09-21	Tekmetric	SWE -- Web Scraping / Data Pipelines / Search	SKIP	2.5/5	❌	[392](reports/392-tekmetric-swe-data-scraping-2026-09-21.md)	Core stack gaps: Scrapy/scraping, ElasticSearch, Airflow (prod), Spark (prod) -- all simultaneously missing

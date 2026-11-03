@@ -1,0 +1,157 @@
+merchant_id,merchant_name,merchant_category,mcc_code,city,state,is_high_risk
+MER0001,Quill 1,Office Supplies,5111,Seattle,IL,0
+MER0002,Staples 2,Office Supplies,5111,Chicago,CA,0
+MER0003,OfficeMax 3,Office Supplies,5111,Atlanta,IL,0
+MER0004,Viking Supply 4,Office Supplies,5111,Atlanta,FL,0
+MER0005,Quill 5,Office Supplies,5111,Phoenix,NY,0
+MER0006,Staples 6,Office Supplies,5111,Phoenix,GA,0
+MER0007,Staples 7,Office Supplies,5111,Phoenix,WA,0
+MER0008,OfficeMax 8,Office Supplies,5111,Seattle,NY,0
+MER0009,Office Depot 9,Office Supplies,5111,Los Angeles,IL,0
+MER0010,Office Depot 10,Office Supplies,5111,Houston,CA,0
+MER0011,Office Depot 11,Office Supplies,5111,Los Angeles,NY,0
+MER0012,Quill 12,Office Supplies,5111,Dallas,FL,0
+MER0013,Delta Air 1,Travel,4511,Chicago,GA,0
+MER0014,Marriott 2,Travel,4511,Houston,NY,0
+MER0015,United 3,Travel,4511,Chicago,IL,0
+MER0016,Hyatt 4,Travel,4511,Seattle,IL,0
+MER0017,Hertz 5,Travel,4511,Los Angeles,CA,0
+MER0018,Hyatt 6,Travel,4511,Seattle,CA,0
+MER0019,Marriott 7,Travel,4511,Atlanta,TX,0
+MER0020,Hertz 8,Travel,4511,Houston,AZ,0
+MER0021,Hilton 9,Travel,4511,Dallas,FL,0
+MER0022,Hertz 10,Travel,4511,Seattle,IL,0
+MER0023,United 11,Travel,4511,Houston,IL,0
+MER0024,Marriott 12,Travel,4511,New York,TX,0
+MER0025,Hertz 13,Travel,4511,Houston,NY,0
+MER0026,Delta Air 14,Travel,4511,New York,TX,0
+MER0027,Delta Air 15,Travel,4511,New York,GA,0
+MER0028,Delta Air 16,Travel,4511,Houston,AZ,0
+MER0029,Hyatt 17,Travel,4511,Seattle,TX,0
+MER0030,Hertz 18,Travel,4511,Los Angeles,FL,0
+MER0031,United 19,Travel,4511,Seattle,WA,0
+MER0032,United 20,Travel,4511,Chicago,IL,0
+MER0033,Local Bistro 1,Dining,5812,Dallas,WA,0
+MER0034,Local Bistro 2,Dining,5812,Seattle,NY,0
+MER0035,Panera 3,Dining,5812,New York,WA,0
+MER0036,Olive Garden 4,Dining,5812,Chicago,TX,0
+MER0037,Chipotle 5,Dining,5812,Houston,FL,0
+MER0038,Chipotle 6,Dining,5812,Atlanta,CA,0
+MER0039,Olive Garden 7,Dining,5812,Seattle,TX,0
+MER0040,Panera 8,Dining,5812,Seattle,IL,0
+MER0041,Panera 9,Dining,5812,New York,IL,0
+MER0042,Chipotle 10,Dining,5812,Los Angeles,WA,0
+MER0043,Local Bistro 11,Dining,5812,Seattle,TX,0
+MER0044,Local Bistro 12,Dining,5812,New York,CA,0
+MER0045,Local Bistro 13,Dining,5812,New York,WA,0
+MER0046,Olive Garden 14,Dining,5812,Seattle,AZ,0
+MER0047,Local Bistro 15,Dining,5812,Seattle,CA,0
+MER0048,Chipotle 16,Dining,5812,Phoenix,TX,0
+MER0049,Panera 17,Dining,5812,New York,GA,0
+MER0050,Panera 18,Dining,5812,New York,FL,0
+MER0051,Subway 19,Dining,5812,Los Angeles,NY,0
+MER0052,Subway 20,Dining,5812,Chicago,CA,0
+MER0053,Shell 1,Fuel,5541,Chicago,TX,0
+MER0054,Chevron 2,Fuel,5541,Chicago,TX,0
+MER0055,Sunoco 3,Fuel,5541,New York,IL,0
+MER0056,Chevron 4,Fuel,5541,Dallas,AZ,0
+MER0057,BP 5,Fuel,5541,Dallas,TX,0
+MER0058,ExxonMobil 6,Fuel,5541,Atlanta,CA,0
+MER0059,ExxonMobil 7,Fuel,5541,Seattle,GA,0
+MER0060,Shell 8,Fuel,5541,New York,FL,0
+MER0061,Sunoco 9,Fuel,5541,Chicago,IL,0
+MER0062,Sunoco 10,Fuel,5541,Houston,AZ,0
+MER0063,BP 11,Fuel,5541,Dallas,IL,0
+MER0064,BP 12,Fuel,5541,Dallas,AZ,0
+MER0065,BP 13,Fuel,5541,Seattle,AZ,0
+MER0066,Sunoco 14,Fuel,5541,New York,AZ,0
+MER0067,Shell 15,Fuel,5541,Los Angeles,AZ,0
+MER0068,Shell 16,Fuel,5541,Chicago,CA,0
+MER0069,ExxonMobil 17,Fuel,5541,Phoenix,TX,0
+MER0070,ExxonMobil 18,Fuel,5541,Houston,AZ,0
+MER0071,Sunoco 19,Fuel,5541,Seattle,AZ,0
+MER0072,Shell 20,Fuel,5541,Chicago,WA,0
+MER0073,CDW 1,Technology Equipment,5045,New York,NY,0
+MER0074,CDW 2,Technology Equipment,5045,Los Angeles,AZ,0
+MER0075,B&H Photo 3,Technology Equipment,5045,Seattle,WA,0
+MER0076,Best Buy 4,Technology Equipment,5045,New York,IL,0
+MER0077,Dell 5,Technology Equipment,5045,Los Angeles,NY,0
+MER0078,CDW 6,Technology Equipment,5045,Los Angeles,WA,0
+MER0079,B&H Photo 7,Technology Equipment,5045,New York,AZ,0
+MER0080,CDW 8,Technology Equipment,5045,New York,GA,0
+MER0081,B&H Photo 9,Technology Equipment,5045,Houston,IL,0
+MER0082,CDW 10,Technology Equipment,5045,Atlanta,CA,0
+MER0083,B&H Photo 11,Technology Equipment,5045,Los Angeles,CA,0
+MER0084,Newegg 12,Technology Equipment,5045,New York,CA,0
+MER0085,Medline 1,Healthcare Supplies,5047,Atlanta,TX,0
+MER0086,Medline 2,Healthcare Supplies,5047,Los Angeles,IL,0
+MER0087,Cardinal Health 3,Healthcare Supplies,5047,New York,FL,0
+MER0088,Henry Schein 4,Healthcare Supplies,5047,Houston,FL,0
+MER0089,Medline 5,Healthcare Supplies,5047,Phoenix,TX,0
+MER0090,Henry Schein 6,Healthcare Supplies,5047,New York,TX,0
+MER0091,Cardinal Health 7,Healthcare Supplies,5047,Dallas,AZ,0
+MER0092,McKesson 8,Healthcare Supplies,5047,Phoenix,GA,0
+MER0093,Cardinal Health 9,Healthcare Supplies,5047,Dallas,NY,0
+MER0094,McKesson 10,Healthcare Supplies,5047,Phoenix,CA,0
+MER0095,Medline 11,Healthcare Supplies,5047,New York,IL,0
+MER0096,Cardinal Health 12,Healthcare Supplies,5047,Dallas,GA,0
+MER0097,Fastenal 1,Construction Supplies,5251,Chicago,WA,0
+MER0098,Lowes 2,Construction Supplies,5251,Phoenix,NY,0
+MER0099,Fastenal 3,Construction Supplies,5251,New York,TX,0
+MER0100,Menards 4,Construction Supplies,5251,Atlanta,IL,0
+MER0101,Menards 5,Construction Supplies,5251,Dallas,IL,0
+MER0102,Menards 6,Construction Supplies,5251,Phoenix,WA,0
+MER0103,Menards 7,Construction Supplies,5251,Atlanta,AZ,0
+MER0104,Lowes 8,Construction Supplies,5251,Houston,WA,0
+MER0105,Fastenal 9,Construction Supplies,5251,Los Angeles,AZ,0
+MER0106,Fastenal 10,Construction Supplies,5251,New York,AZ,0
+MER0107,Menards 11,Construction Supplies,5251,Houston,WA,0
+MER0108,Menards 12,Construction Supplies,5251,Seattle,FL,0
+MER0109,Mailchimp 1,Marketing & Advertising,7311,Houston,FL,0
+MER0110,Meta Ads 2,Marketing & Advertising,7311,Chicago,AZ,0
+MER0111,HubSpot 3,Marketing & Advertising,7311,Chicago,TX,0
+MER0112,HubSpot 4,Marketing & Advertising,7311,Houston,TX,0
+MER0113,Meta Ads 5,Marketing & Advertising,7311,New York,NY,0
+MER0114,Meta Ads 6,Marketing & Advertising,7311,Seattle,IL,0
+MER0115,Mailchimp 7,Marketing & Advertising,7311,Atlanta,TX,0
+MER0116,Mailchimp 8,Marketing & Advertising,7311,Seattle,WA,0
+MER0117,Meta Ads 9,Marketing & Advertising,7311,Los Angeles,NY,0
+MER0118,Google Ads 10,Marketing & Advertising,7311,Atlanta,TX,0
+MER0119,Meta Ads 11,Marketing & Advertising,7311,Seattle,NY,0
+MER0120,Meta Ads 12,Marketing & Advertising,7311,Chicago,FL,0
+MER0121,Con Edison 1,Utilities,4900,Seattle,GA,0
+MER0122,Comcast Biz 2,Utilities,4900,Atlanta,FL,0
+MER0123,Con Edison 3,Utilities,4900,Seattle,FL,0
+MER0124,Duke Energy 4,Utilities,4900,Houston,AZ,0
+MER0125,Comcast Biz 5,Utilities,4900,Houston,AZ,0
+MER0126,Comcast Biz 6,Utilities,4900,Chicago,AZ,0
+MER0127,Con Edison 7,Utilities,4900,Phoenix,GA,0
+MER0128,Duke Energy 8,Utilities,4900,Chicago,CA,0
+MER0129,Con Edison 9,Utilities,4900,Houston,WA,0
+MER0130,Con Edison 10,Utilities,4900,Houston,IL,0
+MER0131,Comcast Biz 11,Utilities,4900,Atlanta,GA,0
+MER0132,Comcast Biz 12,Utilities,4900,Atlanta,NY,0
+MER0133,Salesforce 1,Software & Subscriptions,7372,Atlanta,WA,0
+MER0134,Zoom 2,Software & Subscriptions,7372,New York,WA,0
+MER0135,Slack 3,Software & Subscriptions,7372,New York,GA,0
+MER0136,Microsoft 365 4,Software & Subscriptions,7372,Atlanta,WA,0
+MER0137,Zoom 5,Software & Subscriptions,7372,Houston,FL,0
+MER0138,Salesforce 6,Software & Subscriptions,7372,Phoenix,WA,0
+MER0139,Slack 7,Software & Subscriptions,7372,New York,WA,0
+MER0140,Microsoft 365 8,Software & Subscriptions,7372,Atlanta,CA,0
+MER0141,Slack 9,Software & Subscriptions,7372,Los Angeles,NY,0
+MER0142,Slack 10,Software & Subscriptions,7372,New York,IL,0
+MER0143,Slack 11,Software & Subscriptions,7372,Los Angeles,FL,0
+MER0144,Salesforce 12,Software & Subscriptions,7372,New York,AZ,0
+MER0145,Local Supplier 1,Other,5999,Dallas,TX,0
+MER0146,Local Supplier 2,Other,5999,Atlanta,AZ,0
+MER0147,Local Supplier 3,Other,5999,Phoenix,IL,0
+MER0148,Unnamed Vendor 4,Other,5999,New York,GA,1
+MER0149,Miscellaneous Vendor 5,Other,5999,New York,NY,0
+MER0150,Miscellaneous Vendor 6,Other,5999,New York,CA,1
+MER0151,Local Supplier 7,Other,5999,Chicago,TX,0
+MER0152,Local Supplier 8,Other,5999,Dallas,CA,0
+MER0153,Unnamed Vendor 9,Other,5999,Chicago,CA,0
+MER0154,Miscellaneous Vendor 10,Other,5999,New York,AZ,0
+MER0155,Local Supplier 11,Other,5999,Atlanta,TX,1
+MER0156,Unnamed Vendor 12,Other,5999,Houston,IL,0

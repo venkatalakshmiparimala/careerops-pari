@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Venkata Lakshmi Parimala Pasupuleti — CV</title>
+<style>
+  @font-face { font-family: 'Space Grotesk'; src: url('./fonts/space-grotesk-latin.woff2') format('woff2'); font-weight: 300 700; font-style: normal; font-display: swap; unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  @font-face { font-family: 'Space Grotesk'; src: url('./fonts/space-grotesk-latin-ext.woff2') format('woff2'); font-weight: 300 700; font-style: normal; font-display: swap; unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+  @font-face { font-family: 'DM Sans'; src: url('./fonts/dm-sans-latin.woff2') format('woff2'); font-weight: 100 1000; font-style: normal; font-display: swap; unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  @font-face { font-family: 'DM Sans'; src: url('./fonts/dm-sans-latin-ext.woff2') format('woff2'); font-weight: 100 1000; font-style: normal; font-display: swap; unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-family: 'DM Sans', sans-serif; font-size: 11px; line-height: 1.5; color: #1a1a2e; background: #ffffff; }
+  .page { width: 100%; max-width: 820px; margin: 0 auto; padding: 28px 36px; }
+  .header { margin-bottom: 20px; }
+  .header h1 { font-family: 'Space Grotesk', sans-serif; font-size: 28px; font-weight: 700; color: #1a1a2e; letter-spacing: -0.02em; margin-bottom: 6px; line-height: 1.1; }
+  .header-gradient { height: 2px; background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%)); border-radius: 1px; margin-bottom: 10px; }
+  .contact-row { display: flex; flex-wrap: wrap; gap: 8px 14px; font-size: 10.5px; color: #555; }
+  .contact-row a { color: #555; text-decoration: none; }
+  .contact-row .separator { color: #ccc; }
+  .section { margin-bottom: 18px; }
+  .section-title { font-family: 'Space Grotesk', sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: hsl(187, 74%, 32%); border-bottom: 1.5px solid #e2e2e2; padding-bottom: 4px; margin-bottom: 10px; }
+  .summary-text { font-size: 11px; line-height: 1.7; color: #2f2f2f; }
+  a { white-space: nowrap; }
+  .competencies-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+  .competency-tag { font-size: 10px; font-weight: 500; color: hsl(187, 74%, 28%); background: hsl(187, 40%, 95%); padding: 4px 10px; border-radius: 3px; border: 1px solid hsl(187, 40%, 88%); }
+  .job { margin-bottom: 14px; }
+  .job-header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 4px; }
+  .job-company { font-family: 'Space Grotesk', sans-serif; font-size: 12.5px; font-weight: 600; color: hsl(270, 70%, 45%); }
+  .job-period { font-size: 10.5px; color: #777; white-space: nowrap; }
+  .job-role { font-size: 11px; font-weight: 600; color: #333; margin-bottom: 6px; }
+  .job-location { font-size: 10px; color: #888; }
+  .job ul { padding-left: 18px; margin-top: 6px; }
+  .job li { font-size: 10.5px; line-height: 1.6; color: #333; margin-bottom: 4px; }
+  .job li strong { font-weight: 600; }
+  .project { margin-bottom: 12px; }
+  .project-title { font-family: 'Space Grotesk', sans-serif; font-size: 11.5px; font-weight: 600; color: hsl(270, 70%, 45%); }
+  .project-badge { font-size: 9px; font-weight: 500; color: hsl(187, 74%, 32%); background: hsl(187, 40%, 95%); padding: 1px 6px; border-radius: 2px; margin-left: 6px; }
+  .project-desc { font-size: 10.5px; color: #444; margin-top: 3px; line-height: 1.55; }
+  .project-tech { font-size: 9.5px; color: #888; margin-top: 3px; }
+  .edu-item { margin-bottom: 8px; }
+  .edu-header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  .edu-title { font-weight: 600; font-size: 11px; color: #333; }
+  .edu-org { color: hsl(270, 70%, 45%); font-weight: 500; }
+  .edu-year { font-size: 10px; color: #777; white-space: nowrap; }
+  .edu-desc { font-size: 10px; color: #666; margin-top: 2px; line-height: 1.5; }
+  .skills-grid { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+  .skill-item { font-size: 10.5px; color: #444; }
+  .skill-category { font-weight: 600; color: #333; }
+  @media print { body { -webkit-print-color-adjust: exact; print-color-adjust: exact; } .page { padding: 0; } }
+  .avoid-break, .job, .project, .edu-item { break-inside: avoid; page-break-inside: avoid; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="header avoid-break">
+    <h1>Venkata Lakshmi Parimala Pasupuleti</h1>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <span>+1-703-261-5410</span>
+      <span class="separator">|</span>
+      <span>venkatalakshmiparimalap@gmail.com</span>
+      <span class="separator">|</span>
+      <a href="https://www.linkedin.com/in/venkata-lakshmi-parimala/">linkedin.com/in/venkata-lakshmi-parimala</a>
+      <span class="separator">|</span>
+      <a href="https://github.com/venkatalakshmiparimala">github.com/venkatalakshmiparimala</a>
+      <span class="separator">|</span>
+      <span>Fairfax, Virginia</span>
+    </div>
+  </div>
+
+  <div class="section avoid-break">
+    <div class="section-title">Professional Summary</div>
+    <div class="summary-text">
+      AI/ML engineer with 6+ years of production experience, specializing in Generative AI, agentic systems, and RAG pipelines. Built two enterprise-grade AI projects end-to-end: LeaseI (8-agent LangGraph agentic workflow with Document AI/OCR pipeline, hybrid-search RAG, structured output extraction, and HITL escalation) and AgentProbe (open-source LLM evaluation toolkit with multi-provider routing, vector search, and CI regression harness). Currently integrating Anthropic Claude into financial applications at Intuit with fine-tuned prompt engineering, structured outputs, and LLM evaluation. Fine-tuned custom NLP classification models using HuggingFace + PyTorch (GMU). Strong proficiency in Python, FastAPI, Streamlit, Docker, and AWS/Azure/GCP. Case study: <a href="https://github.com/venkatalakshmiparimala/AgentProbe">github.com/venkatalakshmiparimala/AgentProbe</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Core Competencies</div>
+    <div class="competencies-grid">
+      <span class="competency-tag">Generative AI &amp; LLMs</span>
+      <span class="competency-tag">Agentic Systems (LangGraph)</span>
+      <span class="competency-tag">RAG Pipelines</span>
+      <span class="competency-tag">Document AI &amp; OCR</span>
+      <span class="competency-tag">Fine-tuning LLMs</span>
+      <span class="competency-tag">Vector Databases</span>
+      <span class="competency-tag">NLP &amp; Deep Learning</span>
+      <span class="competency-tag">FastAPI &amp; Streamlit</span>
+      <span class="competency-tag">Python (6+ yrs)</span>
+      <span class="competency-tag">AWS / Azure / GCP</span>
+      <span class="competency-tag">Docker &amp; Kubernetes</span>
+      <span class="competency-tag">Structured Output</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Experience</div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Intuit</span>
+        <span class="job-period">Jun 2026 – Present</span>
+      </div>
+      <div class="job-role">Software Engineer — Gen AI <span class="job-location">· Virginia, USA</span></div>
+      <ul>
+        <li>Integrate Anthropic Claude into Python/FastAPI services for financial data summaries and natural-language queries; design <strong>structured output schemas</strong> using Pydantic so LLM responses are consistent and traceable downstream.</li>
+        <li>Ground Claude responses in customer financial data via <strong>retrieval pipelines</strong> (RAG) so every answer cites a source record; add LLM-as-judge evaluation and golden-dataset CI regression tests to catch hallucinations before release.</li>
+        <li>Build ML pipelines (scikit-learn, XGBoost) covering data ingestion, feature engineering, model training, evaluation, and <strong>prediction API deployment</strong> on AWS (Lambda, API Gateway).</li>
+        <li>Add <strong>guardrails</strong> around LLM calls: input validation, sensitive-data filtering, fallbacks on model failure; containerize services with Docker and ship through GitHub Actions CI/CD to AWS with observability.</li>
+        <li>Develop React/TypeScript front ends and internal tools for finance and operations teams, enabling natural-language querying of financial data.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Entrata</span>
+        <span class="job-period">Oct 2020 – Jul 2024</span>
+      </div>
+      <div class="job-role">Senior Software Engineer <span class="job-location">· Enterprise SaaS, 100K+ monthly active users</span></div>
+      <ul>
+        <li>Delivered 20+ features end-to-end (Python, Java, JavaScript, React, PostgreSQL) across 120+ Agile sprints in a multi-tenant enterprise platform; owned reliability of deployed services and data pipelines.</li>
+        <li>Built Python/Bash automation pipelines for operational workflows, eliminating 80% of manual workload; optimized 200+ SQL queries (30% performance gain).</li>
+        <li>AWS S3 migration with end-to-end Libsodium encryption for 100% PHI compliance; Docker microservices redesign (50% better scalability); Terraform for infrastructure-as-code.</li>
+        <li>Maintained HUD income-limit data pipeline for 7 years -- ingesting, transforming, and validating ~180K domain records annually with zero compliance violations.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Entrata India</span>
+        <span class="job-period">Sep 2018 – Oct 2020</span>
+      </div>
+      <div class="job-role">Junior Software Engineer <span class="job-location">· Pune, India</span></div>
+      <ul>
+        <li>Built application modules and data pipelines (Python, Java, PostgreSQL); delivered large-scale data reconciliation workflows (1.6M records); led AWS S3 cloud migration.</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="section">
+    <div class="section-title">Projects</div>
+
+    <div class="project avoid-break">
+      <span class="project-title">LeaseI -- Enterprise Agentic AI Platform with Document AI &amp; RAG</span>
+      <span class="project-badge">Live on GitHub</span>
+      <div class="project-desc">
+        Built an enterprise-level <strong>agentic solution</strong> using LangGraph: 8-agent StateGraph (triage, retrieval, reasoning, validation) with HITL escalation. <strong>Document AI/OCR pipeline</strong>: pdfplumber + pytesseract ingestion, section-aware chunking, structured output extraction from leases and compliance documents. <strong>Hybrid-search RAG</strong> (hand-rolled TF-IDF + semantic reranking, no off-the-shelf LangChain) with answers cited to exact source clauses. Tested with LLM-as-judge CI harness: <strong>93.6% precision, 87.9% F1</strong> across 1,240 test cases. Streamlit Engineer Console + FastAPI backend.
+      </div>
+      <div class="project-tech">Python · LangGraph · FastAPI · Streamlit · TF-IDF RAG · OCR (pdfplumber, pytesseract) · SQLite · Docker · CI/CD -- <a href="https://github.com/venkatalakshmiparimala/Lease_complaince_rag">github.com/venkatalakshmiparimala/Lease_complaince_rag</a></div>
+    </div>
+
+    <div class="project avoid-break">
+      <span class="project-title">AgentProbe -- Open-Source LLM Evaluation Toolkit</span>
+      <span class="project-badge">Live on GitHub</span>
+      <div class="project-desc">
+        Multi-provider <strong>Gen AI platform</strong>: 15-endpoint FastAPI backend routing across Anthropic, OpenAI, Azure OpenAI, Groq, and Ollama (both open-source and proprietary LLMs). <strong>Vector database</strong> layer (ChromaDB) for semantic retrieval; LLM-as-judge evaluation scoring factual accuracy, hallucination rate, retrieval quality, completeness, and compliance. Three LangGraph agents (Orchestrator, RAG Tracer, Auto Fix). CI regression pipeline on GitHub Actions with golden-dataset splits.
+      </div>
+      <div class="project-tech">Python · FastAPI · LangGraph · LangChain · ChromaDB · Anthropic · OpenAI · Azure OpenAI · Groq · Ollama · Docker -- <a href="https://github.com/venkatalakshmiparimala/AgentProbe">github.com/venkatalakshmiparimala/AgentProbe</a></div>
+    </div>
+
+    <div class="project avoid-break">
+      <span class="project-title">AI on FHIR -- NLP &amp; LLM API Integration</span>
+      <div class="project-desc">
+        Built NLP pipeline translating English/Spanish natural-language questions into FHIR API calls using LLMs, BERT embeddings, and spaCy NER -- cutting manual clinical lookup time by ~60%. Flask backend, React/TypeScript frontend, Docker, HIPAA-style RBAC.
+      </div>
+      <div class="project-tech">Python · Flask · React · TypeScript · Docker · BERT · spaCy · LLMs · FHIR REST APIs -- <a href="https://github.com/venkatalakshmiparimala/AI_on_FHIR">github.com/venkatalakshmiparimala/AI_on_FHIR</a></div>
+    </div>
+
+  </div>
+
+  <div class="section avoid-break">
+    <div class="section-title">Education</div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">M.S. Data Analytics Engineering -- <span class="edu-org">George Mason University</span></span>
+        <span class="edu-year">May 2026</span>
+      </div>
+      <div class="edu-desc">GPA 3.87 · Fairfax, Virginia · Coursework: fine-tuned custom text classification model using HuggingFace + PyTorch on domain data, deployed via Quart API, presented to faculty.</div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">B.Tech Computer Science &amp; Engineering -- <span class="edu-org">JNTU Anantapur</span></span>
+        <span class="edu-year">2017</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="section avoid-break">
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-grid">
+      <span class="skill-item"><span class="skill-category">Generative AI &amp; LLMs:</span> Anthropic Claude, OpenAI API, Azure OpenAI, Groq, Ollama (open-source LLMs), Prompt Engineering, Fine-tuning, Structured Output, LLM-as-Judge Evaluation, Guardrails, MCP</span>
+      <span class="skill-item"><span class="skill-category">Agentic &amp; RAG:</span> LangGraph, LangChain, Multi-agent Orchestration, HITL, RAG Pipelines, Hybrid Search (TF-IDF + Semantic), Embeddings, ChromaDB, Pinecone, Weaviate, Elasticsearch</span>
+      <span class="skill-item"><span class="skill-category">Document AI &amp; NLP:</span> OCR (pdfplumber, pytesseract, pdf2image), Structured Output Extraction, BERT, spaCy, HuggingFace, NLP pipelines, Text Classification</span>
+      <span class="skill-item"><span class="skill-category">ML &amp; Deep Learning:</span> Python, PyTorch, scikit-learn, XGBoost, PySpark, Pandas, NumPy -- supervised, unsupervised, deep learning, NLP, reinforcement learning concepts</span>
+      <span class="skill-item"><span class="skill-category">UI &amp; APIs:</span> Streamlit, FastAPI, Flask, Django, REST APIs, GraphQL, Node.js, TypeScript, React, Docker, Kubernetes</span>
+      <span class="skill-item"><span class="skill-category">Cloud &amp; DevOps:</span> AWS (S3, EC2, Lambda, RDS, Glue, SQS, API Gateway, IAM), Azure (OpenAI, Data Factory, AKS, Databricks), GCP (Vertex AI), Terraform, GitHub Actions CI/CD</span>
+      <span class="skill-item"><span class="skill-category">Data &amp; Databases:</span> PostgreSQL, MySQL, Oracle, Redis, MongoDB, SQLite, Snowflake, ETL Pipelines, SQL, Data Modeling, Query Optimization</span>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

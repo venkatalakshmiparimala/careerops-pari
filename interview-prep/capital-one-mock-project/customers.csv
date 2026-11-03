@@ -1,0 +1,251 @@
+customer_id,business_name,industry,business_size,state,territory,card_product,credit_limit_usd,acquisition_date,rep_id
+CUST001,Pinnacle Health,Healthcare,Large,MN,Midwest,Business Platinum,169000,2022-06-23,REP12
+CUST002,Nova Depot,Retail,Small,AL,Southeast,Business Rewards,14000,2023-06-12,REP06
+CUST003,Echo Systems,Technology,Medium,NV,West,Business Platinum,41000,2022-04-06,REP18
+CUST004,Summit Builders,Construction,Small,NJ,Northeast,Business Cash,14000,2022-08-19,REP02
+CUST005,Crestview Development,Construction,Small,WA,West,Business Rewards,5000,2022-02-17,REP16
+CUST006,Harbor Associates,Professional Services,Small,IN,Midwest,Business Platinum,7000,2023-04-12,REP13
+CUST007,Waypoint Wellness,Healthcare,Small,MD,Northeast,Business Platinum,11000,2024-01-06,REP04
+CUST008,Dover Digital,Technology,Medium,MA,Northeast,Business Rewards,64000,2022-01-06,REP03
+CUST009,Waypoint Retail,Retail,Small,DC,Northeast,Business Cash,12000,2022-06-30,REP01
+CUST010,Helix Health,Healthcare,Medium,NV,West,Business Platinum,55000,2022-09-13,REP16
+CUST011,Nexus Wellness,Healthcare,Small,MS,Southeast,Business Cash,19000,2022-05-17,REP10
+CUST012,Cascade Depot,Retail,Small,CO,West,Business Rewards,15000,2024-02-13,REP20
+CUST013,Delta Partners,Professional Services,Small,AZ,West,Business Platinum,18000,2024-04-30,REP19
+CUST014,Summit Mart,Retail,Medium,MS,Southeast,Business Rewards,30000,2024-02-01,REP09
+CUST015,Orbit Medical,Healthcare,Small,NV,West,Business Cash,19000,2022-09-23,REP20
+CUST016,Apex Medical,Healthcare,Small,DC,Northeast,Business Platinum,13000,2024-02-24,REP04
+CUST017,Zenith Software,Technology,Medium,CA,West,Business Rewards,37000,2023-03-27,REP18
+CUST018,Nordic Care,Healthcare,Large,NC,Southeast,Business Platinum,111000,2022-08-29,REP09
+CUST019,Zenith Advisors,Professional Services,Small,MA,Northeast,Business Platinum,15000,2023-07-08,REP02
+CUST020,Flint Industries,Manufacturing,Medium,MD,Northeast,Business Platinum,29000,2022-08-25,REP01
+CUST021,Yield Mart,Retail,Small,SC,Southeast,Business Cash,11000,2022-03-07,REP06
+CUST022,Delta Mart,Retail,Small,CO,West,Business Rewards,15000,2023-07-10,REP18
+CUST023,Amber Partners,Professional Services,Small,MO,Midwest,Business Rewards,6000,2022-07-31,REP15
+CUST024,Vanguard Health,Healthcare,Small,TN,Southeast,Business Rewards,17000,2024-02-28,REP09
+CUST025,Cobalt Partners,Professional Services,Medium,WI,Midwest,Business Cash,74000,2024-02-23,REP11
+CUST026,Iron Supply,Retail,Large,VA,Northeast,Business Platinum,136000,2022-01-07,REP01
+CUST027,Quest Eatery,Restaurants,Medium,MD,Northeast,Business Rewards,68000,2023-02-04,REP04
+CUST028,Flint Solutions,Technology,Small,GA,Southeast,Business Platinum,12000,2023-05-15,REP06
+CUST029,Waypoint Mart,Retail,Small,CA,West,Business Rewards,18000,2023-05-13,REP18
+CUST030,Grove Mart,Retail,Large,PA,Northeast,Business Cash,126000,2024-01-12,REP03
+CUST031,Pioneer Construction,Construction,Small,TN,Southeast,Business Rewards,9000,2023-09-30,REP08
+CUST032,Horizon Software,Technology,Medium,TN,Southeast,Business Rewards,45000,2023-08-30,REP08
+CUST033,Dover Wellness,Healthcare,Small,AL,Southeast,Business Cash,5000,2022-03-27,REP10
+CUST034,Nova Medical,Healthcare,Small,SC,Southeast,Business Platinum,9000,2024-06-06,REP07
+CUST035,Indigo Solutions,Technology,Medium,SC,Southeast,Business Platinum,23000,2022-09-24,REP09
+CUST036,Jade Group,Professional Services,Large,VA,Northeast,Business Platinum,102000,2023-04-11,REP02
+CUST037,Horizon Supply,Retail,Medium,MD,Northeast,Business Platinum,68000,2024-06-19,REP02
+CUST038,Echo Consulting,Professional Services,Small,NV,West,Business Rewards,18000,2022-09-16,REP16
+CUST039,Quest Associates,Professional Services,Small,AL,Southeast,Business Cash,20000,2022-01-20,REP06
+CUST040,Apex Consulting,Professional Services,Small,OH,Midwest,Business Rewards,6000,2022-12-25,REP15
+CUST041,Meridian Restaurant,Restaurants,Small,NJ,Northeast,Business Platinum,5000,2022-09-11,REP03
+CUST042,Pacific Digital,Technology,Small,OH,Midwest,Business Rewards,9000,2022-09-02,REP14
+CUST043,Sierra Partners,Professional Services,Small,WA,West,Business Rewards,8000,2023-08-01,REP20
+CUST044,Nova Goods,Retail,Small,MI,Midwest,Business Rewards,13000,2024-02-25,REP14
+CUST045,Bravo Advisors,Professional Services,Small,NV,West,Business Platinum,8000,2024-03-07,REP20
+CUST046,Sterling Partners,Professional Services,Small,WI,Midwest,Business Rewards,5000,2022-11-16,REP12
+CUST047,Xenon Consulting,Professional Services,Small,GA,Southeast,Business Rewards,17000,2024-01-03,REP09
+CUST048,Titan Group,Professional Services,Small,AL,Southeast,Business Platinum,12000,2022-04-15,REP08
+CUST049,Sterling Retail,Retail,Small,AZ,West,Business Rewards,8000,2024-03-26,REP18
+CUST050,Titan Bistro,Restaurants,Small,SC,Southeast,Business Rewards,16000,2023-06-30,REP06
+CUST051,Pinnacle Care,Healthcare,Large,TX,West,Business Rewards,83000,2023-06-03,REP19
+CUST052,Vanguard Supply,Retail,Large,CO,West,Business Rewards,137000,2022-04-19,REP17
+CUST053,Grove Medical,Healthcare,Medium,IN,Midwest,Business Platinum,60000,2024-04-28,REP14
+CUST054,Nexus Depot,Retail,Small,CT,Northeast,Business Cash,18000,2022-06-30,REP01
+CUST055,Sierra Associates,Professional Services,Small,MD,Northeast,Business Rewards,20000,2023-04-22,REP04
+CUST056,Titan Retail,Retail,Medium,NJ,Northeast,Business Rewards,37000,2022-11-27,REP05
+CUST057,Crestview Mart,Retail,Small,WA,West,Business Platinum,13000,2023-04-07,REP16
+CUST058,Amber Group,Professional Services,Medium,DC,Northeast,Business Rewards,41000,2022-01-30,REP03
+CUST059,Falcon Bistro,Restaurants,Small,OH,Midwest,Business Rewards,10000,2023-05-15,REP15
+CUST060,Dover Solutions,Technology,Large,OR,West,Business Cash,177000,2022-09-22,REP20
+CUST061,Vector Associates,Professional Services,Medium,OR,West,Business Cash,58000,2023-12-20,REP19
+CUST062,Iron Retail,Retail,Small,GA,Southeast,Business Rewards,5000,2023-06-14,REP09
+CUST063,Nexus Digital,Technology,Medium,MD,Northeast,Business Cash,35000,2024-01-08,REP01
+CUST064,Falcon Mart,Retail,Small,IN,Midwest,Business Rewards,12000,2023-12-09,REP14
+CUST065,Pinnacle Construction,Construction,Medium,NY,Northeast,Business Cash,48000,2024-03-22,REP02
+CUST066,Apex Builders,Construction,Medium,MD,Northeast,Business Rewards,38000,2022-08-15,REP05
+CUST067,Titan Group,Professional Services,Medium,TN,Southeast,Business Platinum,39000,2023-11-11,REP09
+CUST068,Delta Solutions,Technology,Small,AZ,West,Business Platinum,20000,2023-07-21,REP18
+CUST069,Jade Digital,Technology,Small,TX,West,Business Platinum,15000,2022-12-27,REP17
+CUST070,Nordic Goods,Retail,Medium,NC,Southeast,Business Rewards,37000,2022-11-10,REP09
+CUST071,Granite Contractors,Construction,Small,OH,Midwest,Business Rewards,8000,2024-01-09,REP14
+CUST072,Xenon Builders,Construction,Medium,TN,Southeast,Business Cash,27000,2024-01-31,REP09
+CUST073,Pacific Depot,Retail,Medium,AZ,West,Business Rewards,37000,2024-01-12,REP17
+CUST074,Atlas Advisors,Professional Services,Small,MO,Midwest,Business Cash,14000,2022-04-13,REP14
+CUST075,Waypoint Care,Healthcare,Large,PA,Northeast,Business Platinum,113000,2022-01-15,REP03
+CUST076,Nexus Goods,Retail,Small,CT,Northeast,Business Rewards,6000,2022-02-25,REP05
+CUST077,Harbor Partners,Professional Services,Medium,MS,Southeast,Business Rewards,60000,2024-06-08,REP08
+CUST078,Lumen Labs,Technology,Medium,NY,Northeast,Business Rewards,26000,2024-06-12,REP04
+CUST079,Maple Bistro,Restaurants,Medium,CA,West,Business Cash,41000,2022-07-08,REP17
+CUST080,Harbor Tech,Technology,Large,IN,Midwest,Business Rewards,195000,2024-06-01,REP11
+CUST081,Jade Manufacturing,Manufacturing,Large,MN,Midwest,Business Cash,84000,2023-08-14,REP12
+CUST082,Titan Consulting,Professional Services,Small,CT,Northeast,Business Cash,9000,2022-06-02,REP01
+CUST083,Flint Partners,Professional Services,Small,WI,Midwest,Business Platinum,12000,2022-05-02,REP15
+CUST084,Horizon Eatery,Restaurants,Medium,NJ,Northeast,Business Platinum,58000,2023-09-03,REP01
+CUST085,Summit Solutions,Technology,Medium,IN,Midwest,Business Cash,44000,2023-04-07,REP11
+CUST086,Jade Labs,Technology,Small,TN,Southeast,Business Cash,18000,2022-11-09,REP09
+CUST087,Yield Construction,Construction,Medium,AL,Southeast,Business Platinum,23000,2023-09-17,REP07
+CUST088,Nexus Tech,Technology,Small,TX,West,Business Cash,11000,2022-09-28,REP17
+CUST089,Ember Associates,Professional Services,Medium,OH,Midwest,Business Rewards,30000,2022-09-03,REP15
+CUST090,Granite Partners,Professional Services,Medium,WI,Midwest,Business Rewards,48000,2023-12-07,REP12
+CUST091,Bravo Partners,Professional Services,Medium,TX,West,Business Rewards,65000,2022-10-17,REP17
+CUST092,Vanguard Associates,Professional Services,Medium,NV,West,Business Rewards,36000,2024-03-17,REP17
+CUST093,Lumen Advisors,Professional Services,Small,WI,Midwest,Business Rewards,18000,2022-04-28,REP12
+CUST094,Flint Systems,Technology,Medium,MI,Midwest,Business Rewards,61000,2022-06-02,REP11
+CUST095,Zenith Digital,Technology,Medium,CT,Northeast,Business Cash,39000,2023-09-02,REP03
+CUST096,Atlas Wellness,Healthcare,Medium,CT,Northeast,Business Rewards,27000,2023-04-25,REP02
+CUST097,Dover Wellness,Healthcare,Medium,DC,Northeast,Business Rewards,37000,2023-05-28,REP05
+CUST098,Lumen Digital,Technology,Large,NY,Northeast,Business Platinum,85000,2023-09-05,REP05
+CUST099,Pacific Tech,Technology,Small,OR,West,Business Rewards,15000,2023-09-11,REP16
+CUST100,Crestview Contractors,Construction,Small,NY,Northeast,Business Rewards,7000,2022-08-23,REP04
+CUST101,Nordic Systems,Technology,Small,NV,West,Business Platinum,6000,2024-02-21,REP16
+CUST102,Jade Digital,Technology,Large,AL,Southeast,Business Rewards,135000,2023-06-16,REP07
+CUST103,Orbit Partners,Professional Services,Small,MD,Northeast,Business Rewards,13000,2022-07-05,REP05
+CUST104,Crestview Grill,Restaurants,Medium,MI,Midwest,Business Platinum,25000,2023-04-27,REP11
+CUST105,Bravo Retail,Retail,Small,AL,Southeast,Business Platinum,15000,2022-11-25,REP07
+CUST106,Crestview Software,Technology,Small,CO,West,Business Rewards,10000,2022-12-04,REP19
+CUST107,Unity Digital,Technology,Small,AL,Southeast,Business Rewards,20000,2022-10-23,REP07
+CUST108,Nova Solutions,Technology,Small,CA,West,Business Cash,6000,2023-04-11,REP18
+CUST109,Maple Partners,Professional Services,Small,FL,Southeast,Business Cash,13000,2022-11-28,REP08
+CUST110,Sterling Development,Construction,Small,NV,West,Business Rewards,5000,2023-11-05,REP17
+CUST111,Lumen Depot,Retail,Small,WA,West,Business Cash,18000,2022-02-25,REP19
+CUST112,Atlas Grill,Restaurants,Small,MO,Midwest,Business Rewards,16000,2023-09-30,REP15
+CUST113,Pioneer Kitchen,Restaurants,Small,FL,Southeast,Business Platinum,19000,2024-02-18,REP06
+CUST114,Sierra Partners,Professional Services,Large,MN,Midwest,Business Cash,111000,2023-03-25,REP12
+CUST115,Relay Depot,Retail,Large,MN,Midwest,Business Platinum,90000,2022-01-30,REP13
+CUST116,Maple Clinic,Healthcare,Medium,NY,Northeast,Business Rewards,39000,2023-07-19,REP03
+CUST117,Grove Tech,Technology,Large,IN,Midwest,Business Rewards,182000,2022-04-27,REP12
+CUST118,Harbor Supply,Retail,Small,AL,Southeast,Business Rewards,9000,2023-05-26,REP06
+CUST119,Sierra Partners,Professional Services,Small,DC,Northeast,Business Rewards,13000,2023-03-02,REP05
+CUST120,Waypoint Goods,Retail,Small,TN,Southeast,Business Platinum,12000,2023-04-13,REP07
+CUST121,Nova Clinic,Healthcare,Medium,TN,Southeast,Business Rewards,44000,2022-07-15,REP09
+CUST122,Orbit Group,Professional Services,Small,CA,West,Business Platinum,9000,2024-06-03,REP18
+CUST123,Kestrel Partners,Professional Services,Large,MO,Midwest,Business Rewards,173000,2024-03-19,REP13
+CUST124,Apex Care,Healthcare,Medium,CA,West,Business Platinum,37000,2024-04-20,REP17
+CUST125,Granite Depot,Retail,Small,WI,Midwest,Business Platinum,14000,2024-05-07,REP13
+CUST126,Harbor Digital,Technology,Small,WA,West,Business Platinum,20000,2024-06-05,REP16
+CUST127,Cobalt Eatery,Restaurants,Small,NC,Southeast,Business Rewards,20000,2022-12-20,REP08
+CUST128,Ember Mart,Retail,Medium,SC,Southeast,Business Rewards,68000,2023-07-11,REP10
+CUST129,Yield Medical,Healthcare,Small,NJ,Northeast,Business Rewards,15000,2024-06-09,REP02
+CUST130,Yield Health,Healthcare,Small,MD,Northeast,Business Rewards,17000,2022-08-28,REP02
+CUST131,Meridian Software,Technology,Large,SC,Southeast,Business Cash,115000,2024-02-02,REP10
+CUST132,Zenith Wellness,Healthcare,Large,CO,West,Business Platinum,191000,2024-04-10,REP19
+CUST133,Granite Medical,Healthcare,Small,NY,Northeast,Business Rewards,9000,2023-05-23,REP05
+CUST134,Pacific Tech,Technology,Medium,NC,Southeast,Business Platinum,52000,2023-08-28,REP06
+CUST135,Pacific Consulting,Professional Services,Large,IN,Midwest,Business Cash,186000,2024-05-15,REP14
+CUST136,Delta Software,Technology,Large,IN,Midwest,Business Cash,167000,2022-05-28,REP12
+CUST137,Indigo Products,Manufacturing,Small,DC,Northeast,Business Platinum,9000,2022-03-18,REP01
+CUST138,Cedar Mart,Retail,Medium,AL,Southeast,Business Cash,41000,2023-10-01,REP10
+CUST139,Horizon Supply,Retail,Medium,MS,Southeast,Business Cash,61000,2022-03-24,REP06
+CUST140,Cedar Development,Construction,Small,MN,Midwest,Business Rewards,17000,2022-11-21,REP12
+CUST141,Amber Clinic,Healthcare,Medium,IL,Midwest,Business Rewards,75000,2023-07-09,REP13
+CUST142,Apex Supply,Retail,Small,MN,Midwest,Business Platinum,7000,2022-08-29,REP11
+CUST143,Pinnacle Restaurant,Restaurants,Medium,NV,West,Business Rewards,47000,2022-04-11,REP17
+CUST144,Lumen Bistro,Restaurants,Small,AL,Southeast,Business Rewards,19000,2022-06-20,REP08
+CUST145,Cobalt Solutions,Technology,Small,OR,West,Business Rewards,6000,2022-10-28,REP17
+CUST146,Kestrel Clinic,Healthcare,Large,NJ,Northeast,Business Rewards,130000,2022-05-30,REP05
+CUST147,Nova Health,Healthcare,Small,WA,West,Business Rewards,10000,2022-06-24,REP17
+CUST148,Ember Systems,Technology,Small,AL,Southeast,Business Rewards,17000,2023-09-27,REP06
+CUST149,Unity Mart,Retail,Medium,CT,Northeast,Business Platinum,34000,2023-04-18,REP03
+CUST150,Echo Works,Manufacturing,Small,FL,Southeast,Business Rewards,13000,2023-11-14,REP10
+CUST151,Kestrel Restaurant,Restaurants,Small,PA,Northeast,Business Cash,14000,2023-11-25,REP04
+CUST152,Granite Solutions,Technology,Large,TN,Southeast,Business Rewards,131000,2022-12-20,REP10
+CUST153,Cedar Grill,Restaurants,Small,MI,Midwest,Business Cash,18000,2023-12-08,REP14
+CUST154,Sterling Digital,Technology,Small,MD,Northeast,Business Cash,14000,2022-07-23,REP01
+CUST155,Cobalt Depot,Retail,Medium,CO,West,Business Platinum,26000,2022-08-31,REP19
+CUST156,Xenon Care,Healthcare,Medium,OR,West,Business Platinum,42000,2023-08-12,REP18
+CUST157,Kestrel Grill,Restaurants,Small,AL,Southeast,Business Rewards,5000,2024-04-29,REP09
+CUST158,Granite Manufacturing,Manufacturing,Medium,TN,Southeast,Business Rewards,37000,2022-01-09,REP06
+CUST159,Vanguard Goods,Retail,Small,MI,Midwest,Business Rewards,20000,2024-05-02,REP13
+CUST160,Orbit Medical,Healthcare,Small,AL,Southeast,Business Platinum,16000,2022-08-13,REP07
+CUST161,Quest Software,Technology,Large,TX,West,Business Cash,154000,2022-09-14,REP16
+CUST162,Dover Retail,Retail,Small,IL,Midwest,Business Rewards,9000,2023-10-06,REP15
+CUST163,Vector Construction,Construction,Large,PA,Northeast,Business Rewards,149000,2023-01-09,REP03
+CUST164,Nordic Development,Construction,Large,VA,Northeast,Business Platinum,191000,2022-10-30,REP01
+CUST165,Meridian Depot,Retail,Small,OH,Midwest,Business Cash,10000,2022-07-25,REP11
+CUST166,Crestview Kitchen,Restaurants,Small,CT,Northeast,Business Rewards,16000,2023-06-28,REP05
+CUST167,Harbor Care,Healthcare,Medium,CO,West,Business Cash,36000,2024-04-24,REP20
+CUST168,Pioneer Partners,Professional Services,Small,FL,Southeast,Business Rewards,15000,2024-04-03,REP09
+CUST169,Quest Industries,Manufacturing,Medium,MO,Midwest,Business Cash,24000,2022-05-25,REP13
+CUST170,Ember Clinic,Healthcare,Small,NV,West,Business Rewards,17000,2024-05-16,REP17
+CUST171,Sierra Digital,Technology,Medium,NV,West,Business Cash,43000,2022-04-03,REP19
+CUST172,Summit Manufacturing,Manufacturing,Large,AZ,West,Business Platinum,76000,2022-09-28,REP16
+CUST173,Helix Development,Construction,Large,WI,Midwest,Business Cash,161000,2022-09-26,REP12
+CUST174,Summit Advisors,Professional Services,Small,AL,Southeast,Business Rewards,16000,2022-04-21,REP09
+CUST175,Nordic Products,Manufacturing,Medium,AZ,West,Business Rewards,50000,2022-01-26,REP19
+CUST176,Pioneer Partners,Professional Services,Medium,MO,Midwest,Business Rewards,24000,2023-10-13,REP12
+CUST177,Cobalt Tech,Technology,Small,MD,Northeast,Business Rewards,14000,2023-10-27,REP04
+CUST178,Amber Construction,Construction,Large,MA,Northeast,Business Cash,113000,2023-05-20,REP03
+CUST179,Echo Digital,Technology,Medium,PA,Northeast,Business Platinum,35000,2023-07-05,REP02
+CUST180,Horizon Clinic,Healthcare,Small,TX,West,Business Cash,19000,2023-01-15,REP19
+CUST181,Cascade Goods,Retail,Medium,AL,Southeast,Business Cash,46000,2023-08-25,REP10
+CUST182,Yield Retail,Retail,Large,AL,Southeast,Business Platinum,188000,2023-03-01,REP10
+CUST183,Atlas Supply,Retail,Small,CO,West,Business Rewards,20000,2023-09-23,REP20
+CUST184,Grove Builders,Construction,Small,OR,West,Business Rewards,6000,2023-12-08,REP19
+CUST185,Falcon Bistro,Restaurants,Small,GA,Southeast,Business Platinum,19000,2023-04-01,REP07
+CUST186,Maple Depot,Retail,Medium,OR,West,Business Rewards,26000,2023-12-04,REP16
+CUST187,Kestrel Development,Construction,Medium,IL,Midwest,Business Rewards,61000,2023-01-03,REP14
+CUST188,Indigo Digital,Technology,Medium,FL,Southeast,Business Rewards,37000,2022-07-14,REP09
+CUST189,Atlas Tech,Technology,Medium,IL,Midwest,Business Rewards,60000,2023-09-04,REP12
+CUST190,Pioneer Labs,Technology,Small,OH,Midwest,Business Rewards,15000,2022-09-07,REP15
+CUST191,Ember Depot,Retail,Small,MO,Midwest,Business Rewards,11000,2022-03-12,REP11
+CUST192,Cobalt Kitchen,Restaurants,Small,OH,Midwest,Business Platinum,11000,2023-08-24,REP11
+CUST193,Maple Associates,Professional Services,Small,OH,Midwest,Business Rewards,15000,2024-03-03,REP14
+CUST194,Relay Advisors,Professional Services,Small,NV,West,Business Rewards,5000,2022-10-11,REP20
+CUST195,Orbit Systems,Technology,Small,OR,West,Business Rewards,9000,2023-07-08,REP19
+CUST196,Ember Consulting,Professional Services,Small,MS,Southeast,Business Platinum,8000,2023-11-08,REP06
+CUST197,Unity Retail,Retail,Large,VA,Northeast,Business Cash,175000,2022-09-01,REP03
+CUST198,Meridian Systems,Technology,Medium,FL,Southeast,Business Cash,31000,2022-09-29,REP09
+CUST199,Indigo Solutions,Technology,Small,IN,Midwest,Business Cash,7000,2023-05-03,REP12
+CUST200,Iron Builders,Construction,Small,TN,Southeast,Business Rewards,8000,2023-04-08,REP08
+CUST201,Indigo Clinic,Healthcare,Small,MS,Southeast,Business Platinum,6000,2024-01-15,REP10
+CUST202,Grove Health,Healthcare,Small,MN,Midwest,Business Platinum,14000,2023-04-15,REP13
+CUST203,Unity Digital,Technology,Small,NV,West,Business Platinum,6000,2023-05-06,REP16
+CUST204,Falcon Grill,Restaurants,Small,CA,West,Business Platinum,18000,2023-12-04,REP18
+CUST205,Helix Solutions,Technology,Small,CA,West,Business Platinum,19000,2022-03-17,REP20
+CUST206,Meridian Group,Professional Services,Small,OH,Midwest,Business Rewards,9000,2022-03-09,REP11
+CUST207,Cedar Digital,Technology,Small,CT,Northeast,Business Rewards,15000,2023-01-26,REP05
+CUST208,Falcon Associates,Professional Services,Small,MA,Northeast,Business Cash,18000,2022-04-12,REP02
+CUST209,Falcon Mart,Retail,Medium,WA,West,Business Cash,66000,2024-06-05,REP18
+CUST210,Relay Care,Healthcare,Small,SC,Southeast,Business Platinum,19000,2022-08-22,REP08
+CUST211,Iron Mart,Retail,Medium,SC,Southeast,Business Rewards,72000,2023-04-10,REP06
+CUST212,Flint Solutions,Technology,Small,CO,West,Business Rewards,8000,2022-11-17,REP16
+CUST213,Helix Mart,Retail,Small,PA,Northeast,Business Rewards,13000,2023-01-19,REP01
+CUST214,Vanguard Manufacturing,Manufacturing,Medium,NV,West,Business Rewards,24000,2022-04-04,REP16
+CUST215,Bravo Software,Technology,Small,MA,Northeast,Business Rewards,7000,2023-03-19,REP05
+CUST216,Cascade Associates,Professional Services,Small,PA,Northeast,Business Rewards,16000,2024-04-11,REP02
+CUST217,Delta Associates,Professional Services,Medium,WI,Midwest,Business Rewards,23000,2023-08-24,REP15
+CUST218,Sterling Mart,Retail,Small,IL,Midwest,Business Cash,15000,2023-11-18,REP15
+CUST219,Relay Digital,Technology,Small,TX,West,Business Cash,16000,2024-06-13,REP16
+CUST220,Pinnacle Bistro,Restaurants,Medium,FL,Southeast,Business Rewards,75000,2024-01-09,REP07
+CUST221,Cascade Consulting,Professional Services,Medium,MI,Midwest,Business Cash,58000,2022-11-16,REP13
+CUST222,Xenon Goods,Retail,Small,DC,Northeast,Business Rewards,11000,2022-06-08,REP05
+CUST223,Vector Contractors,Construction,Small,MO,Midwest,Business Rewards,8000,2022-12-25,REP11
+CUST224,Cedar Clinic,Healthcare,Small,OR,West,Business Rewards,8000,2024-02-20,REP20
+CUST225,Cascade Labs,Technology,Large,MO,Midwest,Business Rewards,146000,2024-02-25,REP12
+CUST226,Delta Group,Professional Services,Small,AL,Southeast,Business Platinum,5000,2023-09-16,REP06
+CUST227,Summit Software,Technology,Small,OR,West,Business Rewards,5000,2022-07-04,REP19
+CUST228,Unity Solutions,Technology,Large,NC,Southeast,Business Rewards,172000,2022-11-13,REP09
+CUST229,Helix Builders,Construction,Small,NV,West,Business Platinum,5000,2022-07-05,REP18
+CUST230,Zenith Construction,Construction,Small,PA,Northeast,Business Rewards,17000,2022-03-13,REP05
+CUST231,Atlas Medical,Healthcare,Small,WI,Midwest,Business Cash,7000,2024-02-04,REP14
+CUST232,Bravo Contractors,Construction,Large,IN,Midwest,Business Rewards,123000,2023-03-06,REP11
+CUST233,Echo Contractors,Construction,Large,CT,Northeast,Business Rewards,95000,2023-01-14,REP04
+CUST234,Vector Tech,Technology,Medium,AZ,West,Business Platinum,69000,2023-08-05,REP19
+CUST235,Xenon Group,Professional Services,Small,IL,Midwest,Business Cash,6000,2023-11-22,REP12
+CUST236,Relay Development,Construction,Medium,MD,Northeast,Business Rewards,48000,2023-11-09,REP02
+CUST237,Pinnacle Group,Professional Services,Medium,IN,Midwest,Business Cash,58000,2023-03-29,REP13
+CUST238,Horizon Consulting,Professional Services,Small,WI,Midwest,Business Platinum,11000,2024-02-13,REP13
+CUST239,Iron Care,Healthcare,Medium,IL,Midwest,Business Cash,42000,2023-03-17,REP14
+CUST240,Vector Supply,Retail,Small,AL,Southeast,Business Rewards,20000,2023-06-24,REP06
+CUST241,Sterling Depot,Retail,Small,IN,Midwest,Business Rewards,6000,2022-08-14,REP13
+CUST242,Iron Supply,Retail,Small,NJ,Northeast,Business Rewards,6000,2022-01-08,REP05
+CUST243,Apex Supply,Retail,Small,GA,Southeast,Business Rewards,11000,2024-02-25,REP07
+CUST244,Nexus Construction,Construction,Medium,FL,Southeast,Business Rewards,38000,2022-12-02,REP08
+CUST245,Vanguard Kitchen,Restaurants,Small,MD,Northeast,Business Platinum,20000,2024-02-04,REP04
+CUST246,Cascade Goods,Retail,Large,TN,Southeast,Business Cash,91000,2023-01-25,REP08
+CUST247,Meridian Contractors,Construction,Medium,NV,West,Business Rewards,52000,2023-07-27,REP16
+CUST248,Quest Partners,Professional Services,Large,IL,Midwest,Business Rewards,80000,2023-03-23,REP12
+CUST249,Pioneer Labs,Technology,Small,OR,West,Business Rewards,7000,2024-06-01,REP19
+CUST250,Amber Wellness,Healthcare,Medium,SC,Southeast,Business Platinum,47000,2023-08-11,REP06

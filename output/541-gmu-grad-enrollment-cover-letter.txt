@@ -1,0 +1,26 @@
+Venkata Lakshmi Parimala Pasupuleti
+venkatalakshmiparimala@gmail.com | +1-703-261-5410 | Fairfax, Virginia
+linkedin.com/in/venkata-lakshmi-parimala-pasupuleti
+
+October 15, 2026
+
+CHSS Graduate Academic Affairs Office
+George Mason University
+Fairfax, Virginia 22030
+
+Re: Graduate Enrollment Technology Assistant (Posting #10004608)
+
+Dear Hiring Committee,
+
+I am a George Mason University alumna (M.S. Data Analytics Engineering, GPA 3.87, May 2026) currently teaching as a Teaching Assistant in the School of Business MIS program. When I saw this posting, the fit was immediate — SQL-driven audience segmentation, Marketing Cloud automation, and documentation for enrollment workflows are exactly the kinds of problems I have spent years solving.
+
+My SQL and data automation experience maps directly to what you need. At Entrata, I owned a regulated federal data pipeline for six consecutive years: each cycle, I transformed HUD source data into ~180,000 tenant eligibility records using SQL queries, stored procedures, and validation logic — zero errors across all six releases. That kind of work demands the same skills this role requires: writing precise queries, maintaining data extensions, performing data quality checks before campaigns go out, and documenting every step so the next person can reproduce it. I also built Python automation that eliminated 80% of manual operational work across the same team, which is the spirit behind what Marketing Cloud's Automation Studio is designed to do.
+
+On the platform side, I have worked with Salesforce and CRM data extensively. While my primary experience is on the engineering side of these systems rather than the marketing side, I learn new tools quickly — I picked up LangGraph, a complex multi-agent AI framework, well enough to build a production system on it in under two months. Journey Builder and Automation Studio have a smaller learning curve than that, and I already understand the data concepts (segmentation logic, query activities, data extensions, audience filtering) that make them work. The MIS Teaching Assistant role has also kept me current on how university systems connect: I work directly with students, faculty, and course administration tools each week, which means I understand the enrollment lifecycle from the academic side as well.
+
+I am local to Fairfax, available for hybrid work, and genuinely interested in contributing to graduate enrollment success at the institution where I earned my degree. I would welcome the chance to discuss how I can support the CHSS Graduate Admissions team.
+
+Thank you for your consideration.
+
+Sincerely,
+Venkata Lakshmi Parimala Pasupuleti

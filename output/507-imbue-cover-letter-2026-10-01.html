@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cover Letter — Imbue Software Engineer</title>
+<style>
+  @font-face { font-family: 'Space Grotesk'; src: url('../templates/fonts/space-grotesk-latin.woff2') format('woff2'); font-weight: 300 700; font-style: normal; font-display: swap; }
+  @font-face { font-family: 'DM Sans'; src: url('../templates/fonts/dm-sans-latin.woff2') format('woff2'); font-weight: 100 1000; font-style: normal; font-display: swap; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-family: 'DM Sans', sans-serif; font-size: 10.5px; line-height: 1.75; color: #1a1a2e; background: #ffffff; }
+  .page { width: 100%; max-width: 680px; margin: 0 auto; padding: 48px 40px 48px 40px; }
+
+  .name { font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 700; color: #1a1a2e; letter-spacing: -0.02em; margin-bottom: 2px; }
+  .contact { font-size: 9px; color: #666; margin-bottom: 4px; }
+  .contact a { color: #666; text-decoration: none; }
+  .contact .sep { color: #ccc; margin: 0 6px; }
+  .header-gradient { height: 2px; background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%)); border-radius: 1px; margin: 8px 0 28px 0; }
+
+  .date-line { font-size: 10px; color: #777; margin-bottom: 20px; }
+
+  .recipient { font-size: 10.5px; color: #1a1a2e; margin-bottom: 20px; line-height: 1.6; }
+  .recipient strong { font-weight: 600; }
+
+  .body { font-size: 10.5px; line-height: 1.78; color: #2a2a2a; }
+  .body p { margin-bottom: 16px; }
+  .body p strong { font-weight: 600; color: #1a1a2e; }
+  .body a { color: hsl(187, 74%, 28%); text-decoration: none; }
+
+  .sign-off { margin-top: 28px; font-size: 10.5px; color: #2a2a2a; }
+  .sign-off .name-sign { font-family: 'Space Grotesk', sans-serif; font-size: 13px; font-weight: 700; color: #1a1a2e; margin-top: 6px; }
+
+  @media print { body { -webkit-print-color-adjust: exact; print-color-adjust: exact; } .page { padding: 40px; } }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="name">Venkata Lakshmi Parimala Pasupuleti</div>
+  <div class="contact">
+    +1-703-261-5410
+    <span class="sep">|</span>
+    venkatalakshmiparimala@gmail.com
+    <span class="sep">|</span>
+    <a href="https://github.com/venkatalakshmiparimala">github.com/venkatalakshmiparimala</a>
+    <span class="sep">|</span>
+    Virginia, USA
+  </div>
+  <div class="header-gradient"></div>
+
+  <div class="date-line">October 1, 2026</div>
+
+  <div class="recipient">
+    <strong>Hiring Team</strong><br>
+    Imbue<br>
+    San Francisco, CA
+  </div>
+
+  <div class="body">
+
+    <p>I'm applying for the Software Engineer role at Imbue. I want to build open-source AI tools that actually serve people — and I have two projects that are direct evidence of that.</p>
+
+    <p>The first is <strong>AgentProbe</strong> (<a href="https://github.com/venkatalakshmiparimala/AgentProbe">github.com/venkatalakshmiparimala/AgentProbe</a>) — an open-source LLM evaluation toolkit I built because I needed to know whether my production AI systems were degrading quietly, before users noticed. It has a CI-integrated regression harness, LLM-as-judge scoring, a 5-metric eval engine, and multi-provider routing across Anthropic, OpenAI, Groq, and Ollama. I use it daily as a development tool. When I saw Vet in your product lineup, I recognized the same problem — catching AI mistakes before they reach people. I've already built something in that space, and I want to keep building it.</p>
+
+    <p>The second is <strong>LeaseI</strong> (<a href="https://github.com/venkatalakshmiparimala/Lease_complaince_rag">github.com/venkatalakshmiparimala/Lease_complaince_rag</a>), an 8-agent LangGraph platform I built from a blank page. I chose the architecture, designed the schema, shipped three production surfaces sharing one knowledge repository, and operate it with a CI regression gate. 93.6% precision across 1,240 test cases. That's not a demo — it's a production system with a reliability story.</p>
+
+    <p>Before these projects, I spent nine years at Entrata shipping production backend systems at scale — APIs, distributed async processing, data pipelines, microservices, and compliance workflows for 100K+ users. I own what I build after it ships, and I know what it means to keep a system running in the real world.</p>
+
+    <p>Imbue's mission — AI that extends human will and judgment, tools people can actually modify and own — is the kind of work I want to spend my time on. I'm not looking for a job that uses AI; I want to be on the team that builds the tools that make AI genuinely useful to people. That's what you're doing, and it's where I want to be.</p>
+
+    <p>I'd love to talk. Happy to walk through either project in detail.</p>
+
+  </div>
+
+  <div class="sign-off">
+    Sincerely,
+    <div class="name-sign">Venkata Lakshmi Parimala Pasupuleti</div>
+  </div>
+
+</div>
+</body>
+</html>

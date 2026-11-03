@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Venkata Lakshmi Parimala Pasupuleti -- CV</title>
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('../templates/fonts/space-grotesk-latin.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../templates/fonts/dm-sans-latin.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.2px;
+    line-height: 1.5;
+    color: #1a1a2e;
+    background: #ffffff;
+    padding: 0; margin: 0;
+  }
+
+  .page { width: 100%; max-width: 780px; margin: 0 auto; padding: 10px 22px; }
+
+  .header { margin-bottom: 14px; }
+  .header h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 26px; font-weight: 700; color: #1a1a2e;
+    letter-spacing: -0.02em; margin-bottom: 2px; line-height: 1.1;
+  }
+  .header-sub {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.5px; font-weight: 500;
+    color: hsl(187, 74%, 28%); margin-bottom: 6px; letter-spacing: 0.01em;
+  }
+  .header-gradient {
+    height: 2px;
+    background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%));
+    border-radius: 1px; margin-bottom: 8px;
+  }
+  .contact-row {
+    display: flex; flex-wrap: wrap; gap: 6px 12px;
+    font-size: 10px; color: #555;
+  }
+  .contact-row a { color: #555; text-decoration: none; }
+  .contact-row .sep { color: #ccc; }
+
+  .section { margin-bottom: 14px; }
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.07em; color: hsl(187, 74%, 32%);
+    border-bottom: 1.5px solid #e2e2e2; padding-bottom: 3px; margin-bottom: 8px;
+  }
+
+  .summary-text { font-size: 10.5px; line-height: 1.7; color: #2f2f2f; }
+
+  .competencies-grid { display: flex; flex-wrap: wrap; gap: 6px; }
+  .competency-tag {
+    font-size: 9.5px; font-weight: 500;
+    color: hsl(187, 74%, 28%); background: hsl(187, 40%, 95%);
+    padding: 3px 9px; border-radius: 3px; border: 1px solid hsl(187, 40%, 88%);
+  }
+
+  .job { margin-bottom: 12px; }
+  .job-header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 2px; }
+  .job-company { font-family: 'Space Grotesk', sans-serif; font-size: 11.5px; font-weight: 600; color: hsl(270, 70%, 45%); }
+  .job-period { font-size: 10px; color: #777; white-space: nowrap; }
+  .job-role { font-size: 10.5px; font-weight: 600; color: #333; margin-bottom: 4px; }
+  .job ul { padding-left: 16px; margin-top: 4px; }
+  .job li { font-size: 10px; line-height: 1.6; color: #333; margin-bottom: 3px; }
+  .job li strong { font-weight: 600; }
+
+  .project { margin-bottom: 10px; }
+  .project-header { display: flex; align-items: baseline; gap: 6px; margin-bottom: 2px; }
+  .project-title { font-family: 'Space Grotesk', sans-serif; font-size: 11px; font-weight: 600; color: hsl(270, 70%, 45%); }
+  .project-badge {
+    font-size: 8.5px; font-weight: 500; color: hsl(187, 74%, 32%);
+    background: hsl(187, 40%, 95%); padding: 1px 5px; border-radius: 2px;
+  }
+  .project-tech { font-size: 9px; color: #777; margin-bottom: 3px; }
+  .project ul { padding-left: 16px; }
+  .project li { font-size: 10px; line-height: 1.6; color: #333; margin-bottom: 2px; }
+
+  .edu-item { margin-bottom: 6px; }
+  .edu-header { display: flex; justify-content: space-between; align-items: baseline; }
+  .edu-title { font-weight: 600; font-size: 10.5px; color: #333; }
+  .edu-org { color: hsl(270, 70%, 45%); font-weight: 500; }
+  .edu-year { font-size: 10px; color: #777; white-space: nowrap; }
+
+  .skills-block { margin-bottom: 5px; }
+  .skill-category { font-weight: 600; font-size: 10px; color: #333; }
+  .skill-list { font-size: 10px; color: #444; }
+
+  a { white-space: nowrap; }
+  .avoid-break, .job, .project, .edu-item { break-inside: avoid; page-break-inside: avoid; }
+
+  @media print {
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .page { padding: 6px 22px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header avoid-break">
+    <h1>Venkata Lakshmi Parimala Pasupuleti</h1>
+    <div class="header-sub">Business Intelligence &middot; Semantic Modeling &middot; Data Analytics Engineering &middot; AI-driven BI &middot; Power BI &middot; Python &middot; SQL &middot; Data Governance</div>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <a href="mailto:venkatalakshmiparimala@gmail.com">venkatalakshmiparimala@gmail.com</a>
+      <span class="sep">|</span>
+      <a href="https://www.linkedin.com/in/venkata-lakshmi-parimala/">linkedin.com/in/venkata-lakshmi-parimala</a>
+      <span class="sep">|</span>
+      <a href="https://github.com/venkatalakshmiparimala">github.com/venkatalakshmiparimala</a>
+      <span class="sep">|</span>
+      <span>Virginia, USA</span>
+    </div>
+  </div>
+
+  <!-- SUMMARY -->
+  <div class="section avoid-break">
+    <div class="section-title">Professional Summary</div>
+    <div class="summary-text">
+      Data analytics engineer with 8+ years of production data engineering at scale and a M.S. in Data Analytics Engineering (GMU, GPA 3.87). Built and optimized enterprise data pipelines, reporting systems, and AI-powered analytics for 100K+ monthly active users at Entrata &mdash; translating complex compliance and financial data into actionable insights for stakeholders across Product, Operations, Legal, and Finance. Experienced in end-to-end analytics delivery: data ingestion, transformation, modeling, visualization (Power BI, Tableau, ggplot2), and governance. Applied predictive modeling and AI-driven analytics to accelerate research and decision-making at GMU. Proven cross-functional communicator who translates data complexity into business-ready insights and self-service solutions.
+    </div>
+  </div>
+
+  <!-- COMPETENCIES -->
+  <div class="section avoid-break">
+    <div class="section-title">Core Competencies</div>
+    <div class="competencies-grid">
+      <span class="competency-tag">Business Intelligence &amp; Reporting</span>
+      <span class="competency-tag">Semantic &amp; Dimensional Modeling</span>
+      <span class="competency-tag">Power BI &amp; Tableau Dashboards</span>
+      <span class="competency-tag">AI-driven BI &amp; Analytics</span>
+      <span class="competency-tag">Data Pipeline &amp; ETL Engineering</span>
+      <span class="competency-tag">Data Governance &amp; Compliance</span>
+      <span class="competency-tag">Python &amp; SQL at Scale</span>
+      <span class="competency-tag">Statistical Modeling &amp; ML</span>
+      <span class="competency-tag">Cross-Functional Stakeholder Delivery</span>
+      <span class="competency-tag">Self-Service Analytics Enablement</span>
+      <span class="competency-tag">Observability &amp; Data Quality</span>
+      <span class="competency-tag">Predictive Insights</span>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Experience</div>
+
+    <!-- GMU Research -->
+    <div class="job avoid-break">
+      <div class="job-header">
+        <span class="job-company">George Mason University &mdash; Research Associate</span>
+        <span class="job-period">Aug 2024 &ndash; Aug 2025</span>
+      </div>
+      <div class="job-role">Data Analytics &middot; Statistical Modeling &middot; AI-Powered Insights &middot; BI Dashboards</div>
+      <ul>
+        <li>Built <strong>multi-source prediction models</strong> (Python, R) achieving R&sup2; = 0.977 across 190+ countries on WHO and UK Road Safety datasets &mdash; data collection, transformation, hypothesis testing, and validation pipeline delivering research strategy recommendations to faculty stakeholders.</li>
+        <li>Surfaced data integrity anomalies across <strong>3 research pipelines</strong> by applying Isolation Forest automation &mdash; replaced manual review with scalable, repeatable anomaly detection that improved downstream model reliability.</li>
+        <li><strong>Improved research comprehension by 40%</strong> across two cohorts by designing leadership analytics dashboards in <strong>Tableau, ggplot2, and Quarto</strong> &mdash; translating complex multi-country datasets into decision-ready visual narratives for faculty and administrative stakeholders.</li>
+      </ul>
+    </div>
+
+    <!-- GMU TA -->
+    <div class="job avoid-break">
+      <div class="job-header">
+        <span class="job-company">George Mason University &mdash; Graduate Teaching Assistant</span>
+        <span class="job-period">Aug 2025 &ndash; May 2026 &middot; Part-time</span>
+      </div>
+      <div class="job-role">Python Programming &middot; Database Design &middot; Data Visualization Instruction</div>
+      <ul>
+        <li>Mentored <strong>600+ students</strong> across Python programming (data structures, OOP, automation) and database design (ER modeling, SQL, normalization, pivot tables, data validation) &mdash; developed supplementary exercises and walkthroughs; graded with rubric-aligned feedback.</li>
+      </ul>
+    </div>
+
+    <!-- Entrata Senior -->
+    <div class="job avoid-break">
+      <div class="job-header">
+        <span class="job-company">Entrata (PropTech / Real Estate SaaS)</span>
+        <span class="job-period">Sep 2018 &ndash; Aug 2024</span>
+      </div>
+      <div class="job-role">Senior Software Engineer &mdash; Data Engineering &middot; Analytics &middot; BI Reporting &middot; Data Governance at Scale</div>
+      <ul>
+        <li><strong>Delivered enterprise analytics and reporting</strong> across financial services workflows: HAP allocation, AMI-based pricing tiers, tax credit calculations, HUD payments, income limits &mdash; built data models, batch pipelines, and reporting solutions consumed by 100K+ monthly active users; stakeholders across Finance, Compliance, Operations, and Product.</li>
+        <li><strong>Optimized 200+ SQL queries</strong> across all client environments (30% performance gain) through execution plan tuning, indexing, database partitioning, caching strategies, views, stored procedures, and observability tooling &mdash; designed high-performance, ACID-compliant data access patterns for complex production schemas.</li>
+        <li>Built and shipped <strong>20+ full-stack analytics and reporting modules</strong> (Python, React, PHP, PostgreSQL, RabbitMQ) &mdash; 99.5% uptime across 6+ months; led sprint planning across 120+ Agile sprints; collaborated cross-functionally with Product, UX, Compliance, and Legal to translate business requirements into scalable data solutions.</li>
+        <li><strong>Data governance and security at scale</strong>: 100% PHI compliance on AWS S3 migration (Libsodium-encrypted; zero security incidents); enforced access controls, data minimization, and audit logging across all resident PII; zero compliance violations across federal housing programs (LIHTC, HUD, HAP, AMI, Section 8).</li>
+        <li>Implemented <strong>Salesforce reporting automations, data sync, and CRM data pipelines</strong> &mdash; connected product data to commercial reporting systems using Clay and n8n; automated workflows reducing manual reporting overhead.</li>
+        <li>Eliminated 80% of manual operational workload via Python/Bash automation pipelines; mentored 5+ engineers; conducted 300+ peer code reviews; led microservices architecture redesign (Docker, 50% scalability improvement).</li>
+      </ul>
+    </div>
+
+    <!-- Entrata India -->
+    <div class="job avoid-break">
+      <div class="job-header">
+        <span class="job-company">Entrata India (Db Xento Systems)</span>
+        <span class="job-period">Jan 2017 &ndash; Sep 2018</span>
+      </div>
+      <div class="job-role">Associate / Trainee Software Engineer &mdash; Data Pipelines &middot; Reporting &middot; Compliance Data</div>
+      <ul>
+        <li>Built data pipelines processing <strong>1.6M HUD/Tax Credit income limit records</strong> across five years; designed generic SQL scripts for data import and eligibility modeling; created 56 state-specific compliance reporting documents; migrated client data to AWS S3.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section">
+    <div class="section-title">Analytics Projects</div>
+
+    <!-- CrashClarity -->
+    <div class="project avoid-break">
+      <div class="project-header">
+        <span class="project-title">CrashClarity &mdash; Large-Scale Predictive Analytics (104K Records)</span>
+        <span class="project-badge">ML Analytics</span>
+        <span class="project-badge">BI Dashboard</span>
+        <span class="project-badge">Predictive Insights</span>
+      </div>
+      <div class="project-tech">2025 &middot; Python, R, scikit-learn, Random Forest, Logistic Regression, Feature Engineering, GitHub Pages &middot; <a href="https://venkatalakshmiparimala.github.io/Portfolio/project_crashclarity.html">View Project</a></div>
+      <ul>
+        <li>Achieved <strong>85%+ accuracy on 104K+ UK accident records</strong> by building a Random Forest + Logistic Regression pipeline with feature engineering across weather, road, and time variables &mdash; end-to-end: data ingestion, transformation, model training, validation, and self-service interactive dashboard deployed on GitHub Pages.</li>
+        <li>Translated complex multi-variable accident patterns into <strong>decision-ready visualizations</strong> with clear business narratives &mdash; same storytelling approach required for translating Partner and Marketing data into actionable insights.</li>
+      </ul>
+    </div>
+
+    <!-- AI on FHIR -->
+    <div class="project avoid-break">
+      <div class="project-header">
+        <span class="project-title">AI on FHIR &mdash; NLP-Driven Data Query &amp; Analytics Platform</span>
+        <span class="project-badge">AI-Powered Analytics</span>
+        <span class="project-badge">Natural Language Query</span>
+        <span class="project-badge">Governed Data Access</span>
+      </div>
+      <div class="project-tech">2024 &middot; Flask, LLMs, FHIR, React, Docker, spaCy, BERT, Embeddings &middot; <a href="https://github.com/venkatalakshmiparimala/AI_on_FHIR">github.com/venkatalakshmiparimala/AI_on_FHIR</a></div>
+      <ul>
+        <li>Reduced manual clinical data retrieval time ~60% by building a Copilot-style natural language query platform over structured medical records &mdash; LLMs + BERT translate plain-language questions (EN/ES) into FHIR API queries against a governed semantic modeling layer; HIPAA-compliant RBAC enforced; analogous to AI-driven BI and natural language querying over Power BI semantic models.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section avoid-break">
+    <div class="section-title">Education</div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">M.S. Data Analytics Engineering &mdash; <span class="edu-org">George Mason University, Virginia</span></span>
+        <span class="edu-year">May 2026 &middot; GPA 3.87</span>
+      </div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">B.Tech Computer Science &amp; Engineering &mdash; <span class="edu-org">JNTUA, India</span></span>
+        <span class="edu-year">2013&ndash;2017</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section avoid-break">
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-block">
+      <span class="skill-category">Analytics &amp; BI: </span>
+      <span class="skill-list">Python, R, SQL, PL/SQL, Power BI, Tableau, ggplot2, Quarto, Data Visualization, Statistical Modeling, Feature Engineering, Predictive Analytics, Anomaly Detection, Isolation Forest, Random Forest, Logistic Regression, XGBoost, Scikit-learn, PyTorch, NumPy, Pandas, Jupyter</span>
+    </div>
+    <div class="skills-block">
+      <span class="skill-category">Data Engineering &amp; Governance: </span>
+      <span class="skill-list">Data Pipelines, ETL, Data Architecture, Semantic Modeling, Dimensional Modeling, Star Schema, Data Modeling, Batch Pipelines, Data Governance, Data Quality, Observability, Access Controls, Row-Level Security, PII Handling, PHI Compliance, Audit Logging, Data Minimization, AWS (S3, Glue, EC2, RDS), PostgreSQL, MySQL, Oracle, RabbitMQ</span>
+    </div>
+    <div class="skills-block">
+      <span class="skill-category">AI-Powered Analytics: </span>
+      <span class="skill-list">AI-driven BI, AI-Driven Insights, Copilot-Style NLQ, Natural Language Querying, LLM Integration, RAG Pipelines, Embeddings, Semantic Search, NLP, spaCy, BERT, Hugging Face, GenAI, Anthropic API, OpenAI API, LangChain, LangGraph, FastAPI</span>
+    </div>
+    <div class="skills-block">
+      <span class="skill-category">Platform &amp; Delivery: </span>
+      <span class="skill-list">React, JavaScript, TypeScript, Docker, CI/CD (GitHub Actions), Microservices, Salesforce (reporting automations, data sync, CRM pipelines), Clay, n8n, Git, Linux, Agile/Scrum, Cross-Functional Delivery</span>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

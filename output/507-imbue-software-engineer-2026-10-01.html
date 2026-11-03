@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Venkata Lakshmi Parimala Pasupuleti — Software Engineer</title>
+<style>
+  @font-face { font-family: 'Space Grotesk'; src: url('../templates/fonts/space-grotesk-latin.woff2') format('woff2'); font-weight: 300 700; font-style: normal; font-display: swap; }
+  @font-face { font-family: 'DM Sans'; src: url('../templates/fonts/dm-sans-latin.woff2') format('woff2'); font-weight: 100 1000; font-style: normal; font-display: swap; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-family: 'DM Sans', sans-serif; font-size: 9.5px; line-height: 1.65; color: #1a1a2e; background: #ffffff; }
+  .page { width: 100%; max-width: 760px; margin: 0 auto; padding: 22px 28px 20px 28px; }
+  .header { margin-bottom: 10px; }
+  .header h1 { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: #1a1a2e; letter-spacing: -0.02em; margin-bottom: 2px; line-height: 1.1; }
+  .header-tagline { font-size: 8.5px; color: #555; margin-bottom: 4px; line-height: 1.4; font-weight: 400; }
+  .header-gradient { height: 2px; background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%)); border-radius: 1px; margin-bottom: 5px; }
+  .contact-row { display: flex; flex-wrap: wrap; gap: 3px 10px; font-size: 8.5px; color: #555; }
+  .contact-row a { color: #555; text-decoration: none; }
+  .contact-row .sep { color: #ccc; }
+  .section { margin-bottom: 8px; }
+  .section-title { font-family: 'Space Grotesk', sans-serif; font-size: 9px; font-weight: 700; color: hsl(187, 74%, 28%); text-transform: uppercase; letter-spacing: 0.08em; border-bottom: 1px solid hsl(187, 60%, 85%); padding-bottom: 2px; margin-bottom: 5px; }
+  .summary { font-size: 9px; line-height: 1.65; color: #2f2f2f; }
+  .tags { display: flex; flex-wrap: wrap; gap: 4px; }
+  .tag { font-size: 8px; font-weight: 500; padding: 2px 7px; border-radius: 10px; background: hsl(187, 55%, 92%); color: hsl(187, 74%, 22%); white-space: nowrap; }
+  .job { margin-bottom: 7px; }
+  .job-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1px; }
+  .job-title { font-family: 'Space Grotesk', sans-serif; font-size: 10px; font-weight: 700; color: #1a1a2e; }
+  .job-date { font-size: 8px; color: #777; white-space: nowrap; }
+  .job-company { font-size: 8.5px; color: hsl(187, 74%, 28%); font-weight: 600; margin-bottom: 3px; }
+  .job ul { padding-left: 13px; }
+  .job ul li { font-size: 9px; line-height: 1.6; color: #2f2f2f; margin-bottom: 1.5px; }
+  .job ul li strong { font-weight: 600; color: #1a1a2e; }
+  .project { margin-bottom: 6px; }
+  .project-header { display: flex; justify-content: space-between; align-items: baseline; }
+  .project-name { font-family: 'Space Grotesk', sans-serif; font-size: 9.5px; font-weight: 700; color: #1a1a2e; }
+  .project-meta { font-size: 8px; color: #777; }
+  .project-link { font-size: 8px; color: hsl(187, 74%, 28%); text-decoration: none; }
+  .project ul { padding-left: 13px; margin-top: 2px; }
+  .project ul li { font-size: 9px; line-height: 1.6; color: #2f2f2f; margin-bottom: 1.5px; }
+  .project ul li strong { font-weight: 600; color: #1a1a2e; }
+  .edu-row { display: flex; justify-content: space-between; align-items: baseline; }
+  .edu-degree { font-size: 9px; font-weight: 600; color: #1a1a2e; }
+  .edu-school { font-size: 8.5px; color: #555; }
+  .edu-date { font-size: 8px; color: #777; }
+  @media print { body { -webkit-print-color-adjust: exact; print-color-adjust: exact; } .page { padding: 18px 28px; } }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="header">
+    <h1>Venkata Lakshmi Parimala Pasupuleti</h1>
+    <div class="header-tagline">Software Engineer &middot; Open-Source AI Tools &middot; Agentic Systems &middot; Python &middot; 0-to-1 Builder &middot; LLM Evaluation &middot; Production AI</div>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <span>+1-703-261-5410</span>
+      <span class="sep">|</span>
+      <span>venkatalakshmiparimala@gmail.com</span>
+      <span class="sep">|</span>
+      <a href="https://linkedin.com/in/venkata-lakshmi-parimala">linkedin.com/in/venkata-lakshmi-parimala</a>
+      <span class="sep">|</span>
+      <a href="https://github.com/venkatalakshmiparimala">github.com/venkatalakshmiparimala</a>
+      <span class="sep">|</span>
+      <span>Virginia, USA</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Summary</div>
+    <div class="summary">
+      Software engineer with 9+ years of production engineering depth and a pattern of building AI tools from scratch that solve real operational problems. Built <strong>AgentProbe</strong> — an open-source LLM evaluation toolkit — because I needed a way to know whether my production AI systems were degrading quietly: CI-integrated regression harness, LLM-as-judge scoring, 5-metric eval engine, multi-provider routing. Same category as Imbue's Vet. Built <strong>LeaseI</strong> from a blank page: chose the architecture, designed the schema, shipped three production surfaces sharing one knowledge repository (8-agent LangGraph system with HITL escalation, OCR-fallback RAG, and a CI regression gate). Both projects are on GitHub. At Entrata (9+ years, 100K+ users), owned production systems end-to-end across the full SDLC — shipped 20+ modules, led microservices redesign, owned incident resolution and postmortems. Strong Python, FastAPI, LangGraph, RAG pipelines, REST APIs, AWS, Docker, CI/CD. M.S. Data Analytics Engineering, George Mason University (GPA 3.87).
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Core Competencies</div>
+    <div class="tags">
+      <span class="tag">Python &middot; FastAPI &middot; Django</span>
+      <span class="tag">Open-Source Development</span>
+      <span class="tag">0-to-1 Product Building</span>
+      <span class="tag">Agentic AI Systems</span>
+      <span class="tag">LLM Evaluation &middot; CI Regression</span>
+      <span class="tag">LangGraph &middot; LangChain</span>
+      <span class="tag">RAG Pipelines &middot; Hybrid Search</span>
+      <span class="tag">REST APIs &middot; OpenAPI</span>
+      <span class="tag">PostgreSQL &middot; SQLite &middot; Redis</span>
+      <span class="tag">AWS (S3 &middot; EC2 &middot; RDS &middot; Lambda)</span>
+      <span class="tag">Docker &middot; Kubernetes</span>
+      <span class="tag">CI/CD &middot; GitHub Actions</span>
+      <span class="tag">Distributed Systems</span>
+      <span class="tag">Multi-Tenant Architecture</span>
+      <span class="tag">TypeScript &middot; Node.js &middot; JavaScript</span>
+      <span class="tag">Java &middot; Spring Boot</span>
+      <span class="tag">HITL &middot; Guardrails &middot; Audit Logging</span>
+      <span class="tag">Production Incident Ownership</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Experience</div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">AI/ML Engineer (Volunteer)</span>
+        <span class="job-date">Sep 2026 – Present</span>
+      </div>
+      <div class="job-company">Blue Horse Digital &mdash; Virginia, USA</div>
+      <ul>
+        <li>Building ML models, data pipelines, and AI-powered application features end-to-end; connecting AI components to backend APIs and surfacing insights into reporting layers.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">AI/ML Engineer Intern</span>
+        <span class="job-date">May 2025 – Aug 2025</span>
+      </div>
+      <div class="job-company">Magizhs Tech Solution</div>
+      <ul>
+        <li>Built an agentic mission-planning system (LangGraph StateGraph) — prototype to deployed integration: RAG over regulatory documents, validation guardrails, conditional routing to export or rejection; deployed MCP server connecting agent outputs to downstream enterprise tooling.</li>
+        <li>Engineered full document ingestion, chunking, retrieval, and FastAPI streaming pipeline from regulatory corpus to real-time operator interface.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Senior Software Engineer</span>
+        <span class="job-date">Sep 2018 – Aug 2024</span>
+      </div>
+      <div class="job-company">Entrata — PropTech / Real Estate SaaS (100K+ monthly active users, multi-tenant)</div>
+      <ul>
+        <li><strong>Shipped 20+ full-stack production modules end-to-end</strong> (Python, PHP, PostgreSQL, JavaScript, RabbitMQ) across 120+ Agile sprints — database schema through API design through deployment pipelines; owned each one in production after launch.</li>
+        <li><strong>Led production incident resolution and postmortems</strong> across services — built internal debugging tools that cut debugging time by 40%; drove root-cause analysis and resiliency improvements; maintained bug count below 10 for 6+ consecutive months across a platform serving 100K+ users.</li>
+        <li><strong>Built and operated distributed async processing</strong> (RabbitMQ) with retry logic and idempotency; owned annual HUD compliance pipeline (few thousand federal rows &rarr; ~180,000 domain records) for 7 years, zero compliance violations; PHI-encrypted AWS S3 migration (100% coverage, zero security incidents).</li>
+        <li>Optimized 200+ SQL queries (30% gain) across complex multi-tenant PostgreSQL schemas; led microservices redesign (Docker) — 50% scalability improvement, 30% deployment time reduction; Python/Bash automation eliminated 80% of manual operational workload.</li>
+        <li>Mentored 5+ engineers; conducted 300+ peer code reviews; drove engineering standards across a team shipping in a regulated environment.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Associate Software Engineer</span>
+        <span class="job-date">Jul 2017 – Sep 2018</span>
+      </div>
+      <div class="job-company">Entrata India, Pune</div>
+      <ul>
+        <li>Built property management modules (Python, PHP, Java, PostgreSQL); led AWS S3 cloud migration from legacy storage; delivered large-scale data import workflows (1.6M records).</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="section">
+    <div class="section-title">Projects</div>
+
+    <div class="project">
+      <div class="project-header">
+        <span class="project-name">AgentProbe — Open-Source LLM Evaluation Toolkit</span>
+        <span class="project-meta">2025 &nbsp;|&nbsp; Python, FastAPI, LangGraph, CI/CD &nbsp;|&nbsp; <a class="project-link" href="https://github.com/venkatalakshmiparimala/AgentProbe">github.com/venkatalakshmiparimala/AgentProbe</a></span>
+      </div>
+      <ul>
+        <li>Built to solve a real problem: knowing whether a production AI system is degrading before users notice. <strong>CI-integrated regression harness</strong> with LLM-as-judge scoring and golden datasets; 15-endpoint FastAPI backend; 5-metric eval engine (accuracy, hallucination rate, retrieval quality, completeness, compliance); multi-provider LLM routing (Anthropic, OpenAI, Azure OpenAI, Groq, Ollama). Used daily as a development tool — the same category as Imbue's Vet.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <div class="project-header">
+        <span class="project-name">LeaseI — Agentic AI Platform Built 0-to-1</span>
+        <span class="project-meta">2026 &nbsp;|&nbsp; Python, LangGraph (8-agent), FastAPI, SQLite, CI/CD &nbsp;|&nbsp; <a class="project-link" href="https://github.com/venkatalakshmiparimala/Lease_complaince_rag">github.com/venkatalakshmiparimala/Lease_complaince_rag</a></span>
+      </div>
+      <ul>
+        <li>Took the problem from blank page to production: chose the architecture (LangGraph StateGraph), designed the schema, built three surfaces sharing one SQLite knowledge repository — <strong>document intelligence</strong> (OCR, hybrid search, citation grounding), <strong>agentic investigation</strong> (8-agent pipeline with HITL escalation when confidence is insufficient), and <strong>self-service</strong> with a hard safety boundary on regulated decisions. CI regression gate with AgentProbe LLM-as-judge scoring; 93.6% precision and 87.9% F1 across 1,240 test cases (10 compliance rules, 5 US states + federal).</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="section">
+    <div class="section-title">Education</div>
+    <div class="edu-row">
+      <div>
+        <span class="edu-degree">M.S. Data Analytics Engineering</span>
+        <span class="edu-school"> &mdash; George Mason University, Virginia &nbsp;|&nbsp; GPA 3.87</span>
+      </div>
+      <span class="edu-date">May 2026</span>
+    </div>
+    <div class="edu-row" style="margin-top:3px;">
+      <div>
+        <span class="edu-degree">B.Tech Computer Science &amp; Engineering</span>
+        <span class="edu-school"> &mdash; JNTU Anantapur</span>
+      </div>
+      <span class="edu-date">2017</span>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

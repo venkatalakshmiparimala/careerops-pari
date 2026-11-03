@@ -1,0 +1,21 @@
+rep_id,rep_name,territory,quarterly_quota_usd,q1_2026_actual_usd,quota_attainment_pct,active_customer_count
+REP01,James Carter,Northeast,301000,316050,105.0,11
+REP02,Priya Nair,Northeast,223000,211850,95.0,14
+REP03,Michael Torres,Northeast,251000,296180,118.0,13
+REP04,Sarah Kim,Northeast,237000,241740,102.0,11
+REP05,David Okafor,Northeast,306000,269280,88.0,18
+REP06,Emily Chen,Southeast,231000,212520,92.0,16
+REP07,Marcus Webb,Southeast,224000,165760,74.0,10
+REP08,Aisha Patel,Southeast,231000,231000,100.0,13
+REP09,Ryan O'Brien,Southeast,249000,268920,108.0,18
+REP10,Natalie Cruz,Southeast,297000,252450,85.0,10
+REP11,Kevin Zhao,Midwest,291000,293910,101.0,13
+REP12,Lakshmi Iyer,Midwest,311000,379420,122.0,18
+REP13,Daniel Murphy,Midwest,273000,264810,97.0,13
+REP14,Fatima Hassan,Midwest,277000,196670,71.0,14
+REP15,Chris Anderson,Midwest,220000,226600,103.0,12
+REP16,Yuki Tanaka,West,309000,336810,109.0,16
+REP17,Brandon Lee,West,263000,302450,115.0,14
+REP18,Olivia Smith,West,239000,236610,99.0,13
+REP19,Raj Gupta,West,317000,329680,104.0,15
+REP20,Megan Johnson,West,233000,216690,93.0,11

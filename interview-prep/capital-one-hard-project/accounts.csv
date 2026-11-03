@@ -1,0 +1,309 @@
+account_id,business_name,industry,business_size,state,territory,card_product,credit_limit_usd,acquisition_date,rep_id
+ACC0001,Horizon Clinic,Healthcare,Large,DC,Northeast,Business Platinum,242000,2023-04-12,REP02
+ACC0002,Harbor Goods,Retail,Small,NC,Southeast,Business Rewards,18000,2024-12-07,REP07
+ACC0003,Echo Tech,Technology,Medium,VA,Northeast,Business Platinum,48000,2025-05-25,REP05
+ACC0004,Lunar Development,Construction,Small,CA,West,Business Cash,16000,2024-01-03,REP16
+ACC0005,Sierra Restaurant,Restaurants,Small,SC,Southeast,Business Rewards,13000,2025-05-18,REP08
+ACC0006,Atlas Consulting,Professional Services,Small,FL,Southeast,Business Platinum,11000,2024-09-03,REP08
+ACC0007,Flint Medical,Healthcare,Small,TN,Southeast,Business Platinum,15000,2025-03-16,REP07
+ACC0008,Orbit Systems,Technology,Small,TN,Southeast,Business Rewards,7000,2023-08-01,REP06
+ACC0009,Echo Health,Healthcare,Medium,TN,Southeast,Business Rewards,41000,2025-03-18,REP07
+ACC0010,Granite Supply,Retail,Medium,AZ,West,Business Rewards,74000,2023-05-14,REP19
+ACC0011,Echo Retail,Retail,Small,GA,Southeast,Business Rewards,10000,2023-01-27,REP09
+ACC0012,Crestview Manufacturing,Manufacturing,Large,MI,Midwest,Business Cash,135000,2024-08-25,REP13
+ACC0013,Unity Partners,Professional Services,Small,TX,West,Business Platinum,10000,2023-05-10,REP18
+ACC0014,Bravo Care,Healthcare,Small,SC,Southeast,Business Platinum,8000,2024-05-02,REP07
+ACC0015,Ember Software,Technology,Large,NY,Northeast,Business Rewards,203000,2023-08-15,REP05
+ACC0016,Titan Development,Construction,Small,CA,West,Business Platinum,14000,2023-02-01,REP16
+ACC0017,Lunar Commerce,Retail,Small,DC,Northeast,Business Cash,17000,2023-04-21,REP01
+ACC0018,Pacific Builders,Construction,Large,TN,Southeast,Business Cash,95000,2023-11-26,REP07
+ACC0019,Lunar Mart,Retail,Large,VA,Northeast,Business Rewards,145000,2024-10-01,REP05
+ACC0020,Prism Consulting,Professional Services,Small,CO,West,Business Rewards,14000,2024-09-11,REP20
+ACC0021,Jade Sciences,Healthcare,Small,TN,Southeast,Business Cash,8000,2024-10-28,REP06
+ACC0022,Dover Care,Healthcare,Small,MD,Northeast,Business Platinum,11000,2023-08-22,REP04
+ACC0023,Quest Solutions,Technology,Medium,MA,Northeast,Business Rewards,45000,2025-01-17,REP02
+ACC0024,Vanguard Freight,Logistics,Medium,MI,Midwest,Business Rewards,40000,2023-09-19,REP13
+ACC0025,Meridian Tech,Technology,Medium,IL,Midwest,Business Platinum,24000,2025-05-01,REP11
+ACC0026,Bravo Group,Construction,Medium,GA,Southeast,Business Rewards,26000,2025-04-11,REP06
+ACC0027,Orbit Sciences,Healthcare,Small,OR,West,Business Cash,6000,2024-07-29,REP20
+ACC0028,Iron Commerce,Retail,Small,IN,Midwest,Business Rewards,8000,2024-11-12,REP15
+ACC0029,Quest Systems,Technology,Large,WI,Midwest,Business Platinum,101000,2024-08-14,REP12
+ACC0030,Pioneer Supply,Retail,Small,MA,Northeast,Business Cash,9000,2023-08-18,REP04
+ACC0031,Haven Grill,Restaurants,Medium,OH,Midwest,Business Rewards,27000,2024-08-10,REP13
+ACC0032,Amber Group,Professional Services,Small,TX,West,Business Platinum,5000,2025-04-29,REP20
+ACC0033,Bravo Solutions,Technology,Small,NC,Southeast,Business Rewards,5000,2024-12-20,REP09
+ACC0034,Kestrel Cafe,Restaurants,Small,TN,Southeast,Business Platinum,16000,2023-05-27,REP06
+ACC0035,Atlas Digital,Technology,Large,CO,West,Business Platinum,210000,2023-08-09,REP17
+ACC0036,Granite Strategies,Professional Services,Small,MI,Midwest,Business Rewards,19000,2024-01-14,REP15
+ACC0037,Amber Consulting,Professional Services,Large,MA,Northeast,Business Cash,220000,2024-09-02,REP04
+ACC0038,Zenith Retail,Retail,Medium,AL,Southeast,Business Cash,30000,2023-02-20,REP06
+ACC0039,Cobalt Advisors,Professional Services,Large,CT,Northeast,Business Platinum,188000,2024-02-29,REP03
+ACC0040,Apex Labs,Technology,Small,DC,Northeast,Business Rewards,18000,2024-11-25,REP03
+ACC0041,Unity Construction,Construction,Small,WI,Midwest,Business Rewards,14000,2024-02-09,REP15
+ACC0042,Summit Solutions,Technology,Medium,MI,Midwest,Business Platinum,69000,2025-02-21,REP12
+ACC0043,Cascade Strategies,Professional Services,Medium,WI,Midwest,Business Cash,31000,2024-01-25,REP12
+ACC0044,Vanguard Supply,Retail,Small,MN,Midwest,Business Rewards,12000,2025-05-03,REP15
+ACC0045,Pioneer Partners,Professional Services,Small,NY,Northeast,Business Platinum,7000,2024-03-22,REP05
+ACC0046,Zenith Group,Construction,Small,SC,Southeast,Business Cash,7000,2024-08-12,REP08
+ACC0047,Flint Consulting,Professional Services,Large,OR,West,Business Rewards,238000,2024-03-03,REP20
+ACC0048,Nordic Digital,Technology,Small,AZ,West,Business Platinum,17000,2023-06-25,REP20
+ACC0049,Lumen Group,Construction,Small,CO,West,Business Rewards,7000,2023-09-07,REP17
+ACC0050,Unity Commerce,Retail,Medium,NC,Southeast,Business Rewards,53000,2024-02-10,REP10
+ACC0051,Cobalt Associates,Professional Services,Medium,CA,West,Business Cash,24000,2024-10-10,REP17
+ACC0052,Meridian Goods,Retail,Small,WA,West,Business Rewards,16000,2025-04-14,REP17
+ACC0053,Harbor Eatery,Restaurants,Small,PA,Northeast,Business Rewards,8000,2023-07-22,REP02
+ACC0054,Mosaic Data,Technology,Medium,OH,Midwest,Business Platinum,68000,2023-03-19,REP15
+ACC0055,Cascade Digital,Technology,Small,AZ,West,Business Rewards,20000,2025-02-17,REP19
+ACC0056,Crestview Development,Construction,Small,WA,West,Business Platinum,15000,2023-11-20,REP17
+ACC0057,Waypoint Care,Healthcare,Large,CT,Northeast,Business Rewards,188000,2024-10-08,REP01
+ACC0058,Pacific Wellness,Healthcare,Small,NC,Southeast,Business Cash,6000,2023-03-17,REP08
+ACC0059,Prism Restaurant,Restaurants,Small,NC,Southeast,Business Platinum,19000,2024-01-13,REP06
+ACC0060,Zenith Grill,Restaurants,Small,SC,Southeast,Business Platinum,7000,2024-06-03,REP06
+ACC0061,Onyx Group,Professional Services,Small,GA,Southeast,Business Cash,6000,2024-10-29,REP10
+ACC0062,Apex Manufacturing,Manufacturing,Medium,DC,Northeast,Business Rewards,52000,2023-03-05,REP04
+ACC0063,Crestview Medical,Healthcare,Medium,TX,West,Business Cash,65000,2024-05-31,REP19
+ACC0064,Nordic Eatery,Restaurants,Medium,TN,Southeast,Business Platinum,35000,2024-03-25,REP08
+ACC0065,Indigo Digital,Technology,Small,CO,West,Business Cash,10000,2023-10-17,REP18
+ACC0066,Vector Retail,Retail,Small,MI,Midwest,Business Rewards,6000,2024-10-24,REP12
+ACC0067,Cedar Group,Construction,Large,MN,Midwest,Business Rewards,139000,2025-01-11,REP12
+ACC0068,Maple Contractors,Construction,Medium,PA,Northeast,Business Rewards,41000,2024-08-19,REP04
+ACC0069,Helix Group,Construction,Small,OH,Midwest,Business Rewards,14000,2024-02-06,REP14
+ACC0070,Waypoint Builders,Construction,Medium,VA,Northeast,Business Cash,39000,2024-01-21,REP01
+ACC0071,Jade Contractors,Construction,Small,AZ,West,Business Rewards,7000,2024-03-09,REP19
+ACC0072,Summit Care,Healthcare,Small,GA,Southeast,Business Rewards,5000,2023-07-04,REP08
+ACC0073,Echo Logistics,Logistics,Small,MI,Midwest,Business Cash,12000,2023-03-21,REP12
+ACC0074,Atlas Goods,Retail,Medium,AZ,West,Business Platinum,62000,2025-02-23,REP18
+ACC0075,Delta Depot,Retail,Small,MN,Midwest,Business Rewards,17000,2023-07-05,REP11
+ACC0076,Cobalt Contractors,Construction,Small,SC,Southeast,Business Rewards,10000,2023-02-14,REP08
+ACC0077,Cascade Builders,Construction,Small,DC,Northeast,Business Cash,12000,2023-10-19,REP05
+ACC0078,Falcon Products,Manufacturing,Large,OH,Midwest,Business Rewards,195000,2025-05-05,REP11
+ACC0079,Nexus Labs,Technology,Large,IN,Midwest,Business Rewards,147000,2025-03-07,REP15
+ACC0080,Nexus Freight,Logistics,Large,TN,Southeast,Business Cash,126000,2025-03-31,REP10
+ACC0081,Sierra Associates,Professional Services,Small,OR,West,Business Cash,13000,2024-05-07,REP16
+ACC0082,Harbor Group,Professional Services,Small,FL,Southeast,Business Platinum,8000,2025-05-21,REP10
+ACC0083,Prism Consulting,Professional Services,Medium,IN,Midwest,Business Platinum,52000,2025-04-30,REP12
+ACC0084,Horizon Development,Construction,Small,IL,Midwest,Business Rewards,12000,2023-12-24,REP13
+ACC0085,Pacific Partners,Professional Services,Small,NJ,Northeast,Business Cash,6000,2024-01-18,REP04
+ACC0086,Granite Strategies,Professional Services,Medium,TX,West,Business Platinum,40000,2025-05-09,REP17
+ACC0087,Sierra Bistro,Restaurants,Medium,NY,Northeast,Business Cash,70000,2023-05-21,REP01
+ACC0088,Waypoint Works,Manufacturing,Small,TX,West,Business Platinum,20000,2025-02-16,REP18
+ACC0089,Summit Bistro,Restaurants,Medium,IL,Midwest,Business Platinum,59000,2023-03-23,REP11
+ACC0090,Orbit Consulting,Professional Services,Medium,CT,Northeast,Business Rewards,27000,2023-09-01,REP03
+ACC0091,Lumen Health,Healthcare,Medium,DC,Northeast,Business Rewards,35000,2024-10-16,REP02
+ACC0092,Maple Consulting,Professional Services,Large,TN,Southeast,Business Cash,202000,2024-09-03,REP06
+ACC0093,Pacific Kitchen,Restaurants,Small,VA,Northeast,Business Rewards,9000,2023-01-02,REP03
+ACC0094,Helix Associates,Professional Services,Small,IL,Midwest,Business Rewards,18000,2024-11-15,REP15
+ACC0095,Onyx Eatery,Restaurants,Small,AZ,West,Business Cash,16000,2024-07-11,REP18
+ACC0096,Quest Wellness,Healthcare,Medium,AL,Southeast,Business Rewards,44000,2023-02-14,REP09
+ACC0097,Bravo Care,Healthcare,Medium,FL,Southeast,Business Rewards,36000,2024-01-01,REP10
+ACC0098,Pinnacle Data,Technology,Large,IL,Midwest,Business Platinum,243000,2024-10-05,REP13
+ACC0099,Titan Solutions,Technology,Small,AZ,West,Business Rewards,15000,2023-12-27,REP18
+ACC0100,Maple Development,Construction,Small,MN,Midwest,Business Rewards,10000,2024-04-20,REP14
+ACC0101,Falcon Data,Technology,Small,AL,Southeast,Business Platinum,10000,2023-03-06,REP09
+ACC0102,Apex Data,Technology,Large,CA,West,Business Rewards,150000,2023-07-26,REP19
+ACC0103,Knight Digital,Technology,Large,WI,Midwest,Business Rewards,176000,2025-04-14,REP12
+ACC0104,Waypoint Products,Manufacturing,Medium,NC,Southeast,Business Platinum,22000,2023-07-15,REP09
+ACC0105,Helix Retail,Retail,Small,MI,Midwest,Business Rewards,6000,2023-12-06,REP13
+ACC0106,Lunar Wellness,Healthcare,Medium,SC,Southeast,Business Rewards,47000,2025-01-31,REP07
+ACC0107,Summit Solutions,Technology,Small,IN,Midwest,Business Rewards,15000,2024-12-09,REP15
+ACC0108,Onyx Restaurant,Restaurants,Medium,IN,Midwest,Business Rewards,71000,2025-01-14,REP15
+ACC0109,Jasper Tech,Technology,Small,MA,Northeast,Business Rewards,10000,2023-11-25,REP03
+ACC0110,Pioneer Associates,Professional Services,Small,IN,Midwest,Business Rewards,15000,2023-11-10,REP11
+ACC0111,Orbit Retail,Retail,Medium,CO,West,Business Rewards,30000,2023-12-26,REP16
+ACC0112,Orbit Health,Healthcare,Medium,NY,Northeast,Business Platinum,59000,2023-10-09,REP04
+ACC0113,Amber Restaurant,Restaurants,Medium,PA,Northeast,Business Rewards,43000,2025-03-31,REP05
+ACC0114,Onyx Tech,Technology,Medium,IN,Midwest,Business Rewards,74000,2024-11-25,REP14
+ACC0115,Ivory Supply,Retail,Large,TX,West,Business Platinum,135000,2025-03-08,REP20
+ACC0116,Ivory Medical,Healthcare,Medium,AZ,West,Business Rewards,44000,2023-02-03,REP19
+ACC0117,Sterling Depot,Retail,Large,MA,Northeast,Business Rewards,170000,2024-03-30,REP05
+ACC0118,Sterling Transport,Logistics,Large,VA,Northeast,Business Rewards,168000,2024-02-12,REP01
+ACC0119,Relay Digital,Technology,Small,OH,Midwest,Business Rewards,12000,2025-01-23,REP14
+ACC0120,Nova Software,Technology,Medium,CT,Northeast,Business Rewards,55000,2023-09-26,REP01
+ACC0121,Grove Partners,Professional Services,Medium,MN,Midwest,Business Rewards,33000,2023-10-20,REP13
+ACC0122,Harbor Grill,Restaurants,Small,MA,Northeast,Business Rewards,11000,2025-05-23,REP02
+ACC0123,Mosaic Contractors,Construction,Medium,MN,Midwest,Business Cash,65000,2023-03-31,REP15
+ACC0124,Sierra Contractors,Construction,Medium,CT,Northeast,Business Rewards,65000,2024-07-17,REP02
+ACC0125,Prism Associates,Professional Services,Medium,VA,Northeast,Business Cash,65000,2023-06-28,REP01
+ACC0126,Kestrel Freight,Logistics,Small,OH,Midwest,Business Rewards,12000,2025-03-22,REP15
+ACC0127,Iron Tech,Technology,Small,MA,Northeast,Business Cash,16000,2023-05-13,REP03
+ACC0128,Horizon Partners,Professional Services,Medium,CO,West,Business Platinum,45000,2024-06-22,REP20
+ACC0129,Nexus Partners,Professional Services,Small,MA,Northeast,Business Platinum,7000,2024-10-19,REP05
+ACC0130,Sterling Depot,Retail,Small,OH,Midwest,Business Rewards,19000,2023-12-19,REP13
+ACC0131,Vector Data,Technology,Small,NY,Northeast,Business Cash,10000,2024-03-19,REP02
+ACC0132,Meridian Kitchen,Restaurants,Small,OH,Midwest,Business Cash,8000,2023-11-08,REP15
+ACC0133,Ember Contractors,Construction,Small,TN,Southeast,Business Platinum,15000,2023-12-21,REP08
+ACC0134,Dover Solutions,Technology,Small,TN,Southeast,Business Platinum,7000,2024-10-12,REP06
+ACC0135,Grove Retail,Retail,Small,TN,Southeast,Business Cash,9000,2024-09-21,REP08
+ACC0136,Iron Cafe,Restaurants,Small,GA,Southeast,Business Cash,10000,2023-06-07,REP09
+ACC0137,Pioneer Logistics,Logistics,Large,FL,Southeast,Business Rewards,219000,2023-02-12,REP07
+ACC0138,Relay Builders,Construction,Small,AL,Southeast,Business Platinum,6000,2023-09-29,REP10
+ACC0139,Nova Supply Chain,Logistics,Medium,DC,Northeast,Business Cash,59000,2023-02-01,REP05
+ACC0140,Nova Cafe,Restaurants,Medium,GA,Southeast,Business Rewards,61000,2024-05-09,REP08
+ACC0141,Cascade Consulting,Professional Services,Small,MN,Midwest,Business Cash,17000,2023-03-16,REP14
+ACC0142,Helix Systems,Technology,Small,DC,Northeast,Business Rewards,10000,2024-05-10,REP05
+ACC0143,Cedar Data,Technology,Medium,WA,West,Business Cash,66000,2024-02-13,REP17
+ACC0144,Kestrel Freight,Logistics,Medium,OR,West,Business Rewards,52000,2023-04-19,REP16
+ACC0145,Kestrel Systems,Technology,Medium,OH,Midwest,Business Platinum,27000,2024-04-05,REP11
+ACC0146,Nordic Data,Technology,Medium,OH,Midwest,Business Rewards,75000,2024-03-04,REP12
+ACC0147,Relay Medical,Healthcare,Small,VA,Northeast,Business Cash,10000,2024-08-14,REP04
+ACC0148,Haven Construction,Construction,Medium,IL,Midwest,Business Cash,51000,2024-05-24,REP12
+ACC0149,Grove Group,Construction,Small,OH,Midwest,Business Rewards,17000,2023-09-04,REP11
+ACC0150,Jasper Depot,Retail,Small,DC,Northeast,Business Platinum,16000,2023-10-16,REP02
+ACC0151,Iron Wellness,Healthcare,Medium,CA,West,Business Cash,38000,2023-01-09,REP18
+ACC0152,Delta Supply,Retail,Small,SC,Southeast,Business Rewards,9000,2025-02-21,REP08
+ACC0153,Sierra Products,Manufacturing,Large,NJ,Northeast,Business Rewards,88000,2024-08-06,REP02
+ACC0154,Relay Systems,Technology,Small,MA,Northeast,Business Rewards,19000,2023-10-14,REP03
+ACC0155,Amber Builders,Construction,Small,OH,Midwest,Business Platinum,15000,2025-02-12,REP12
+ACC0156,Falcon Goods,Retail,Large,IL,Midwest,Business Rewards,85000,2023-02-16,REP15
+ACC0157,Grove Group,Professional Services,Large,OH,Midwest,Business Cash,230000,2024-06-11,REP12
+ACC0158,Cedar Care,Healthcare,Medium,TX,West,Business Rewards,30000,2024-09-23,REP19
+ACC0159,Kestrel Strategies,Professional Services,Small,SC,Southeast,Business Rewards,15000,2024-06-29,REP07
+ACC0160,Quest Commerce,Retail,Small,NC,Southeast,Business Cash,14000,2024-01-13,REP08
+ACC0161,Sierra Logistics,Logistics,Medium,AL,Southeast,Business Platinum,46000,2023-11-12,REP09
+ACC0162,Titan Associates,Professional Services,Medium,TN,Southeast,Business Platinum,36000,2025-03-12,REP09
+ACC0163,Lumen Advisors,Professional Services,Large,CO,West,Business Cash,88000,2024-08-20,REP19
+ACC0164,Ivory Fabrication,Manufacturing,Medium,IL,Midwest,Business Platinum,29000,2023-09-06,REP11
+ACC0165,Flint Wellness,Healthcare,Large,MI,Midwest,Business Cash,79000,2024-03-27,REP14
+ACC0166,Meridian Software,Technology,Large,NY,Northeast,Business Rewards,231000,2024-04-27,REP03
+ACC0167,Echo Shipping,Logistics,Small,OR,West,Business Platinum,9000,2024-07-28,REP16
+ACC0168,Falcon Solutions,Technology,Large,WI,Midwest,Business Cash,211000,2023-12-17,REP12
+ACC0169,Knight Solutions,Technology,Small,WA,West,Business Rewards,13000,2023-07-16,REP18
+ACC0170,Sterling Software,Technology,Small,NC,Southeast,Business Platinum,14000,2025-02-28,REP06
+ACC0171,Kestrel Supply,Retail,Medium,IN,Midwest,Business Cash,64000,2023-11-21,REP15
+ACC0172,Granite Mart,Retail,Medium,MD,Northeast,Business Cash,38000,2024-08-10,REP02
+ACC0173,Indigo Care,Healthcare,Small,NY,Northeast,Business Rewards,16000,2023-10-25,REP01
+ACC0174,Harbor Strategies,Professional Services,Small,MI,Midwest,Business Rewards,7000,2024-11-02,REP14
+ACC0175,Delta Labs,Technology,Medium,MA,Northeast,Business Rewards,55000,2023-05-21,REP03
+ACC0176,Delta Systems,Technology,Medium,TN,Southeast,Business Platinum,35000,2024-11-16,REP10
+ACC0177,Pioneer Development,Construction,Small,VA,Northeast,Business Cash,12000,2024-02-28,REP01
+ACC0178,Haven Goods,Retail,Small,TN,Southeast,Business Cash,8000,2023-01-06,REP06
+ACC0179,Vector Care,Healthcare,Small,NJ,Northeast,Business Rewards,18000,2024-05-03,REP04
+ACC0180,Atlas Group,Construction,Medium,FL,Southeast,Business Platinum,38000,2023-03-02,REP07
+ACC0181,Nexus Advisors,Professional Services,Small,MD,Northeast,Business Rewards,12000,2023-06-29,REP05
+ACC0182,Iron Medical,Healthcare,Medium,CO,West,Business Rewards,73000,2025-03-17,REP16
+ACC0183,Vanguard Clinic,Healthcare,Large,WI,Midwest,Business Rewards,77000,2023-11-02,REP14
+ACC0184,Mosaic Goods,Retail,Large,DC,Northeast,Business Rewards,239000,2024-07-10,REP03
+ACC0185,Cobalt Bistro,Restaurants,Large,FL,Southeast,Business Rewards,124000,2025-04-08,REP06
+ACC0186,Onyx Industries,Manufacturing,Small,OR,West,Business Rewards,10000,2024-10-25,REP18
+ACC0187,Helix Clinic,Healthcare,Large,NC,Southeast,Business Platinum,161000,2025-03-20,REP10
+ACC0188,Harbor Partners,Professional Services,Medium,MN,Midwest,Business Rewards,31000,2025-05-26,REP11
+ACC0189,Mosaic Software,Technology,Small,CO,West,Business Rewards,18000,2023-03-30,REP20
+ACC0190,Indigo Advisors,Professional Services,Small,OR,West,Business Platinum,8000,2024-05-03,REP20
+ACC0191,Nordic Group,Professional Services,Small,SC,Southeast,Business Cash,5000,2023-08-30,REP09
+ACC0192,Vector Retail,Retail,Medium,AZ,West,Business Rewards,39000,2025-01-10,REP20
+ACC0193,Vector Consulting,Professional Services,Small,NJ,Northeast,Business Rewards,13000,2024-12-10,REP05
+ACC0194,Cobalt Strategies,Professional Services,Small,IN,Midwest,Business Rewards,8000,2023-06-13,REP14
+ACC0195,Granite Solutions,Technology,Small,CT,Northeast,Business Rewards,14000,2024-10-16,REP04
+ACC0196,Cedar Labs,Technology,Small,TX,West,Business Platinum,9000,2024-04-10,REP17
+ACC0197,Pinnacle Data,Technology,Small,WI,Midwest,Business Platinum,16000,2024-04-27,REP14
+ACC0198,Amber Retail,Retail,Small,AZ,West,Business Rewards,11000,2024-11-27,REP19
+ACC0199,Zenith Tech,Technology,Medium,WI,Midwest,Business Rewards,53000,2023-03-21,REP15
+ACC0200,Pacific Depot,Retail,Large,OH,Midwest,Business Platinum,215000,2024-06-01,REP15
+ACC0201,Crestview Works,Manufacturing,Small,TN,Southeast,Business Cash,9000,2025-05-24,REP06
+ACC0202,Ember Retail,Retail,Medium,DC,Northeast,Business Rewards,63000,2025-01-04,REP05
+ACC0203,Relay Digital,Technology,Small,CO,West,Business Platinum,6000,2024-06-09,REP17
+ACC0204,Mosaic Restaurant,Restaurants,Medium,CT,Northeast,Business Rewards,66000,2024-02-10,REP03
+ACC0205,Atlas Bistro,Restaurants,Small,MD,Northeast,Business Rewards,11000,2023-02-16,REP05
+ACC0206,Maple Tech,Technology,Medium,DC,Northeast,Business Rewards,54000,2023-03-12,REP05
+ACC0207,Titan Commerce,Retail,Medium,WA,West,Business Rewards,46000,2025-02-26,REP19
+ACC0208,Knight Mart,Retail,Small,SC,Southeast,Business Rewards,18000,2024-04-04,REP06
+ACC0209,Lumen Commerce,Retail,Small,GA,Southeast,Business Platinum,7000,2024-07-06,REP09
+ACC0210,Titan Depot,Retail,Medium,CO,West,Business Platinum,27000,2024-07-04,REP18
+ACC0211,Meridian Retail,Retail,Medium,CA,West,Business Platinum,66000,2025-05-04,REP19
+ACC0212,Jade Wellness,Healthcare,Small,TN,Southeast,Business Cash,14000,2025-01-06,REP06
+ACC0213,Bravo Supply,Retail,Small,SC,Southeast,Business Platinum,17000,2023-09-11,REP10
+ACC0214,Vanguard Health,Healthcare,Large,IL,Midwest,Business Rewards,123000,2025-01-12,REP14
+ACC0215,Pioneer Consulting,Professional Services,Small,WA,West,Business Platinum,18000,2023-09-04,REP20
+ACC0216,Jasper Cafe,Restaurants,Small,TN,Southeast,Business Cash,8000,2024-04-02,REP07
+ACC0217,Nova Systems,Technology,Medium,SC,Southeast,Business Rewards,35000,2024-02-16,REP10
+ACC0218,Indigo Solutions,Technology,Medium,TN,Southeast,Business Cash,68000,2023-05-24,REP10
+ACC0219,Nexus Eatery,Restaurants,Small,AZ,West,Business Cash,12000,2023-11-23,REP20
+ACC0220,Prism Labs,Technology,Large,AL,Southeast,Business Platinum,152000,2023-05-27,REP07
+ACC0221,Lumen Group,Construction,Medium,IL,Midwest,Business Platinum,46000,2023-10-09,REP11
+ACC0222,Delta Mart,Retail,Small,WI,Midwest,Business Cash,10000,2024-03-13,REP12
+ACC0223,Vector Associates,Professional Services,Large,CO,West,Business Platinum,239000,2024-11-18,REP19
+ACC0224,Orbit Group,Professional Services,Medium,PA,Northeast,Business Platinum,64000,2024-02-23,REP05
+ACC0225,Pinnacle Builders,Construction,Medium,WA,West,Business Rewards,31000,2024-04-29,REP20
+ACC0226,Summit Retail,Retail,Large,SC,Southeast,Business Rewards,111000,2025-04-05,REP08
+ACC0227,Flint Mart,Retail,Small,PA,Northeast,Business Rewards,18000,2024-06-26,REP05
+ACC0228,Pinnacle Retail,Retail,Small,AL,Southeast,Business Rewards,12000,2023-12-05,REP06
+ACC0229,Sterling Construction,Construction,Small,NJ,Northeast,Business Rewards,19000,2023-04-05,REP02
+ACC0230,Jasper Data,Technology,Small,NY,Northeast,Business Rewards,13000,2024-09-11,REP01
+ACC0231,Flint Depot,Retail,Medium,MN,Midwest,Business Rewards,32000,2025-01-11,REP14
+ACC0232,Meridian Restaurant,Restaurants,Medium,NC,Southeast,Business Rewards,50000,2023-12-07,REP08
+ACC0233,Jade Labs,Technology,Medium,TX,West,Business Rewards,67000,2023-09-06,REP17
+ACC0234,Lunar Contractors,Construction,Small,MI,Midwest,Business Cash,11000,2024-07-19,REP13
+ACC0235,Cascade Solutions,Technology,Medium,OR,West,Business Rewards,49000,2024-10-26,REP19
+ACC0236,Relay Consulting,Professional Services,Small,SC,Southeast,Business Cash,13000,2024-05-24,REP09
+ACC0237,Horizon Contractors,Construction,Small,MI,Midwest,Business Rewards,20000,2023-07-28,REP13
+ACC0238,Haven Eatery,Restaurants,Medium,OR,West,Business Cash,67000,2023-01-17,REP17
+ACC0239,Horizon Medical,Healthcare,Small,OR,West,Business Rewards,18000,2023-07-20,REP18
+ACC0240,Cedar Contractors,Construction,Small,AZ,West,Business Rewards,17000,2024-05-26,REP18
+ACC0241,Crestview Cafe,Restaurants,Small,TX,West,Business Platinum,13000,2025-01-10,REP20
+ACC0242,Unity Industries,Manufacturing,Medium,NC,Southeast,Business Rewards,49000,2025-01-20,REP08
+ACC0243,Zenith Fabrication,Manufacturing,Medium,OH,Midwest,Business Rewards,66000,2024-05-15,REP13
+ACC0244,Granite Data,Technology,Medium,CA,West,Business Platinum,53000,2025-05-09,REP20
+ACC0245,Unity Commerce,Retail,Large,WA,West,Business Cash,76000,2024-02-27,REP20
+ACC0246,Vanguard Associates,Professional Services,Small,NJ,Northeast,Business Rewards,12000,2023-01-10,REP04
+ACC0247,Bravo Associates,Professional Services,Small,CA,West,Business Platinum,20000,2023-01-17,REP17
+ACC0248,Nova Supply,Retail,Medium,TX,West,Business Rewards,20000,2024-06-26,REP18
+ACC0249,Indigo Goods,Retail,Small,MD,Northeast,Business Rewards,14000,2025-04-12,REP01
+ACC0250,Horizon Goods,Retail,Small,WA,West,Business Platinum,8000,2023-06-02,REP19
+ACC0251,Haven Retail,Retail,Small,SC,Southeast,Business Cash,13000,2023-10-01,REP06
+ACC0252,Jasper Software,Technology,Medium,WA,West,Business Platinum,45000,2024-08-01,REP18
+ACC0253,Falcon Construction,Construction,Medium,IL,Midwest,Business Cash,39000,2025-04-27,REP13
+ACC0254,Lumen Works,Manufacturing,Small,WI,Midwest,Business Rewards,7000,2024-01-22,REP11
+ACC0255,Quest Health,Healthcare,Small,WA,West,Business Platinum,6000,2024-12-20,REP16
+ACC0256,Dover Fabrication,Manufacturing,Small,MI,Midwest,Business Rewards,20000,2024-10-22,REP11
+ACC0257,Summit Strategies,Professional Services,Medium,WA,West,Business Platinum,53000,2023-08-24,REP20
+ACC0258,Zenith Solutions,Technology,Large,AL,Southeast,Business Cash,86000,2023-03-18,REP10
+ACC0259,Ember Labs,Technology,Medium,OH,Midwest,Business Cash,31000,2023-01-17,REP13
+ACC0260,Pinnacle Medical,Healthcare,Small,NC,Southeast,Business Rewards,9000,2023-03-20,REP08
+ACC0261,Amber Solutions,Technology,Medium,AZ,West,Business Cash,56000,2024-11-24,REP18
+ACC0262,Waypoint Software,Technology,Small,AL,Southeast,Business Rewards,17000,2025-03-20,REP07
+ACC0263,Delta Consulting,Professional Services,Medium,OH,Midwest,Business Rewards,23000,2024-03-23,REP12
+ACC0264,Nova Group,Professional Services,Medium,CO,West,Business Rewards,58000,2024-09-01,REP18
+ACC0265,Ivory Development,Construction,Small,DC,Northeast,Business Cash,5000,2025-03-13,REP02
+ACC0266,Dover Goods,Retail,Small,IN,Midwest,Business Rewards,12000,2024-01-20,REP13
+ACC0267,Jade Cafe,Restaurants,Large,OH,Midwest,Business Rewards,233000,2023-10-30,REP14
+ACC0268,Maple Digital,Technology,Medium,TX,West,Business Platinum,65000,2023-06-07,REP17
+ACC0269,Helix Solutions,Technology,Small,FL,Southeast,Business Platinum,15000,2023-04-04,REP09
+ACC0270,Unity Health,Healthcare,Large,WA,West,Business Rewards,144000,2023-04-15,REP16
+ACC0271,Cedar Depot,Retail,Medium,TN,Southeast,Business Rewards,47000,2024-07-24,REP10
+ACC0272,Nexus Group,Construction,Small,VA,Northeast,Business Cash,18000,2023-04-02,REP04
+ACC0273,Waypoint Data,Technology,Small,NC,Southeast,Business Rewards,7000,2025-03-14,REP09
+ACC0274,Apex Systems,Technology,Medium,WI,Midwest,Business Platinum,69000,2025-01-12,REP12
+ACC0275,Ivory Care,Healthcare,Medium,GA,Southeast,Business Rewards,63000,2023-06-23,REP10
+ACC0276,Knight Goods,Retail,Medium,CA,West,Business Rewards,37000,2023-05-30,REP16
+ACC0277,Nordic Kitchen,Restaurants,Medium,OR,West,Business Rewards,70000,2024-01-05,REP17
+ACC0278,Atlas Construction,Construction,Small,OR,West,Business Platinum,11000,2023-05-19,REP17
+ACC0279,Pacific Mart,Retail,Small,OR,West,Business Cash,17000,2024-01-25,REP19
+ACC0280,Falcon Solutions,Technology,Small,GA,Southeast,Business Rewards,15000,2024-08-31,REP10
+ACC0281,Pinnacle Builders,Construction,Small,OR,West,Business Cash,15000,2024-05-05,REP18
+ACC0282,Knight Commerce,Retail,Medium,AL,Southeast,Business Cash,40000,2025-01-22,REP07
+ACC0283,Apex Bistro,Restaurants,Medium,CO,West,Business Rewards,56000,2023-11-30,REP16
+ACC0284,Maple Depot,Retail,Small,GA,Southeast,Business Rewards,17000,2024-07-31,REP06
+ACC0285,Sterling Digital,Technology,Medium,WA,West,Business Rewards,66000,2024-12-26,REP17
+ACC0286,Jade Strategies,Professional Services,Medium,IN,Midwest,Business Rewards,73000,2025-04-18,REP13
+ACC0287,Crestview Solutions,Technology,Small,WA,West,Business Platinum,20000,2023-11-07,REP16
+ACC0288,Quest Restaurant,Restaurants,Medium,MD,Northeast,Business Rewards,65000,2025-03-19,REP05
+ACC0289,Ember Group,Construction,Small,CO,West,Business Rewards,19000,2024-08-19,REP18
+ACC0290,Cascade Cafe,Restaurants,Small,MI,Midwest,Business Rewards,18000,2025-03-20,REP15
+ACC0291,Vanguard Advisors,Professional Services,Small,VA,Northeast,Business Rewards,7000,2024-11-04,REP01
+ACC0292,Dover Mart,Retail,Small,MN,Midwest,Business Cash,6000,2024-11-24,REP13
+ACC0293,Cobalt Restaurant,Restaurants,Small,CA,West,Business Rewards,15000,2023-04-19,REP18
+ACC0294,Grove Sciences,Healthcare,Large,DC,Northeast,Business Rewards,170000,2024-02-05,REP03
+ACC0295,Iron Care,Healthcare,Small,IL,Midwest,Business Rewards,9000,2024-05-09,REP14
+ACC0296,Indigo Advisors,Professional Services,Large,MN,Midwest,Business Cash,104000,2025-05-01,REP15
+ACC0297,Titan Labs,Technology,Medium,WA,West,Business Platinum,39000,2024-04-11,REP19
+ACC0298,Apex Cafe,Restaurants,Medium,IN,Midwest,Business Rewards,42000,2023-04-10,REP13
+ACC0299,Nordic Data,Technology,Small,NY,Northeast,Business Platinum,19000,2023-11-04,REP02
+ACC0300,Ember Commerce,Retail,Small,CA,West,Business Rewards,8000,2024-10-25,REP20
+ACC0085,Pacific Partners (Branch),Professional Services,Small,NJ,Northeast,Business Cash,6000,2024-01-18,REP04
+ACC0125,Prism Associates (Branch),Professional Services,Medium,VA,Northeast,Business Cash,65000,2023-06-28,REP01
+ACC0265,Ivory Development (Branch),Construction,Small,DC,Northeast,Business Cash,5000,2025-03-13,REP02
+ACC0090,Orbit Consulting (Branch),Professional Services,Medium,CT,Northeast,Business Rewards,27000,2023-09-01,REP03
+ACC0283,Apex Bistro (Branch),Restaurants,Medium,CO,West,Business Rewards,56000,2023-11-30,REP16
+ACC0082,Harbor Group (Branch),Professional Services,Small,FL,Southeast,Business Platinum,8000,2025-05-21,REP10
+ACC0170,Sterling Software (Branch),Technology,Small,NC,Southeast,Business Platinum,14000,2025-02-28,REP06
+ACC0287,Crestview Solutions (Branch),Technology,Small,WA,West,Business Platinum,20000,2023-11-07,REP16

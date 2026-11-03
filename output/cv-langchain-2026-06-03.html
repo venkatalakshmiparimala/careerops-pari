@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Venkata Lakshmi Parimala Pasupuleti — CV</title>
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('../templates/fonts/space-grotesk-latin.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('../templates/fonts/space-grotesk-latin-ext.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../templates/fonts/dm-sans-latin.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../templates/fonts/dm-sans-latin-ext.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-family: 'DM Sans', sans-serif; font-size: 11px; line-height: 1.5; color: #1a1a2e; background: #ffffff; padding: 0; margin: 0; }
+  .page { width: 100%; max-width: 8.5in; margin: 0 auto; padding: 2px 0; }
+  .header { margin-bottom: 20px; }
+  .header h1 { font-family: 'Space Grotesk', sans-serif; font-size: 28px; font-weight: 700; color: #1a1a2e; letter-spacing: -0.02em; margin-bottom: 6px; line-height: 1.1; }
+  .header-gradient { height: 2px; background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%)); border-radius: 1px; margin-bottom: 10px; }
+  .contact-row { display: flex; flex-wrap: wrap; gap: 8px 14px; font-family: 'DM Sans', sans-serif; font-size: 10.5px; line-height: 1.4; color: #555; }
+  .contact-row a { color: #555; text-decoration: none; }
+  .contact-row .separator { color: #ccc; }
+  .section { margin-bottom: 18px; }
+  .section-title { font-family: 'Space Grotesk', sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: hsl(187, 74%, 32%); border-bottom: 1.5px solid #e2e2e2; padding-bottom: 4px; margin-bottom: 10px; line-height: 1.2; }
+  .summary-text { font-size: 11px; line-height: 1.7; color: #2f2f2f; }
+  a { white-space: nowrap; }
+  .competencies-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+  .competency-tag { font-family: 'DM Sans', sans-serif; font-size: 10px; font-weight: 500; color: hsl(187, 74%, 28%); background: hsl(187, 40%, 95%); padding: 4px 10px; border-radius: 3px; border: 1px solid hsl(187, 40%, 88%); }
+  .job { margin-bottom: 14px; }
+  .job-header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 4px; }
+  .job-company { font-family: 'Space Grotesk', sans-serif; font-size: 12.5px; font-weight: 600; color: hsl(270, 70%, 45%); }
+  .job-period { font-size: 10.5px; color: #777; white-space: nowrap; }
+  .job-role { font-size: 11px; font-weight: 600; color: #333; margin-bottom: 6px; }
+  .job-location { font-size: 10px; color: #888; }
+  .job ul { padding-left: 18px; margin-top: 6px; }
+  .job li { font-size: 10.5px; line-height: 1.6; color: #333; margin-bottom: 4px; }
+  .job li strong { font-weight: 600; }
+  .project { margin-bottom: 12px; }
+  .project-title { font-family: 'Space Grotesk', sans-serif; font-size: 11.5px; font-weight: 600; color: hsl(270, 70%, 45%); }
+  .project-badge { font-size: 9px; font-weight: 500; color: hsl(187, 74%, 32%); background: hsl(187, 40%, 95%); padding: 1px 6px; border-radius: 2px; margin-left: 6px; }
+  .project-desc { font-size: 10.5px; color: #444; margin-top: 3px; line-height: 1.55; }
+  .project-tech { font-size: 9.5px; color: #888; margin-top: 3px; }
+  .edu-item { margin-bottom: 8px; }
+  .edu-header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  .edu-title { font-weight: 600; font-size: 11px; color: #333; }
+  .edu-org { color: hsl(270, 70%, 45%); font-weight: 500; }
+  .edu-year { font-size: 10px; color: #777; white-space: nowrap; }
+  .edu-desc { font-size: 10px; color: #666; margin-top: 2px; line-height: 1.5; }
+  .skills-grid { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+  .skill-item { font-size: 10.5px; color: #444; }
+  .skill-category { font-weight: 600; color: #333; font-size: 10.5px; }
+  @media print { body { -webkit-print-color-adjust: exact; print-color-adjust: exact; } .page { padding: 0; } }
+  .avoid-break, .job, .project, .edu-item { break-inside: avoid; page-break-inside: avoid; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header avoid-break">
+    <h1>Venkata Lakshmi Parimala Pasupuleti</h1>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <span>+1-703-261-5410</span>
+      <span class="separator">|</span>
+      <span>venkatalakshmiparimala@gmail.com</span>
+      <span class="separator">|</span>
+      <a href="https://linkedin.com/in/venkata-lakshmi-parimala">linkedin.com/in/venkata-lakshmi-parimala</a>
+      <span class="separator">|</span>
+      <a href="https://github.com/venkatalakshmiparimala/AgentProbe">AgentProbe: github.com/venkatalakshmiparimala/AgentProbe</a>
+      <span class="separator">|</span>
+      <span>Virginia, USA</span>
+    </div>
+  </div>
+
+  <!-- PROFESSIONAL SUMMARY -->
+  <div class="section avoid-break">
+    <div class="section-title">Professional Summary</div>
+    <div class="summary-text">Backend Software Engineer and AI builder with 8+ years shipping production systems at scale — 1M+ property records, 100K+ monthly active users — and builder of <strong>AgentProbe</strong>: an open-source LLM observability and evaluation toolkit (LangChain, LangGraph, ChromaDB, FastAPI) that mirrors what LangSmith provides. Expert in Python, PostgreSQL, and AWS; advanced in multi-agent orchestration, RAG pipelines, and LLM evaluation frameworks. M.S. Data Analytics Engineering, George Mason University (GPA 3.87, May 2026).</div>
+  </div>
+
+  <!-- CORE COMPETENCIES -->
+  <div class="section">
+    <div class="section-title">Core Competencies</div>
+    <div class="competencies-grid">
+      <span class="competency-tag">LLM Evaluation & Observability</span>
+      <span class="competency-tag">LangChain / LangGraph</span>
+      <span class="competency-tag">Multi-Agent Orchestration</span>
+      <span class="competency-tag">RAG Pipelines / ChromaDB</span>
+      <span class="competency-tag">Python (Backend)</span>
+      <span class="competency-tag">FastAPI / REST APIs</span>
+      <span class="competency-tag">PostgreSQL / SQL Tuning</span>
+      <span class="competency-tag">AWS (S3, EC2, RDS)</span>
+      <span class="competency-tag">Docker / CI/CD</span>
+      <span class="competency-tag">High-Throughput Systems</span>
+      <span class="competency-tag">Production Reliability</span>
+      <span class="competency-tag">Agentic AI Systems</span>
+    </div>
+  </div>
+
+  <!-- WORK EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Experience</div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Entrata</span>
+        <span class="job-period">Jan 2017 – Aug 2024</span>
+      </div>
+      <div class="job-role">Software Engineer → Associate Software Engineer → Trainee</div>
+      <div class="job-location">Pune, India</div>
+      <ul>
+        <li>Reduced deployment times by <strong>40%</strong> by building 20+ full-stack modules (Python, PostgreSQL) across 120+ Agile sprints — supporting <strong>100K+ monthly active users</strong> and <strong>1M+ property records</strong> with consistent sub-10 bug count for 6+ consecutive months.</li>
+        <li>Cut microservices execution time by <strong>50%</strong> by leading Docker-based containerization for 30%+ of modules, delivering a scalable, observable backend architecture across multi-tenant production environments.</li>
+        <li>Improved production query performance by <strong>30%</strong> by architecting PostgreSQL schemas, data access layers, and indexing strategies across 20+ projects — eliminating report-generation bottlenecks under high concurrent load.</li>
+        <li>Achieved <strong>100% PHI compliance</strong> by migrating all client data to AWS S3 with automated pipelines, Libsodium encryption, and secure coding standards — zero security incidents; eliminated <strong>80% of manual workload</strong> via Python and PL-SQL automation.</li>
+        <li>Improved system stability by <strong>35%</strong> and reduced critical issue backlog by resolving 100+ high-priority bugs, maintaining 99.5% uptime across a high-volume, multi-tenant platform.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">George Mason University</span>
+        <span class="job-period">Aug 2025 – May 2026</span>
+      </div>
+      <div class="job-role">Graduate Teaching Assistant — Python & Databases</div>
+      <div class="job-location">Fairfax, Virginia</div>
+      <ul>
+        <li>Delivered targeted mentoring in Python, data structures, algorithms, and database design for 30+ undergraduates — accelerating concept reinforcement through sprint-style feedback cycles.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section avoid-break">
+    <div class="section-title">Projects</div>
+
+    <div class="project">
+      <div><span class="project-title">AgentProbe: LLM Observability & Evaluation Toolkit</span><span class="project-badge">OPEN SOURCE</span></div>
+      <div class="project-tech">Python · LangChain · LangGraph · FastAPI · ChromaDB · Ollama · React · Azure</div>
+      <div class="project-desc">Built a <strong>15-endpoint FastAPI evaluation backend</strong> for LLMs, RAG systems, and multi-agent pipelines: 3 LangGraph agents (Orchestrator, RAG Tracer, Auto Fix), a smart LLM Router for dynamic tool routing, and a <strong>5-metric eval engine</strong> (factual accuracy, hallucination rate, retrieval quality, completeness, compliance). Supports Ollama, OpenAI, Anthropic, and Groq — runs 100% locally at zero cost. Integration test suite + React dashboard included. <em>github.com/venkatalakshmiparimala/AgentProbe</em></div>
+    </div>
+
+    <div class="project">
+      <div><span class="project-title">AI on FHIR: NLP-Driven Medical Records Query System</span></div>
+      <div class="project-tech">Flask · LLMs · FHIR · React · Docker · spaCy · BERT · Embeddings · NumPy · Pandas</div>
+      <div class="project-desc">Built a Flask + React app mapping natural language queries (EN/ES) to FHIR APIs using LLMs, embeddings, and BERT pipelines. HIPAA-compliant RBAC, schema-driven development, real-time dashboards. <strong>Reduced manual retrieval time ~60%</strong>; fully containerized, PHI-compliant. <em>github.com/venkatalakshmiparimala/AI_on_FHIR</em></div>
+    </div>
+
+    <div class="project">
+      <div><span class="project-title">CrashClarity: UK Road Accident Analysis</span></div>
+      <div class="project-tech">Python · R · Random Forest · Logistic Regression · Feature Engineering · GitHub Pages</div>
+      <div class="project-desc">Applied predictive modeling to 100K+ accident records; <strong>85%+ accuracy</strong> with Random Forest and Logistic Regression. Deployed interactive dashboards on GitHub Pages for non-technical stakeholders.</div>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section avoid-break">
+    <div class="section-title">Education</div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <div><span class="edu-title">M.S. Data Analytics Engineering</span> — <span class="edu-org">George Mason University</span></div>
+        <span class="edu-year">2024–2026</span>
+      </div>
+      <div class="edu-desc">GPA: 3.87 · Virginia, USA</div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <div><span class="edu-title">B.Tech Computer Science &amp; Engineering</span> — <span class="edu-org">Sree Venkateshwara College of Engineering</span></div>
+        <span class="edu-year">2013–2017</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section avoid-break">
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-grid">
+      <span class="skill-item"><span class="skill-category">Languages:</span> Python, JavaScript, TypeScript, SQL, R, Bash, HTML/CSS</span>
+      <span class="skill-item"><span class="skill-category">AI &amp; Agents:</span> LangChain, LangGraph, LLM Router, ChromaDB, RAG, Embeddings, Ollama, OpenAI, Anthropic, Groq, FastAPI, Agentic AI, Prompt Engineering</span>
+      <span class="skill-item"><span class="skill-category">Databases:</span> PostgreSQL, MySQL, Oracle, NoSQL, GraphQL — schema design, query tuning, indexing, data access layers</span>
+      <span class="skill-item"><span class="skill-category">Cloud &amp; DevOps:</span> AWS (S3, EC2, RDS, Glue), Azure, Docker, CI/CD (GitHub Actions), RabbitMQ, Microservices</span>
+      <span class="skill-item"><span class="skill-category">ML &amp; Data:</span> PyTorch, TensorFlow, scikit-learn, NumPy, Pandas, BERT, spaCy, Hugging Face, Feature Engineering, Predictive Modeling</span>
+      <span class="skill-item"><span class="skill-category">Testing &amp; Tools:</span> TDD/BDD, Integration Testing, Selenium, Git, JIRA, Postman, Agile/Scrum, Figma</span>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+# Career-Ops Profile Configuration
+# Generated from Parimala Pasupuleti's resume
+
+candidate:
+  full_name: "Venkata Lakshmi Parimala Pasupuleti"
+  email: "venkatalakshmiparimala@gmail.com"
+  phone: "+1-703-261-5410"
+  phone_alt: "+1-650-265-1193"
+  location: "Virginia, USA"
+  linkedin: "linkedin.com/in/venkata-lakshmi-parimala-pasupuleti"
+  portfolio_url: "https://venkatalakshmiparimala.github.io/Portfolio/about.html"
+  github: "github.com/venkatalakshmiparimala"
+  twitter: ""
+
+target_roles:
+  # Thresholds: PropTech/FDE/mid-level AI = 4.0+; all others = 4.5+. Senior title penalty removed 2026-09-23 — apply to Senior roles on stack match + domain fit.
+  primary:
+    - "Software Engineer"                    # PropTech only — 4.8
+    - "Applied AI Engineer"                  # PropTech preferred — 4.8; product-facing AI, not infra
+    - "Forward Deployed Engineer"            # PropTech / domain AI — 4.8
+    - "Solutions Engineer"                   # PropTech domain deployment — 4.8
+    - "Agentic Analytics Engineer"           # Real estate / PropTech — 4.7 (Opendoor archetype)
+    - "Machine Learning Engineer"            # PropTech only, applied/product-facing ONLY — 4.5; SKIP all Staff/infra MLE roles
+    - "AI Engineer"                          # Agentic/LLM-focused anywhere — 4.5
+  hard_block:
+    - "Staff Machine Learning Engineer"      # SKIP — infra depth + level gap
+    - "Principal Machine Learning Engineer"  # SKIP — same issue
+    - "ML Platform Engineer"                 # SKIP — GPU/SageMaker infra not her stack
+    - "ML Infrastructure Engineer"           # SKIP
+  deprioritized:
+    - "Business Analyst"                     # 4.2 — skip unless PropTech + data-heavy
+    - "Data Scientist"                       # 4.0–4.2 — academic DS only, not industry
+    - "Fraud Analyst"                        # 4.0–4.2 — no banking background
+  archetypes:
+    - name: "PropTech Software Engineer"
+      level: "Mid"
+      fit: "primary"
+      score: 4.8
+    - name: "Applied AI Engineer (PropTech)"
+      level: "Mid"
+      fit: "primary"
+      score: 4.8
+    - name: "Forward Deployed / Solutions Engineer (PropTech)"
+      level: "Mid"
+      fit: "primary"
+      score: 4.8
+    - name: "Agentic Analytics Engineer"
+      level: "Mid"
+      fit: "primary"
+      score: 4.7
+    - name: "ML Engineer (PropTech, applied only)"
+      level: "Mid"
+      fit: "primary"
+      score: 4.5
+      note: "Applied/product-facing only — SKIP any role mentioning GPU fleets, SageMaker at scale, fine-tuning, ML infra, or Staff level"
+    - name: "AI Engineer (Agentic/LLM-focused)"
+      level: "Mid"
+      fit: "primary"
+      score: 4.5
+
+narrative:
+  headline: "Software Engineer & AI builder with 8+ years shipping production systems and agentic AI tools"
+  exit_story: "8+ years building scalable backend systems at Entrata; now building AgentProbe — an open-source agentic AI testing toolkit for LLMs, RAG, and multi-agent systems. MS in Data Analytics Engineering from George Mason (GPA 3.87)."
+  superpowers:
+    - "Full-stack engineering at scale (1M+ records, 100K+ MAU)"
+    - "Agentic AI systems: LangChain, LangGraph, RAG pipelines, LLM routing"
+    - "Database architecture & SQL optimization (200+ queries, 30% perf gains)"
+    - "Python, JavaScript, TypeScript — production-grade, testable code"
+    - "Cross-functional delivery across 120+ Agile sprints"
+  proof_points:
+    - name: "AgentProbe: Agentic AI Testing Toolkit"
+      url: "https://github.com/venkatalakshmiparimala/AgentProbe"
+      hero_metric: "15-endpoint FastAPI backend, 5-metric eval engine, 100% local, zero cost"
+    - name: "AI on FHIR: NLP-Driven Medical Records Query System"
+      url: "https://github.com/venkatalakshmiparimala/AI_on_FHIR"
+      hero_metric: "Reduced manual retrieval time by ~60%; HIPAA-compliant"
+    - name: "CrashClarity: UK Road Accident Analysis"
+      url: "https://venkatalakshmiparimala.github.io/Portfolio/project_crashclarity.html"
+      hero_metric: "85%+ model accuracy with Random Forest & Logistic Regression in R"
+
+compensation:
+  target_range: "$100K-140K"
+  currency: "USD"
+  minimum: "none — sponsorship + role fit > base pay"
+  location_flexibility: "Remote preferred, open to hybrid in Virginia/DC area"
+
+location:
+  country: "United States"
+  city: "Virginia"
+  timezone: "EST"
+  visa_status: "OPT"
+
+cv:
+  output_format: "html"
+  skip_pdf_on_batch: true    # Disable PDF generation during batch — saves tokens
+  batch_mode: "report_only"  # Only generate evaluation report, no CV PDF

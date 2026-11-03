@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Venkata Lakshmi Parimala Pasupuleti — CV</title>
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('../templates/fonts/space-grotesk-latin.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../templates/fonts/dm-sans-latin.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 9.5px;
+    line-height: 1.5;
+    color: #1a1a2e;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+  }
+
+  .page {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 22px 22px 10px 22px;
+  }
+
+  .header { margin-bottom: 14px; }
+
+  .header h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a2e;
+    letter-spacing: -0.02em;
+    margin-bottom: 3px;
+    line-height: 1.1;
+  }
+
+  .header-tagline {
+    font-size: 9px;
+    color: #555;
+    margin-bottom: 5px;
+    line-height: 1.4;
+    font-weight: 400;
+  }
+
+  .header-gradient {
+    height: 2px;
+    background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%));
+    border-radius: 1px;
+    margin-bottom: 7px;
+  }
+
+  .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 12px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 9.5px;
+    line-height: 1.4;
+    color: #555;
+  }
+
+  .contact-row a { color: #555; text-decoration: none; }
+  .contact-row .separator { color: #ccc; }
+
+  .section { margin-bottom: 13px; }
+
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: hsl(187, 74%, 32%);
+    border-bottom: 1.5px solid #e2e2e2;
+    padding-bottom: 3px;
+    margin-bottom: 8px;
+    line-height: 1.2;
+  }
+
+  .summary-text {
+    font-size: 9.5px;
+    line-height: 1.65;
+    color: #2f2f2f;
+  }
+
+  a { white-space: nowrap; }
+
+  .competencies-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .competency-tag {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+    color: hsl(187, 74%, 28%);
+    background: hsl(187, 40%, 95%);
+    padding: 3px 8px;
+    border-radius: 3px;
+    border: 1px solid hsl(187, 40%, 88%);
+  }
+
+  .job { margin-bottom: 12px; }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 2px;
+  }
+
+  .job-company {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .job-period { font-size: 9.5px; color: #777; white-space: nowrap; }
+
+  .job-role { font-size: 10px; font-weight: 600; color: #333; margin-bottom: 4px; }
+
+  .job ul { padding-left: 16px; margin-top: 4px; }
+
+  .job li {
+    font-size: 9.5px;
+    line-height: 1.55;
+    color: #333;
+    margin-bottom: 3px;
+  }
+
+  .job li strong { font-weight: 600; }
+
+  .project { margin-bottom: 10px; }
+
+  .project-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 10.5px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .project-badge {
+    font-size: 8.5px;
+    font-weight: 500;
+    color: hsl(187, 74%, 32%);
+    background: hsl(187, 40%, 95%);
+    padding: 1px 5px;
+    border-radius: 2px;
+    margin-left: 5px;
+  }
+
+  .project-desc {
+    font-size: 9.5px;
+    color: #444;
+    margin-top: 3px;
+    line-height: 1.55;
+  }
+
+  .project-tech { font-size: 9px; color: #888; margin-top: 2px; }
+
+  .edu-item { margin-bottom: 7px; }
+
+  .edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  .edu-title { font-weight: 600; font-size: 10px; color: #333; }
+  .edu-org { color: hsl(270, 70%, 45%); font-weight: 500; }
+  .edu-year { font-size: 9.5px; color: #777; white-space: nowrap; }
+  .edu-desc { font-size: 9.5px; color: #666; margin-top: 2px; line-height: 1.5; }
+
+  @media print {
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .page { padding: 10px 22px; }
+  }
+
+  .avoid-break, .job, .project, .edu-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header avoid-break">
+    <h1>Venkata Lakshmi Parimala Pasupuleti</h1>
+    <div class="header-tagline">Forward Deployed AI Engineer &middot; Agent Architect &middot; Enterprise AI Transformation &middot; LangGraph &middot; MCP &middot; Workflow Automation &middot; Python &middot; FastAPI &middot; Prototype to Production</div>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <span>+1-703-261-5410</span>
+      <span class="separator">|</span>
+      <span>venkatalakshmiparimala@gmail.com</span>
+      <span class="separator">|</span>
+      <a href="https://www.linkedin.com/in/venkata-lakshmi-parimala/">linkedin.com/in/venkata-lakshmi-parimala</a>
+      <span class="separator">|</span>
+      <a href="https://github.com/venkatalakshmiparimala/AgentProbe">github.com/venkatalakshmiparimala/AgentProbe</a>
+      <span class="separator">|</span>
+      <a href="https://venkatalakshmiparimala.github.io/Portfolio/">venkatalakshmiparimala.github.io/Portfolio</a>
+      <span class="separator">|</span>
+      <span>Virginia, USA</span>
+    </div>
+  </div>
+
+  <!-- PROFESSIONAL SUMMARY -->
+  <div class="section avoid-break">
+    <div class="section-title">Professional Summary</div>
+    <div class="summary-text">
+      Software engineer and AI builder with 8 years shipping production systems (100K+ MAU, 1M+ records) and hands-on experience turning ambiguous business problems into reliable agent workflows. Built <strong>LeaseI</strong> — started as a vague support bottleneck (eligibility investigations taking a full day with no repeatable process), ended as an <strong>8-agent LangGraph StateGraph</strong> running in production: durable state, conditional routing, HITL escalation gate, citation-grounded RAG, and a 5-metric eval harness that regression-tests against 1,240 cases in CI. That is exactly the prototype-to-production, ambiguity-to-architecture journey Arcesium describes. Built <strong>AgentProbe</strong> — a reusable, zero-cost AI evaluation toolkit with templates, a CI regression harness, and playbooks that any team can use to ship LLM-powered workflows safely. At Entrata (8yr): shipped 20+ internal tools and workflow automations for operations teams, eliminated 80% of manual workload via Python/Bash pipelines, and maintained financial compliance systems where one wrong record affected thousands of residents' eligibility. Strong on APIs, systems design, and data — the engineering fundamentals that make agent workflows reliable in production. Case study: <a href="https://github.com/venkatalakshmiparimala/AgentProbe">github.com/venkatalakshmiparimala/AgentProbe</a>
+    </div>
+  </div>
+
+  <!-- CORE COMPETENCIES -->
+  <div class="section">
+    <div class="section-title">Core Competencies</div>
+    <div class="competencies-grid">
+      <span class="competency-tag">Forward Deployed Engineering</span>
+      <span class="competency-tag">Enterprise AI Transformation</span>
+      <span class="competency-tag">Business Workflow Automation</span>
+      <span class="competency-tag">Agent Frameworks / LangGraph</span>
+      <span class="competency-tag">MCP Servers</span>
+      <span class="competency-tag">LLMs / Tool-Calling / Structured Outputs</span>
+      <span class="competency-tag">Agentic Workflows</span>
+      <span class="competency-tag">Prototype to Production</span>
+      <span class="competency-tag">Build-vs-Buy Analysis</span>
+      <span class="competency-tag">Reusable AI Components &amp; Playbooks</span>
+      <span class="competency-tag">KPI Definition &amp; Impact Measurement</span>
+      <span class="competency-tag">Systems Design / APIs / Data</span>
+      <span class="competency-tag">Internal Tooling for Business Teams</span>
+      <span class="competency-tag">RAG Pipelines / Hybrid Search</span>
+      <span class="competency-tag">HITL / Human-in-the-Loop</span>
+      <span class="competency-tag">Iterative Delivery</span>
+      <span class="competency-tag">Python / FastAPI</span>
+      <span class="competency-tag">AWS / Azure</span>
+      <span class="competency-tag">PostgreSQL / Snowflake / SQLite</span>
+      <span class="competency-tag">CI/CD (GitHub Actions)</span>
+      <span class="competency-tag">Docker / Kubernetes</span>
+      <span class="competency-tag">Multi-Tenant Architecture</span>
+      <span class="competency-tag">Scalable &amp; Maintainable Solutions</span>
+      <span class="competency-tag">Ambiguity &amp; Ownership</span>
+      <span class="competency-tag">RabbitMQ / Celery / Redis</span>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Experience</div>
+
+    <div class="job avoid-break">
+      <div class="job-header">
+        <span class="job-company">Blue Horse Digital</span>
+        <span class="job-period">Sep 2026 – Present</span>
+      </div>
+      <div class="job-role">AI/ML Engineer (Volunteer) &mdash; Virginia, USA</div>
+      <ul>
+        <li>Building ML models and data analysis pipelines; integrating AI components with backend/frontend teams; surfacing insights from raw business data into application-facing APIs and reporting layers.</li>
+      </ul>
+    </div>
+
+    <div class="job avoid-break">
+      <div class="job-header">
+        <span class="job-company">Magizhs Tech Solution</span>
+        <span class="job-period">May 2025 – Aug 2025</span>
+      </div>
+      <div class="job-role">AI/ML Engineer Intern</div>
+      <ul>
+        <li>Built an <strong>agentic mission-planning system</strong> as a LangGraph stateful graph (parse → plan → retrieve → validate → conditional routing) — delivering a risk-aware compliance strategy: compliant missions export to QGroundControl; non-compliant ones blocked with cited FAA regulation.</li>
+        <li>Built and deployed an <strong>MCP server</strong> for operator tool integration, enabling downstream tools to query the planning system via Model Context Protocol; implemented a RAG layer over FAA Part 107 corpus with guardrails enforcing altitude limits, battery budgets, and no-fly-zone checks.</li>
+      </ul>
+    </div>
+
+    <div class="job avoid-break">
+      <div class="job-header">
+        <span class="job-company">George Mason University</span>
+        <span class="job-period">Aug 2024 – Aug 2025</span>
+      </div>
+      <div class="job-role">Research Associate / Graduate Teaching Assistant &mdash; Virginia, USA</div>
+      <ul>
+        <li>Built multi-source prediction models (Python, R) on WHO and UK Road Safety datasets across 190+ countries — R²=0.977; applied Isolation Forest anomaly detection across 3 research pipelines, surfacing anomalies manual review missed.</li>
+        <li>Fine-tuned a custom classification model using HuggingFace Transformers + PyTorch; deployed inference API on Quart; presented model design and evaluation results to faculty leadership.</li>
+        <li>Delivered technical workshops to 600+ students (Python programming, database design, SQL) across multiple MIS 303 sections.</li>
+      </ul>
+    </div>
+
+    <div class="job avoid-break">
+      <div class="job-header">
+        <span class="job-company">Entrata — PropTech / Real Estate SaaS</span>
+        <span class="job-period">Sep 2018 – Aug 2024</span>
+      </div>
+      <div class="job-role">Senior Software Engineer &mdash; Lehi, UT (Remote)</div>
+      <ul>
+        <li><strong>Shipped 20+ internal tools and workflow automations</strong> used by operations, compliance, and support teams across 120+ Agile sprints — reduced manual operational workload by 80% via Python/Bash automation pipelines; tools ran in production for 100K+ monthly active users across 1M+ property records.</li>
+        <li><strong>Owned the HUD income-limit pipeline for 7 years</strong> — a few thousand federal rows expanded into ~180,000 domain records powering eligibility, rent, and HAP calculations; designed baseline validation and rollback readiness for every release; zero compliance violations across ownership period.</li>
+        <li><strong>Built RabbitMQ-based async workflow automation</strong> for gross-rent updates across thousands of tenant records — designed retry logic and idempotency guarantees eliminating double-processing failures; owned through production incidents and annual schedule changes.</li>
+        <li><strong>Led AWS S3 data migration with 100% PHI compliance</strong> — Libsodium-encrypted pipelines, zero security incidents; optimized 200+ SQL queries (30% performance gain) across complex multi-tenant financial schemas.</li>
+        <li>Led microservices redesign using Docker — 50% scalability improvement, 30% deployment time reduction; mentored 5+ engineers; conducted 300+ peer code reviews; built internal debugging tools cutting debug time by 40%.</li>
+      </ul>
+    </div>
+
+    <div class="job avoid-break">
+      <div class="job-header">
+        <span class="job-company">Entrata India — Db Xento Systems</span>
+        <span class="job-period">Jan 2017 – Sep 2018</span>
+      </div>
+      <div class="job-role">Associate / Trainee Software Engineer &mdash; Pune, India</div>
+      <ul>
+        <li>Built property management and compliance modules (PHP, Python, Java, PostgreSQL); led AWS S3 cloud migration of client documents; designed and migrated database schema for hundreds of thousands of records.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section">
+    <div class="section-title">Projects</div>
+
+    <div class="project avoid-break">
+      <div>
+        <span class="project-title">LeaseI: Agentic AI Support Investigation Platform</span>
+        <span class="project-badge">LangGraph · 8-Agent · HITL · RAG · Prototype to Production</span>
+      </div>
+      <div class="project-desc">
+        Started with an ambiguous business problem: support engineers spending a full day investigating eligibility tickets because the root cause was always scattered across settings, regulations, historical incidents, and code. Converted that into a structured problem statement, designed the agent architecture, and shipped a production platform. <strong>8-agent LangGraph StateGraph</strong> with durable state (Triage → Retrieval → Configuration → Historical Incident → Structured Data → Reasoning → Validation → Human Escalation) — <strong>conditional HITL gate</strong> fires when confidence is too low; LLM extracts and reasons, deterministic logic makes the final regulated call; hybrid RAG (TF-IDF + semantic reranking) with citation grounding to exact source clauses. Defined KPIs and measured impact: 93.6% precision, 87.9% F1 on 1,240 test cases; pass@1 81.7% via CI regression harness.
+      </div>
+      <div class="project-tech">Python · LangGraph (8-agent StateGraph) · FastAPI · TF-IDF · Semantic Reranking · OCR · SQLite · 2026</div>
+    </div>
+
+    <div class="project avoid-break">
+      <div>
+        <span class="project-title">AgentProbe: Reusable AI Evaluation Toolkit</span>
+        <span class="project-badge">Reusable Components · Templates · Playbooks · CI/CD</span>
+      </div>
+      <div class="project-desc">
+        Built to solve the reusability problem: every LLM project rebuilding evaluation from scratch with no shared methodology. <strong>Reusable templates, regression harnesses, and playbooks</strong> any team can use to ship LLM-powered workflows safely — 15-endpoint FastAPI backend, <strong>5-metric eval engine</strong> (correctness, groundedness, latency, token efficiency, hallucination rate), CI-integrated golden-dataset harness, model routing across OpenAI/Anthropic/Groq/Ollama, offline + online evaluation loops. <strong>Build-vs-buy decision made explicit:</strong> built from scratch to eliminate vendor dependency and enable zero-cost local execution. Used to evaluate LeaseI across 1,240+ test cases. Live: <a href="https://github.com/venkatalakshmiparimala/AgentProbe">github.com/venkatalakshmiparimala/AgentProbe</a>
+      </div>
+      <div class="project-tech">Python · FastAPI · LangGraph · ChromaDB · CI/CD (GitHub Actions) · OpenAI / Anthropic / Groq / Ollama · 2025</div>
+    </div>
+
+    <div class="project avoid-break">
+      <div>
+        <span class="project-title">Agentic Drone Mission Planner + MCP Server (Magizhs)</span>
+        <span class="project-badge">MCP · LangGraph · Agent Frameworks · FAA Compliance</span>
+      </div>
+      <div class="project-desc">
+        Translated natural-language survey requests from marketing, real estate, and commercial stakeholders into structured flight plans using a LangGraph stateful graph (parse → plan → retrieve → validate → export). Built an <strong>MCP server</strong> enabling downstream operator tools to query the planning system via Model Context Protocol. RAG layer over FAA Part 107 corpus with deterministic guardrails (altitude limits, battery budgets, no-fly-zone geometry) blocking non-compliant missions before MAVLink/QGroundControl export.
+      </div>
+      <div class="project-tech">Python · LangGraph · FastAPI · MCP · RAG (FAA Part 107) · Photogrammetry math · 2025</div>
+    </div>
+
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section avoid-break">
+    <div class="section-title">Education</div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title"><span class="edu-org">George Mason University</span> — M.S. Data Analytics Engineering</span>
+        <span class="edu-year">May 2026</span>
+      </div>
+      <div class="edu-desc">GPA: 3.87 &middot; Virginia, USA &middot; Coursework: ML systems, NLP, cloud infrastructure, statistical modeling, deep learning</div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title"><span class="edu-org">Jawaharlal Nehru Technological University</span> — B.Tech Computer Science &amp; Engineering</span>
+        <span class="edu-year">2017</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

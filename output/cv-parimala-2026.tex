@@ -1,0 +1,167 @@
+%-------------------------
+% Career-Ops LaTeX CV Template
+% Based on: Gabriel Sison / sb2nov resume template
+% License: MIT
+%------------------------
+
+\documentclass[letterpaper,10.5pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\titleformat{\section}{
+  \vspace{-7pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{0pt}]
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-3pt}}}
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  DOCUMENT  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Heading  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+    {\Huge\scshape Venkata Lakshmi Parimala Pasupuleti}
+    \\ \small +1-703-261-5410 $|$ Virginia, USA \\
+    \small
+    \href{mailto:venkatalakshmiparimala@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ \underline{venkatalakshmiparimala@gmail.com}} ~
+    \href{https://www.linkedin.com/in/venkata-lakshmi-parimala/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/venkata-lakshmi-parimala}} ~
+    \href{https://github.com/venkatalakshmiparimala}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/venkatalakshmiparimala}}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Summary  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Summary}
+\vspace{-4pt}
+\begin{itemize}[leftmargin=0.15in, label={}]\small{\item{
+AI Engineer with 8+ years of production Python engineering and hands-on agentic AI development. Built \textbf{AgentProbe} --- an open-source LLM evaluation and agent testing toolkit (LangGraph, ChromaDB, FastAPI, LLM-as-judge eval engine, 5-metric scoring, multi-provider LLM routing). Shipped 20+ production modules at scale (1M+ records, 100K+ MAU) at Entrata. M.S. Data Analytics Engineering, GMU (GPA 3.87, May 2026).
+}}\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Education  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {George Mason University}{Fairfax, Virginia}
+      {M.S. Data Analytics Engineering $|$ GPA: 3.87}{2024 -- 2026}
+    \resumeSubheading
+      {Sree Venkateshwara College of Engineering}{India}
+      {B.Tech Computer Science \& Engineering}{2013 -- 2017}
+  \resumeSubHeadingListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Experience  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Research Associate}{Aug 2024 -- Aug 2025}
+      {George Mason University}{Virginia, USA}
+      \resumeItemListStart
+        \resumeItem{Built regression models (R\textsuperscript{2} = 0.977) in Python and R across WHO and UK Road Safety datasets spanning 190+ countries --- multi-source data collection, transformation, validation, and stakeholder reporting.}
+        \resumeItem{Applied unsupervised ML (Isolation Forest) to automate data integrity checks across 3 research pipelines --- surfaced anomalies that manual review missed, improving downstream model reliability.}
+        \resumeItem{Designed Tableau, ggplot2, and Quarto dashboards for faculty leadership --- improved research comprehension across two cohorts by 40\%.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Engineer}{Jan 2017 -- Aug 2024}
+      {Entrata India (Db Xento Systems)}{Pune, India}
+      \resumeItemListStart
+        \resumeItem{Reduced deployment times by 40\% by building 20+ full-stack microservices and modules (Python, PostgreSQL, JavaScript, RabbitMQ) across 120+ Agile sprints for 100K+ monthly active users --- 99.5\% uptime over 6+ consecutive months.}
+        \resumeItem{Cut microservices execution time by 50\% by leading Docker-based containerization; improved production query performance by 30\% by tuning 200+ SQL queries across all client environments.}
+        \resumeItem{Applied Python, PyTorch, and OpenAI API to automate data transformation pipelines across 1.6M financial records --- production AI on regulated data with output validation and quality gates.}
+        \resumeItem{Achieved 100\% PHI compliance by migrating all client data to AWS S3 with Libsodium-encrypted pipelines --- zero security incidents; built 5+ internal platform tools cutting resolution time by 40\%.}
+        \resumeItem{Eliminated 80\% of manual operational workload by designing and automating decision support workflows using Python and PL/SQL.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Projects  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Projects}
+\resumeSubHeadingListStart
+
+  \resumeProjectHeading
+    {\textbf{PropLens: Lease Intelligence \& Compliance AI} $|$ \emph{Python, LangGraph, ChromaDB, FastAPI, LLMs, React}}{2026 -- Present}
+    \resumeItemListStart
+      \resumeItem{Building a RAG pipeline over lease PDFs and affordable housing regulations using LangGraph agents and ChromaDB --- enables natural language Q\&A across multi-unit lease portfolios (expiry tracking, clause extraction, compliance gap detection).}
+      \resumeItem{Automating income eligibility verification for Section 8/LIHTC affordable housing compliance --- LLM-as-judge scoring and threshold-based anomaly detection across 1,000+ tenant records.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{AgentProbe: Agentic AI Testing Toolkit} $|$ \emph{Python, LangGraph, FastAPI, ChromaDB, Anthropic, OpenAI, Groq, Docker}}{2024 -- Present}
+    \resumeItemListStart
+      \resumeItem{Built a 3-agent LangGraph runtime (Orchestrator, RAG Tracer, Auto Fix) with tool calling, inter-agent state handoffs, and multi-provider model routing (Anthropic, OpenAI, Groq, Ollama) --- deployed as a 15-endpoint FastAPI backend running 100\% locally at zero cost.}
+      \resumeItem{Automated agent quality gates with a 5-metric LLM-as-judge eval engine (factual accuracy, hallucination, retrieval, completeness, compliance) and CI/CD integration --- failing runs blocked automatically before production.}
+      \resumeItem{Delivered end-to-end observability via React dashboard with trace-level agent monitoring --- ChromaDB RAG pipeline tracking per-run metrics, regression drift, retrieval quality, and latency across concurrent agent test suites.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{AI on FHIR: NLP-Driven Medical Records Query System} $|$ \emph{Flask, LLMs, FHIR, spaCy, BERT, Embeddings, React}}{2024}
+    \resumeItemListStart
+      \resumeItem{Reduced manual clinical retrieval time by \textasciitilde60\% by building a Flask + React NLP platform translating natural language queries (EN/ES) to FHIR APIs using LLMs, BERT, and embeddings --- HIPAA-compliant RBAC across structured medical records.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{CrashClarity: Large-Scale Road Accident Analysis} $|$ \emph{Python, R, scikit-learn, Random Forest, Logistic Regression}}{2025}
+    \resumeItemListStart
+      \resumeItem{Achieved 85\%+ accuracy on 104K+ UK accident records by building a Random Forest + Logistic Regression pipeline with feature engineering across weather, road, and time variables --- deployed interactive dashboard on GitHub Pages.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Technical Skills  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Technical Skills}
+\vspace{-7pt}
+\begin{itemize}[leftmargin=0.15in, label={}]\small{\item{
+  \textbf{Languages}{: Python, JavaScript, TypeScript, SQL, R, Bash, HTML/CSS} \\
+  \textbf{AI \& Agents}{: LangChain, LangGraph, LLM Router, Multi-Agent Orchestration, ChromaDB, RAG Pipelines, LLM Evaluation, LLM-as-Judge, Agent Observability, Agent Tracing, Prompt Engineering, OpenAI API, Anthropic API, Groq, Ollama, FastAPI} \\
+  \textbf{ML \& Data}{: PyTorch, TensorFlow, XGBoost, Scikit-learn, Isolation Forest, Random Forest, Logistic Regression, Feature Engineering, NumPy, Pandas, spaCy, BERT, Hugging Face, Tableau, Power BI, ggplot2} \\
+  \textbf{Cloud \& Infrastructure}{: AWS (S3, EC2, RDS, Glue), Azure, Docker, CI/CD (GitHub Actions), RabbitMQ, PostgreSQL, MySQL, Oracle}
+}}
+\end{itemize}
+
+\end{document}
