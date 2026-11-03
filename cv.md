@@ -7,27 +7,27 @@ venkatalakshmiparimala@gmail.com | +1-703-261-5410 | Fairfax, Virginia 22030
 
 ## Professional Summary
 
-Python software engineer with 7+ years of experience, now focused on building LLM, RAG, and AI agent applications on top of strong backend, API, and data pipeline experience. Built two AI projects: LeaseI, an 8-agent LangGraph app with hybrid-search RAG, cited answers, and human escalation, and AgentProbe, an open-source LLM evaluation toolkit that works with five LLM providers. Currently integrating Anthropic Claude into financial applications at Intuit. Spent 7+ years at Entrata, a multi-tenant SaaS platform with 100K+ monthly active users, building Python/SQL data pipelines, async processing, and AWS integrations. M.S. in Data Analytics Engineering from George Mason University (GPA 3.87, May 2026).
+Software Engineer with 8+ years shipping production systems at Entrata, a multi-tenant Affordable Housing SaaS platform serving 100K+ monthly active users and processing 1M+ property records. Backend and data depth first — PHP/OOP, SQL, stored procedures, ETL pipelines, asynchronous processing, AWS — with Python/FastAPI and agentic AI built on top of that foundation: LeaseI, a multi-agent LangGraph platform for lease compliance and support investigation, and AgentProbe, an open-source LLM evaluation toolkit. Core design rule across all AI work: the model retrieves, reasons, and explains; deterministic application logic and accountable humans make every regulated decision. Currently a Software Engineer at Intuit, integrating Anthropic Claude into financial applications. M.S. Data Analytics Engineering, George Mason University (GPA 3.87, May 2026).
 
 ---
 
 ## Technical Skills
 
-**AI & LLMs:** LLM APIs (Anthropic Claude, OpenAI, Azure OpenAI, Groq, Ollama), RAG Pipelines, Hybrid Search, Embeddings, Prompt Engineering, AI Agents, LangGraph, LangChain, Human-in-the-Loop, LLM-as-Judge Evaluation, MCP
+**AI & LLMs:** LLM APIs (Anthropic Claude, OpenAI, Azure OpenAI, Groq, Ollama), AI Agents, Multi-Agent Orchestration, LangGraph, LangChain, RAG Pipelines, Hybrid Search, Embeddings, Prompt Engineering, Structured Output Schemas, Human-in-the-Loop Escalation, LLM-as-Judge Evaluation, Golden Dataset Regression Testing, LLM Routing, MCP, Guardrails and Safety Boundaries
 
-**Vector Search & NLP:** ChromaDB, Pinecone, Weaviate, Elasticsearch, Semantic Search, BERT, spaCy, HuggingFace
+**Vector Search & NLP:** ChromaDB, Pinecone, Weaviate, Elasticsearch, Semantic Search, TF-IDF Retrieval, BERT, spaCy, HuggingFace, OCR Ingestion, NLP-to-API Query Translation
 
-**Python & ML:** Python (9+ yrs), FastAPI, Flask, Django, Pandas, NumPy, scikit-learn, XGBoost, PyTorch, PySpark
+**Python & ML:** Python, FastAPI, Flask, Django, Pandas, NumPy, scikit-learn, XGBoost, PyTorch, PySpark
 
-**Other Languages & Web:** Java, Spring Boot, TypeScript, JavaScript, Node.js, React, Redux, PHP, Laravel, C#, .NET, Kotlin, Scala, GraphQL, SQL, PL/SQL, Bash
+**Other Languages & Web:** TypeScript, JavaScript, Node.js, React, Redux, PHP, Laravel, GraphQL, R, SQL, PL/SQL, Bash
 
-**Databases & Data:** PostgreSQL, MySQL, Oracle, Redis, MongoDB, SQLite, Snowflake, ETL Pipelines, Data Modeling, Query Optimization, Stored Procedures
+**Databases & Data:** PostgreSQL, MySQL, Oracle, Redis, MongoDB, SQLite, ETL Pipelines, Data Modeling, Schema Design, Query Optimization, Execution-Plan Analysis, Stored Procedures, Data Migration, Effective Dating
 
-**Cloud & DevOps:** AWS (S3, EC2, RDS, Lambda, Glue, SQS, API Gateway, IAM), Azure (OpenAI, Data Factory, Databricks, AKS), GCP (Vertex AI), Docker, Kubernetes, Terraform, GitHub Actions CI/CD
+**Cloud & DevOps:** AWS (S3, EC2, RDS, Lambda, Glue, SQS, API Gateway, IAM), Azure (OpenAI, Data Factory), GCP (Vertex AI), Docker, Docker Compose, GitHub Actions CI/CD
 
-**Messaging & Monitoring:** RabbitMQ, Kafka, Celery, Prometheus, Grafana, OpenTelemetry
+**Messaging & Monitoring:** RabbitMQ, Celery, Prometheus, Grafana, Grafana Loki, OpenTelemetry
 
-**Practices:** REST APIs, Microservices, OAuth, Agile/Scrum, TDD, Code Review, HIPAA/PHI Compliance, Observability
+**Practices:** REST APIs, API design and versioning, Microservices, OAuth, Agile/Scrum, TDD, Code Review, Data Structures & Algorithms, HIPAA/PHI Compliance, Observability
 
 ---
 
@@ -36,52 +36,62 @@ Python software engineer with 7+ years of experience, now focused on building LL
 ### Software Engineer — Intuit
 *Jun 2026 – Present · Virginia, USA*
 
-- Serve as **technical point of contact for AI tool vendors and business stakeholders**: scope integration requirements, evaluate third-party APIs, align on data contracts and implementation approach, and drive each initiative from technical discovery through go-live.
-- Partner with TPMs and product managers to translate ambiguous business requirements into concrete technical solutions; own the delivery timeline and keep stakeholders aligned on tradeoffs and progress.
 - Integrate Anthropic Claude into Python/FastAPI services for financial data summaries, natural-language queries, and reporting.
-- Build evaluation and regression tests for LLM outputs (LLM-as-judge and golden datasets) to catch hallucinations and quality drops before release; set expectations with business stakeholders on AI accuracy and edge cases.
+- Design prompts and structured-output schemas for Claude so financial summaries and query answers stay consistent and easy to validate in downstream services.
+- Ground Claude responses in customer financial data using retrieval, so answers trace back to their source records.
+- Build evaluation and regression tests for LLM outputs (LLM-as-judge and golden datasets) to catch hallucinations and quality drops before release.
+- Add guardrails around LLM calls — input validation, sensitive-data handling, and fallbacks when model output fails checks.
 - Build ML pipelines in Python with scikit-learn and XGBoost, from data ingestion and feature engineering to model evaluation and prediction APIs.
-- Add guardrails around LLM calls, including input validation, sensitive-data handling, and fallbacks when model output fails checks.
+- Develop backend APIs and data pipelines with validation and error handling, plus React/TypeScript front ends on AWS.
 - Containerize services with Docker and ship them through GitHub Actions CI/CD to AWS, with logging and monitoring for production visibility.
 
 ### Senior Software Engineer — Entrata (Apartment & Affordable Housing SaaS)
-*Oct 2020 – Jul 2024 · Multi-tenant platform with 100K+ monthly active users*
+*Nov 2020 – Jul 2024 · India · Multi-tenant platform with 100K+ monthly active users*
 
-- **Served as the primary technical contact for external vendor integrations**: worked directly with HUD and Tax Credit federal data source teams to scope data requirements, debug API and data issues, coordinate go-live timelines, and resolve production incidents — end to end, without a handoff.
-- Collaborated with product managers and TPMs across 120+ Agile sprints to translate client-reported issues and business requirements into scoped technical solutions; led triage calls, wrote root cause summaries for non-technical stakeholders, and drove fixes to closure.
-- Delivered 20+ features end-to-end (Python, PHP, Java, JavaScript, React, PostgreSQL); built internal debugging tools that reduced customer issue triage time by 40%.
-- Built a RabbitMQ-based async processing system for rent updates across thousands of tenant records, with retry logic to prevent double processing.
-- Wrote Python/Bash automation that cut manual operational work by 80%; optimized 200+ SQL queries (30% performance gain).
-- Worked on a Docker microservices redesign (50% better scalability, 30% faster deployments) and the AWS S3 document migration, including Libsodium encryption for resident PHI.
-- Reviewed 300+ pull requests, mentored junior engineers.
+- Primary owner of high-risk Affordable Housing modules — HUD income-limit imports, eligibility calculations, gross-rent processing, document generation — including release planning, validation, rollback preparation, and production support.
+- Maintained the annual HUD income-limit import for 6 years, transforming a few thousand federal source records into approximately 180,000 domain records per cycle with staging validation for malformed, duplicated, or unmapped input.
+- Delivered 20+ features end-to-end (PHP, JavaScript, React, PostgreSQL) across 120+ Agile sprints.
+- Built a RabbitMQ-based asynchronous processing system for annual gross-rent updates across thousands of tenant records — acknowledgment only after the database transaction succeeds, retry handling, and idempotent worker design to prevent double processing.
+- Optimized 200+ SQL queries by 30% using execution-plan analysis and indexing — baselining elapsed time, row counts, reads, and writes, changing one variable at a time, and validating performance and business results.
+- Cut manual operational work by 80% with Bash automation and PL/SQL pipelines, and cut triage time by 40% with internal debugging tools.
+- Owned the Affordable Housing module integration for the AWS S3 document migration inside a shared framework built by another team — document inventory and classification, mapping and adapter logic preserving document type, metadata, and business ownership, read-back validation through the application path, and rollout in bounded batches with defined stop conditions; migration included Libsodium encryption for resident PHI.
+- Owned the Affordable Housing document-module integration for a merge-field schema migration — field inventory, legacy-to-target mapping validation, and five-layer validation (metadata, mapping, data resolution, template behavior, rendered output) — on a platform generating hundreds of customer documents daily.
+- Owned the application side of a production database migration in a Version 2 rollout, structured across release orchestration, database transformation, application deployment, and validation; cleared a suspected failed migration by comparing database dumps, timestamps, and execution records with the database team, avoiding a destructive rollback.
+- Spent 8 years as the human check against income fraud in Affordable Housing portfolios — fake paystubs, income misrepresentation, and household-composition fraud across LIHTC, HCV, and HUD programs — including manual document verification of applicant income documents, checking paystubs and supporting records for forgery and falsification.
+- Worked on a Docker microservices redesign that delivered 50% better scalability and 30% faster deployments.
+- Reviewed 300+ pull requests, mentored junior engineers, ran Git knowledge-transfer sessions, and helped normalize peer review.
 
-### Junior Software Engineer — Entrata India
-*Sep 2018 – Oct 2020 · Pune, India*
+### Software Engineer — Entrata (Apartment & Affordable Housing SaaS)
+*Sep 2018 – Oct 2020 · India*
 
-- Built property management modules (Python, PHP, Java, PostgreSQL) for affordable housing and rental management.
-- Delivered large-scale data import and reconciliation workflows (1.6M HUD/Tax Credit records).
-- Led AWS S3 cloud migration from legacy server storage; created 56 state-specific housing certification documents.
+- Built full-stack features across Affordable Housing modules (PHP, JavaScript, React, PostgreSQL), growing from user-interface-to-database feature work toward backend systems, databases, and business logic.
+- Implemented, maintained, and debugged complex SQL and stored procedures used by production modules for eligibility, rent calculations, and document merge data.
+- Applied effective dating and historical correctness across annual limits, certifications, and historical documents.
+- Supported annual income-limit processing, schema and data migrations, and production releases with validation checkpoints and rollback readiness.
+- Learned Git independently ahead of team adoption and supported the product's SVN-to-Git migration, helping engineers move from hesitation to practical daily usage.
 
 ---
 
 ## Projects
 
-### LeaseI — Multi-Agent AI Platform with RAG
+### LeaseI — Multi-Agent AI Platform for Lease Compliance and Support Investigation
 *Python, LangGraph (8-agent), FastAPI, hybrid retrieval (TF-IDF + semantic), OCR, SQLite, CI/CD*
 [github.com/venkatalakshmiparimala/Lease_complaince_rag](https://github.com/venkatalakshmiparimala/Lease_complaince_rag)
 
-- Built a lease-compliance app in Python where an 8-agent LangGraph workflow (triage, retrieval, reasoning, validation) investigates issues and escalates to a human when confidence is low.
+- Built a lease-compliance platform in Python where an 8-agent LangGraph StateGraph (triage, retrieval, reasoning, validation) investigates issues across three surfaces — Document Intelligence & Review, Support Ticket Investigation, and Tenant Self-Service — on one shared knowledge repository, escalating to a human when confidence is low.
 - Built the RAG pipeline: OCR ingestion, section-aware chunking, hybrid search (TF-IDF + semantic reranking), and answers cited to the exact source clause.
 - Added guardrails in code so eligibility and financial decisions always route to staff instead of the LLM.
-- Tested with an LLM-as-judge CI harness: 93.6% precision and 87.9% F1 across 1,240 test cases.
+- Measured 93.6% precision and 87.9% F1 across 1,240 test cases with an LLM-as-judge CI harness; Phase 1 evaluation recorded 100% citation correctness, 100% grounding, and 0% unsupported claims on the evaluation set.
 
 ### AgentProbe — Open-Source LLM Evaluation Toolkit
-*Python, FastAPI, LangGraph, ChromaDB, GitHub Actions, Anthropic, OpenAI, Azure OpenAI, Groq, Ollama*
+*Python, FastAPI, LangGraph, LangChain, ChromaDB, Ollama, Anthropic, OpenAI, Azure OpenAI, Groq*
 [github.com/venkatalakshmiparimala/AgentProbe](https://github.com/venkatalakshmiparimala/AgentProbe)
 
 - Built a 15-endpoint FastAPI backend that routes prompts across five LLM providers: Anthropic, OpenAI, Azure OpenAI, Groq, and Ollama.
 - Scores LLM and RAG outputs on factual accuracy, hallucination rate, retrieval quality, completeness, and compliance using LLM-as-judge.
 - Added CI regression tests with golden datasets; used it to evaluate LeaseI across 1,240+ test cases.
+- Built three specialized LangGraph agents: an Orchestrator running an adaptive three-phase stress-test cycle (explore, target weak spots, verify failures), a RAG Tracer that localizes faults across a seven-stage retrieval pipeline (Query, Rewrite, Retrieve, Filter, Rerank, Context, Generate), and an Auto-Fix agent that proposes prompt rewrites, chunking adjustments, and query rewrites as candidate fixes for human review — never silently applied.
+- Runs 100% locally at zero cost through Ollama, with no paid model APIs required.
 
 ### AI on FHIR — Clinical NLP & LLM API Integration
 *Python, Flask, React, TypeScript, Docker, BERT, spaCy, LLMs, FHIR REST APIs*
